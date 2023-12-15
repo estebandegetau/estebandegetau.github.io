@@ -14,8 +14,8 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - custom.scss
+      light: cosmo
+      dark: cyborg
     toc: true
     toc_depth: 3
     toc_float: true
