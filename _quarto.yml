@@ -3,18 +3,22 @@ project:
   output-dir: docs
 
 website:
-  title: "estebandegetau.github.io"
+  title: "Esteban Degetau"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: research.qmd
+        text: Research
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      - cosmo
+      - custom.scss
     toc: true
-
-
-
+    toc_depth: 3
+    toc_float: true
+    toc_smooth_scroll: true
+    toc_highlight: true
+    fig-align: center

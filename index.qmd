@@ -1,11 +1,20 @@
 ---
-title: "estebandegetau.github.io"
+title: "Esteban Degetau"
+about:
+    template: trestles
+    links:
+        - icon: twitter
+          text: Twitter
+          url: https://twitter.com/estebandegetau
+        - icon: github
+          text: Github
+          url: https://github.com/estebandegetau
+        - text: "Email"
+          url: mailto:estebandegetau@gmail.com
 ---
 
-This is a Quarto website.
+## Bio
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I'm an economist in training. I work at Mexico's Social Security Institute (IMSS) where I've had the chance to work on one of Mexico's most pressing issues: reducing informality and making work more inclusive and secure.
 
-```{r}
-1 + 1
-```
+I'm looking forward to finishing my M.S. at Applied Economics at ITAM, to get a better sense of what can be done to improve labor relations in Mexico.
