@@ -73,7 +73,7 @@ Headerless table -->
 +--------------------------------------------------------------------------------+------------------------------:+
 |**Data and field Research assistant**                                           | Jan 2022 - Feb 2023           |
 |<br>to [Enrique Seira](http://econ.msu.edu/faculty/seira/index.php)             |                               |
-| and [Joyce Sadka](https://facultad.itam.mx/facultad/|4943-joyce-carol-sadka)   |                               |
+| and [Joyce Sadka](https://faculty.itam.mx/facultad/4943-joyce-carol-sadka)     |                               |
 |<br>Improving Labor Courts                                                      |                               |
 |<br>Center for Economic Research ([CIE](http://cie.itam.mx/))                   |                               |
 |<br>Instituto Tecnológico Autónomo de México ([ITAM](https://www.itam.mx/en))   |                               |
@@ -83,7 +83,7 @@ Headerless table -->
 
 +--------------------------------------------------------------------------------+------------------------------:+
 |**Teaching assistant**                                                          | Aug 2022 - May 2023           |
-|<br>to [Joyce Sadka](https://facultad.itam.mx/facultad/|4943-joyce-carol-sadka) |                               |
+|<br>to [Joyce Sadka](https://faculty.itam.mx/facultad/4943-joyce-carol-sadka)   |                               |
 |<br>Economic Analysis of Law (Undergrad)                                        |                               |
 |<br>Instituto Tecnológico Autónomo de México ([ITAM](https://www.itam.mx/en))   |                               |
 +--------------------------------------------------------------------------------+-------------------------------+

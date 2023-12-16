@@ -20,3 +20,4 @@ I'm an economist working at Mexico's Social Security Institute ([IMSS](https://d
 I'm currently studying a M.S. in Applied Economics at [ITAM](itam.mx) and I'm interested in the intersection of economic development, data science and public policy.
 
 Here you can check out my [CV](cv.qmd).
+
