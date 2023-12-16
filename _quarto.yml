@@ -4,6 +4,9 @@ project:
 
 website:
   title: "Esteban Degetau"
+  repo-url: https://github.com/estebandegetau/estebandegetau.github.io
+  repo-actions: source
+  google-analytics: "G-11D42BZNRY"
   navbar:
     left:
       - href: index.qmd
