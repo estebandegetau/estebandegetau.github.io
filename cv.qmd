@@ -1,9 +1,8 @@
 ---
-title: "Esteban Degetau"
-subtitle: "Curriculum vitae"
+title: "Curriculum vitae"
+subtitle: "[estebandegetau@gmail.com](mailto:estebandegetau@gmail.com)"
 css: styles.css
 date-modified: "`r Sys.Date()`"
-email: "estebandegetau@gmail.com"
 ---
 
 ```{r}
@@ -63,10 +62,10 @@ Headerless table -->
 | <br>Mexico's Social Security Institute ([IMSS](https://www.gob.mx/imss))       |                               |
 +--------------------------------------------------------------------------------+-------------------------------+
 |**Business analyst**                                                            | Oct 2019 - Dec 2021           |
-|<br>ceromultas.mx                                                               |                               |
+|<br>at [CEROMULTAS](https://ceromultas.mx/)                                     |                               |
 +--------------------------------------------------------------------------------+-------------------------------+
 |**International trade analyst**                                                 | Aug 2018 - Dec 2018           |
-|<br>[T-Rez Consulting](https://www.t-rezconsulting.com/)                        |                               |
+|<br>at [T-Rez Consulting](https://www.t-rezconsulting.com/)                     |                               |
 +--------------------------------------------------------------------------------+-------------------------------+
 
 ## Research experience
@@ -83,7 +82,7 @@ Headerless table -->
 ## Teaching experience
 
 +--------------------------------------------------------------------------------+------------------------------:+
-|**Teaching assistant**                                                          | Aug 2022 - May 2022           |
+|**Teaching assistant**                                                          | Aug 2022 - May 2023           |
 |<br>to [Joyce Sadka](https://facultad.itam.mx/facultad/|4943-joyce-carol-sadka) |                               |
 |<br>Economic Analysis of Law (Undergrad)                                        |                               |
 |<br>Instituto Tecnológico Autónomo de México ([ITAM](https://www.itam.mx/en))   |                               |
