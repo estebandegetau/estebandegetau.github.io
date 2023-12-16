@@ -1,0 +1,90 @@
+---
+title: "Esteban Degetau"
+subtitle: "Curriculum vitae"
+css: styles.css
+date-modified: "`r Sys.Date()`"
+email: "estebandegetau@gmail.com"
+---
+
+```{r}
+#| include: false
+
+pacman::p_load(markdown)
+
+```
+
+## Education
+
+<!-- 
+Headerless table -->
++----------------------------------------------------------------+----------------------------:+
+| **M.S. in Applied Economics**<br>                              |Since Aug 2023 and currently |
+| Instituto Tecnológico Autónomo de México                       |                             |
+| ([ITAM](https://www.itam.mx/en))                               |                             |
++----------------------------------------------------------------+-----------------------------+
+| **MicroMasters in Data, Economics and Development Policy**<br> |   May - Dec 2022            |
+| Massachusetts Institute of Technology                          |                             |
+| ([MITx](https://micromasters.mit.edu/dedp/))                   |                             |
++----------------------------------------------------------------+-----------------------------+
+| **B.A. in Economics**<br>                                      | Aug 2016 - Dec 2021         |
+| Instituto Tecnológico Autónomo de México                       |                             |
+| ([ITAM](https://www.itam.mx/en))                               |                             |
++----------------------------------------------------------------+-----------------------------+
+
+## Research interests
+
+- **Academic**
+  -   Labor economics
+  -   Economic development
+  -   Machine learning
+
+- **Public policy**
+  -  Labor market informality
+  -  Social security
+  -  Inequality
+  -  Unemploymen insurance
+  -  Labor poverty
+
+## Recognitions
+
+
++------------------------------------------------------------------------------------------+-------------------------:+
+| **Honorable mention**<br>Undergraduate                                                   | Aug 2021                 |
+| [COFECE Essay contest](https://www.cofece.mx/revista-del-premio-cofece-de-ensayo-2021/). |                          |
++------------------------------------------------------------------------------------------+--------------------------+
+
+## Work experience
+
+
++--------------------------------------------------------------------------------+------------------------------:+
+| **Fiscal policy planning manager**                                             |Since March 2023 and currently | 
+| <br>Planning and Evaluation Unit                                               |                               |
+| <br>Collection and Incorporation Directorate                                   |                               |
+| <br>Mexico's Social Security Institute ([IMSS](https://www.gob.mx/imss))       |                               |
++--------------------------------------------------------------------------------+-------------------------------+
+|**Business analyst**                                                            | Oct 2019 - Dec 2021           |
+|<br>ceromultas.mx                                                               |                               |
++--------------------------------------------------------------------------------+-------------------------------+
+|**International trade analyst**                                                 | Aug 2018 - Dec 2018           |
+|<br>[T-Rez Consulting](https://www.t-rezconsulting.com/)                        |                               |
++--------------------------------------------------------------------------------+-------------------------------+
+
+## Research experience
+
++--------------------------------------------------------------------------------+------------------------------:+
+|**Data and field Research assistant**                                           | Jan 2022 - Feb 2023           |
+|<br>to [Enrique Seira](http://econ.msu.edu/faculty/seira/index.php)             |                               |
+| and [Joyce Sadka](https://facultad.itam.mx/facultad/|4943-joyce-carol-sadka)   |                               |
+|<br>Improving Labor Courts                                                      |                               |
+|<br>Center for Economic Research ([CIE](http://cie.itam.mx/))                   |                               |
+|<br>Instituto Tecnológico Autónomo de México ([ITAM](https://www.itam.mx/en))   |                               |
++--------------------------------------------------------------------------------+-------------------------------+
+
+## Teaching experience
+
++--------------------------------------------------------------------------------+------------------------------:+
+|**Teaching assistant**                                                          | Aug 2022 - May 2022           |
+|<br>to [Joyce Sadka](https://facultad.itam.mx/facultad/|4943-joyce-carol-sadka) |                               |
+|<br>Economic Analysis of Law (Undergrad)                                        |                               |
+|<br>Instituto Tecnológico Autónomo de México ([ITAM](https://www.itam.mx/en))   |                               |
++--------------------------------------------------------------------------------+-------------------------------+

@@ -1,1 +1,12 @@
 /* css styles */
+table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: none !important;
+  }
+  
+  table tr:first-child th {
+    border-top: none !important;
+  }

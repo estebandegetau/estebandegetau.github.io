@@ -8,14 +8,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: research.qmd
-        text: Research
+      - href: cv.qmd
+        text: CV
 
 format:
   html:
-    theme:
-      light: cosmo
-      dark: cyborg
+    theme: cosmo
     toc: true
     toc_depth: 3
     toc_float: true

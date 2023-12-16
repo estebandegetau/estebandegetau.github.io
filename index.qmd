@@ -7,7 +7,7 @@ about:
           text: Twitter
           url: https://twitter.com/estebandegetau
         - icon: github
-          text: Github
+          text: GitHub
           url: https://github.com/estebandegetau
         - text: "Email"
           url: mailto:estebandegetau@gmail.com
@@ -15,6 +15,8 @@ about:
 
 ## Bio
 
-I'm an economist working at Mexico's Social Security Institute (IMSS) where I've had the chance to work on one of Mexico's most pressing issues: reducing informality and making work more inclusive and secure.
+I'm an economist working at Mexico's Social Security Institute ([IMSS](https://datos.imss.gob.mx/)) where I've had the chance to work on one of Mexico's most pressing issues: reducing informality and making work more inclusive and secure.
 
-I'm looking forward to finishing my M.S. at Applied Economics at ITAM, to get a better sense of what can be done to improve labor relations in Mexico.
+I'm currently studying a M.S. in Applied Economics at [ITAM](itam.mx) and I'm interested in the intersection of economic development, data science and public policy.
+
+Here you can check out my [CV](cv.qmd).
