@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Esteban Degetau",
     "section": "",
-    "text": "I’m an economist working at Mexico’s Social Security Institute (IMSS) where I’ve had the chance to work on one of Mexico’s most pressing issues: reducing informality and making work more inclusive and secure.\nI’m currently studying a M.S. in Applied Economics at ITAM and I’m interested in the intersection of economic development, data science and public policy.\nHere you can check out my CV."
+    "text": "I’m an economist working at Mexico’s Social Security Institute (IMSS) where I’ve had the chance to work on one of Mexico’s most pressing issues: reducing informality and making work more inclusive and secure.\nI’m currently studying a M.S. in Applied Economics at ITAM and I’m interested in the intersection of economic development, data science and public policy.\nHere you can check out my CV and a selection of work I’ve done."
   },
   {
     "objectID": "about.html",
@@ -18,7 +18,7 @@
     "href": "index.html#bio",
     "title": "Esteban Degetau",
     "section": "",
-    "text": "I’m an economist working at Mexico’s Social Security Institute (IMSS) where I’ve had the chance to work on one of Mexico’s most pressing issues: reducing informality and making work more inclusive and secure.\nI’m currently studying a M.S. in Applied Economics at ITAM and I’m interested in the intersection of economic development, data science and public policy.\nHere you can check out my CV."
+    "text": "I’m an economist working at Mexico’s Social Security Institute (IMSS) where I’ve had the chance to work on one of Mexico’s most pressing issues: reducing informality and making work more inclusive and secure.\nI’m currently studying a M.S. in Applied Economics at ITAM and I’m interested in the intersection of economic development, data science and public policy.\nHere you can check out my CV and a selection of work I’ve done."
   },
   {
     "objectID": "index.html#key-research-interests",
@@ -65,9 +65,9 @@
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "Research",
+    "title": "Selected work",
     "section": "",
-    "text": "A thrilling project"
+    "text": "Giving grade points according to GARP: A replication exercise (pdf). For Applied Microeconomics, ITAM.\nData Challenge: Monster hunt en el ITAM (pdf). With Andrea Rancaño and Andrés Bermudez. For Applied Econometrics I, ITAM."
   },
   {
     "objectID": "research.html#current-projects",
@@ -145,5 +145,26 @@
     "title": "Esteban Degetau1",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nestebandegetau@gmail.com↩︎\nestebandegetau@gmail.com↩︎\nestebandegetau@gmail.com↩︎\nestebandegetau@gmail.com↩︎"
+  },
+  {
+    "objectID": "research.html#section",
+    "href": "research.html#section",
+    "title": "Selected work",
+    "section": "",
+    "text": "Giving grade points according to GARP: A replication exercise (pdf). For Applied Microeconomics, ITAM.\nData Challenge: Monster hunt en el ITAM (pdf). With Andrea Rancaño and Andrés Bermudez. For Applied Econometrics I, ITAM."
+  },
+  {
+    "objectID": "research.html#section-1",
+    "href": "research.html#section-1",
+    "title": "Selected work",
+    "section": "2022",
+    "text": "2022\n\nCorruption or incompentence? Disentanle through learning (pdf). B.A. dissertation, ITAM."
+  },
+  {
+    "objectID": "research.html#section-2",
+    "href": "research.html#section-2",
+    "title": "Selected work",
+    "section": "2021",
+    "text": "2021\n\nPoder de mercado laboral y brecha de género (pdf). Presented in COFECE Essay contest."
   }
 ]

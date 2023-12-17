@@ -1,10 +1,17 @@
 ---
-title: "Research"
+title: "Selected work"
 ---
 
-## Current projects
+## 2023
 
-- A thrilling project
+- **Giving grade points according to GARP: A replication exercise** ([pdf](docs/garp.pdf)). For Applied Microeconomics, ITAM. 
 
+- **Data Challenge: Monster hunt en el ITAM** ([pdf](docs/monster_hunt.pdf)). With [Andrea Rancaño](https://mx.linkedin.com/in/andrearancano) and [Andrés Bermudez](https://mx.linkedin.com/in/jes%C3%BAs-andr%C3%A9s-berm%C3%BAdez-alem%C3%B3n-108143228?trk=public_profile_browsemap). For Applied Econometrics I, ITAM.
 
-## Past projects
+## 2022
+
+- **Corruption or incompentence? Disentanle through learning** ([pdf](docs/corruption.pdf)). B.A. dissertation, ITAM.
+
+## 2021
+
+- **Poder de mercado laboral y brecha de género** ([pdf](docs/monopsony.pdf)). Presented in [COFECE Essay contest](https://www.cofece.mx/revista-del-premio-cofece-de-ensayo-2021/).
