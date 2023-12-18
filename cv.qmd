@@ -41,7 +41,7 @@ Headerless table -->
   -  Labor market informality
   -  Social security
   -  Inequality
-  -  Unemploymen insurance
+  -  Unemployment insurance
   -  Labor poverty
 
 ## Recognitions
