@@ -11,6 +11,8 @@ about:
           url: https://github.com/estebandegetau
         - text: "Email"
           url: mailto:estebandegetau@gmail.com
+        - text: "{{< ai orcid >}} ORCID"
+          url: https://orcid.org/0009-0004-4095-8819
 ---
 
 ## Bio
