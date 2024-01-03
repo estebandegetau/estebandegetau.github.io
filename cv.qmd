@@ -44,13 +44,6 @@ Headerless table -->
   -  Unemployment insurance
   -  Labor poverty
 
-## Recognitions
-
-
-+------------------------------------------------------------------------------------------+-------------------------:+
-| **Honorable mention**<br>Undergraduate                                                   | Aug 2021                 |
-| [COFECE Essay contest](https://www.cofece.mx/revista-del-premio-cofece-de-ensayo-2021/). |                          |
-+------------------------------------------------------------------------------------------+--------------------------+
 
 ## Work experience
 
@@ -87,3 +80,11 @@ Headerless table -->
 |<br>Economic Analysis of Law (Undergrad)                                        |                               |
 |<br>Instituto Tecnológico Autónomo de México ([ITAM](https://www.itam.mx/en))   |                               |
 +--------------------------------------------------------------------------------+-------------------------------+
+
+## Recognitions
+
+
++------------------------------------------------------------------------------------------+-------------------------:+
+| **Honorable mention**<br>Undergraduate                                                   | Aug 2021                 |
+| [COFECE Essay contest](https://www.cofece.mx/revista-del-premio-cofece-de-ensayo-2021/). |                          |
++------------------------------------------------------------------------------------------+--------------------------+
