@@ -29,7 +29,7 @@ pacman::p_load(markdown)
 
 
 +:-----------------------------------------------------------------------------------+--------------------:+
-| **M.S. in Applied Economics**                                                      | Since Aug 2023      |
+| **MA in Applied Economics**                                                        | Since Aug 2023      |
 |                                                                                    |                     |
 | Instituto Tecnológico Autónomo de México ([ITAM](https://www.itam.mx/en))          |                     |
 +------------------------------------------------------------------------------------+---------------------+
@@ -37,7 +37,7 @@ pacman::p_load(markdown)
 |                                                                                    |                     |
 | Massachusetts Institute of Technology ([MITx](https://micromasters.mit.edu/dedp/)) |                     |
 +------------------------------------------------------------------------------------+---------------------+
-| **B.A. in Economics**                                                              | Aug 2016 - Dec 2021 |
+| **BS in Economics**                                                                | Aug 2016 - Dec 2021 |
 |                                                                                    |                     |
 | Instituto Tecnológico Autónomo de México ([ITAM](https://www.itam.mx/en))          |                     |
 +------------------------------------------------------------------------------------+---------------------+
