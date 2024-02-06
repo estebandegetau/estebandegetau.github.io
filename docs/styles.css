@@ -1,12 +1,17 @@
 /* css styles */
 table {
-    border-collapse: collapse;
-  }
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: none !important;
+}
+
+table tr:first-child th {
+  border-top: none !important;
+}
+
+p {
+  margin-bottom: 0.1em; /* Adjust the value to make the space between paragraphs smaller */
+}
   
-  table, th, td {
-    border: none !important;
-  }
-  
-  table tr:first-child th {
-    border-top: none !important;
-  }
