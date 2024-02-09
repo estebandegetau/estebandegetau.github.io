@@ -10,3 +10,6 @@ table {
   table tr:first-child th {
     border-top: none !important;
   }
+  p {
+    margin-bottom: 0.1em; /* Adjust the value to modify the space between paragraphs */
+  }

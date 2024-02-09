@@ -299,5 +299,96 @@
     "title": "GNU General Public License",
     "section": "",
     "text": "If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.\nTo do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.\n&lt;one line to give the program's name and a brief idea of what it does.&gt;\nCopyright (C) &lt;year&gt;  &lt;name of author&gt;\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.\nAlso add information on how to contact you by electronic and paper mail.\nIf the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:\n&lt;program&gt;  Copyright (C) &lt;year&gt;  &lt;name of author&gt;\nThis program comes with ABSOLUTELY NO WARRANTY; for details type 'show w'.\nThis is free software, and you are welcome to redistribute it\nunder certain conditions; type 'show c' for details.\nThe hypothetical commands show w and show c should show the appropriate parts of the General Public License. Of course, your program’s commands might be different; for a GUI interface, you would use an “about box”.\nYou should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see &lt;http://www.gnu.org/licenses/&gt;.\nThe GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read &lt;http://www.gnu.org/philosophy/why-not-lgpl.html&gt;."
+  },
+  {
+    "objectID": "index.html#r-packages",
+    "href": "index.html#r-packages",
+    "title": "Esteban Degetau",
+    "section": "R packages",
+    "text": "R packages\nI’m also an R enthusiast, so much so that I’ve developed a package:\ntidyenigh Ships analysis-ready data from the Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH)"
+  },
+  {
+    "objectID": "J-PAL/cv.html",
+    "href": "J-PAL/cv.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "MA in Applied Economics\nInstituto Tecnológico Autónomo de México (ITAM)\nSince Aug 2023\n\n\nMicroMasters in Data, Economics and Development Policy\nMassachusetts Institute of Technology (MITx)\nMay - Dec 2022\n\n\nBS in Economics\nInstituto Tecnológico Autónomo de México (ITAM)\nAug 2016 - Dec 2021"
+  },
+  {
+    "objectID": "J-PAL/cv.html#education",
+    "href": "J-PAL/cv.html#education",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "MA in Applied Economics\nInstituto Tecnológico Autónomo de México (ITAM)\nSince Aug 2023\n\n\nMicroMasters in Data, Economics and Development Policy\nMassachusetts Institute of Technology (MITx)\nMay - Dec 2022\n\n\nBS in Economics\nInstituto Tecnológico Autónomo de México (ITAM)\nAug 2016 - Dec 2021"
+  },
+  {
+    "objectID": "J-PAL/cv.html#work-experience",
+    "href": "J-PAL/cv.html#work-experience",
+    "title": "Curriculum vitae",
+    "section": "Work experience",
+    "text": "Work experience\n\n\n\n\n\n\n\nFiscal policy planning manager\nPlanning and Evaluation Unit\nCollection and Incorporation Directorate\nMexico’s Social Security Institute (IMSS)\nSince March 2023\n\n\nBusiness analyst\nat CEROMULTAS\nOct 2019 - Dec 2021\n\n\nInternational trade analyst\nat T-Rez Consulting\nAug 2018 - Dec 2018"
+  },
+  {
+    "objectID": "J-PAL/cv.html#research-experience",
+    "href": "J-PAL/cv.html#research-experience",
+    "title": "Curriculum vitae",
+    "section": "Research experience",
+    "text": "Research experience\n\n\n\n\n\n\n\nData and field Research assistant\nto Enrique Seira and Joyce Sadka\nImproving Labor Courts\nCenter for Economic Research (CIE)\nInstituto Tecnológico Autónomo de México (ITAM)\nJan 2022 - Feb 2023"
+  },
+  {
+    "objectID": "J-PAL/cv.html#teaching-experience",
+    "href": "J-PAL/cv.html#teaching-experience",
+    "title": "Curriculum vitae",
+    "section": "Teaching experience",
+    "text": "Teaching experience\n\n\n\n\n\n\n\nTeaching assistant\nto Joyce Sadka\nEconomic Analysis of Law (Undergrad)\nInstituto Tecnológico Autónomo de México (ITAM)\nAug 2022 - May 2023"
+  },
+  {
+    "objectID": "J-PAL/cv.html#recognitions",
+    "href": "J-PAL/cv.html#recognitions",
+    "title": "Curriculum vitae",
+    "section": "Recognitions",
+    "text": "Recognitions\n\n\n\n\n\n\n\nHonorable mention\nUndergraduate COFECE Essay contest.\nAug 2021"
+  },
+  {
+    "objectID": "J-PAL/jpal-cv.html",
+    "href": "J-PAL/jpal-cv.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "MA in Applied Economics\nInstituto Tecnológico Autónomo de México (ITAM)\nSince Aug 2023\nPart-time schedule\n\n\nMicroMasters in Data, Economics and Development Policy\nMassachusetts Institute of Technology (MITx)\nMay - Dec 2022\n\n\nBS in Economics\nInstituto Tecnológico Autónomo de México (ITAM)\nAug 2016 - Dec 2021"
+  },
+  {
+    "objectID": "J-PAL/jpal-cv.html#education",
+    "href": "J-PAL/jpal-cv.html#education",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "MA in Applied Economics\nInstituto Tecnológico Autónomo de México (ITAM)\nSince Aug 2023\nPart-time schedule\n\n\nMicroMasters in Data, Economics and Development Policy\nMassachusetts Institute of Technology (MITx)\nMay - Dec 2022\n\n\nBS in Economics\nInstituto Tecnológico Autónomo de México (ITAM)\nAug 2016 - Dec 2021"
+  },
+  {
+    "objectID": "J-PAL/jpal-cv.html#work-experience",
+    "href": "J-PAL/jpal-cv.html#work-experience",
+    "title": "Curriculum vitae",
+    "section": "Work experience",
+    "text": "Work experience\n\n\n\n\n\n\n\nFiscal policy planning manager\nPlanning and Evaluation Unit\nCollection and Incorporation Directorate\nMexico’s Social Security Institute (IMSS)\nSince March 2023\n\n\nBusiness analyst\nat CEROMULTAS\nOct 2019 - Dec 2021\n\n\nInternational trade analyst\nat T-Rez Consulting\nAug 2018 - Dec 2018"
+  },
+  {
+    "objectID": "J-PAL/jpal-cv.html#research-experience",
+    "href": "J-PAL/jpal-cv.html#research-experience",
+    "title": "Curriculum vitae",
+    "section": "Research experience",
+    "text": "Research experience\n\n\n\n\n\n\n\nData and field Research assistant\nto Enrique Seira and Joyce Sadka\nat the Improving Labor Courts, a J-PAL Governance Initiative\nCenter for Economic Research (CIE)\nInstituto Tecnológico Autónomo de México (ITAM)\nJan 2022 - Feb 2023"
+  },
+  {
+    "objectID": "J-PAL/jpal-cv.html#teaching-experience",
+    "href": "J-PAL/jpal-cv.html#teaching-experience",
+    "title": "Curriculum vitae",
+    "section": "Teaching experience",
+    "text": "Teaching experience\n\n\n\n\n\n\n\nTeaching assistant\nto Joyce Sadka\nEconomic Analysis of Law (Undergrad)\nInstituto Tecnológico Autónomo de México (ITAM)\nAug 2022 - May 2023"
+  },
+  {
+    "objectID": "J-PAL/jpal-cv.html#recognitions",
+    "href": "J-PAL/jpal-cv.html#recognitions",
+    "title": "Curriculum vitae",
+    "section": "Recognitions",
+    "text": "Recognitions\n\n\n\n\n\n\n\nHonorable mention\nUndergraduate COFECE Essay contest.\nAug 2021"
   }
 ]
