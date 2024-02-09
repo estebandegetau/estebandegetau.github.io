@@ -24,3 +24,9 @@ I'm currently studying a MA in Applied Economics at [ITAM](itam.mx) and I'm inte
 
 Here you can check out my [CV](cv.qmd) and a [selection of work](research.qmd) I've done.
 
+## R packages
+
+I'm also an R enthusiast, so much so that I've developed a package:
+
+[`tidyenigh`](https://www.estebandegetau.com/tidyenigh/) Ships analysis-ready data from the Encuesta Nacional de Ingresos y Gastos de los Hogares [ENIGH](https://www.inegi.org.mx/programas/enigh/nc/2022/) 
+
