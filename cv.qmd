@@ -5,9 +5,6 @@ date-modified: "`r Sys.Date()`"
 format: 
   html: 
       css: styles.css
-  pdf: 
-    colorlinks: false
-  docx: default
 tbl-colwidths: [70,30]
 author: 
   - name: "Esteban Degetau Sentíes"
@@ -43,23 +40,23 @@ pacman::p_load(markdown)
 
 ## Work experience
 
-+:---------------------------------------------------------------------+---------------:+
-| **Fiscal policy planning manager**                                   | Since 2023     |
-|                                                                      |                |
-| Planning and Evaluation Unit                                         |                |
-|                                                                      |                |
-| Collection and Incorporation Directorate                             |                |
-|                                                                      |                |
-| Mexico's Social Security Institute ([IMSS](https://www.gob.mx/imss)) |                |
-+----------------------------------------------------------------------+----------------+
-| **Business analyst**                                                 | 2019 - 2021    |
-|                                                                      |                |
-| at [CEROMULTAS](https://ceromultas.mx/)                              |                |
-+----------------------------------------------------------------------+----------------+
-| **International trade analyst**                                      | 2018           |
-|                                                                      |                |
-| at [T-Rez Consulting](https://www.t-rezconsulting.com/)              |                |
-+----------------------------------------------------------------------+----------------+
++:---------------------------------------------------------------------+-------------:+
+| **Fiscal policy planning manager**                                   | Since 2023   |
+|                                                                      |              |
+| Planning and Evaluation Unit                                         |              |
+|                                                                      |              |
+| Collection and Incorporation Directorate                             |              |
+|                                                                      |              |
+| Mexico's Social Security Institute ([IMSS](https://www.gob.mx/imss)) |              |
++----------------------------------------------------------------------+--------------+
+| **Business analyst**                                                 | 2019 - 2021  |
+|                                                                      |              |
+| at [CEROMULTAS](https://ceromultas.mx/)                              |              |
++----------------------------------------------------------------------+--------------+
+| **International trade analyst**                                      | 2018         |
+|                                                                      |              |
+| at [T-Rez Consulting](https://www.t-rezconsulting.com/)              |              |
++----------------------------------------------------------------------+--------------+
 
 ## Research experience
 
