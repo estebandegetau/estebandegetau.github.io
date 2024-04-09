@@ -2,6 +2,10 @@
 title: "Selected work"
 ---
 
+## 2024
+
+- **Pronóstico de inflación en México: un enfoque de aprendizaje automático**. Automated monthly inflation forecasting. [URL](https://www.estebandegetau.com/Inflation-Forecast/)
+
 ## 2023
 
 - **Giving grade points according to GARP: A replication exercise** ([pdf](garp.pdf)). For Applied Microeconomics, ITAM. 

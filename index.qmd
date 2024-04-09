@@ -18,9 +18,9 @@ about:
 
 ## Bio
 
-I'm an economist working at Mexico's Social Security Institute ([IMSS](https://datos.imss.gob.mx/)) where I've had the chance to work on one of Mexico's most pressing issues: reducing informality and making work more inclusive and secure.
+I'm an economist at Mexico's Social Security Institute ([IMSS](https://datos.imss.gob.mx/)).
 
-I'm currently studying a MA in Applied Economics at [ITAM](itam.mx) and I'm interested in the intersection of economic development, data science and public policy.
+I'm interested in the intersection of economic development, labor, economics, data science and public policy. I'm currently studying a MA in Applied Economics at [ITAM](itam.mx).
 
 Here you can check out my [CV](cv.qmd) and a [selection of work](research.qmd) I've done.
 
