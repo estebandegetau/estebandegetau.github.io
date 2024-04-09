@@ -12,7 +12,6 @@ author:
     email: estebandegetau@gmail.com
     url: estebandegetau.com
     github: estebandegetau
-    phone: +52 5613810985
 ---
 
 ```{r}
@@ -60,17 +59,17 @@ pacman::p_load(markdown)
 
 ## Research experience
 
-+:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------:+
-| **Data and field Research assistant**                                                                                                                                      | 2022 - 2023 |
-|                                                                                                                                                                            |             |
-| to [Enrique Seira](http://econ.msu.edu/faculty/seira/index.php) and [Joyce Sadka](https://faculty.itam.mx/facultad/4943-joyce-carol-sadka)                                 |             |
-|                                                                                                                                                                            |             |
-| at the [Improving Labor Courts](https://www.povertyactionlab.org/initiative-project/improving-labor-courts-fighting-corruption-competition), a J-PAL Governance Initiative |             |
-|                                                                                                                                                                            |             |
-| Center for Economic Research ([CIE](http://cie.itam.mx/))                                                                                                                  |             |
-|                                                                                                                                                                            |             |
-| Instituto Tecnológico Autónomo de México ([ITAM](https://www.itam.mx/en))                                                                                                  |             |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
++:-------------------------------------------------------------------------------------------------------------------------------------------+------------:+
+| **Data and field Research assistant**                                                                                                      | 2022 - 2023 |
+|                                                                                                                                            |             |
+| to [Enrique Seira](http://econ.msu.edu/faculty/seira/index.php) and [Joyce Sadka](https://faculty.itam.mx/facultad/4943-joyce-carol-sadka) |             |
+|                                                                                                                                            |             |
+| at [Improving Labor Courts](https://www.povertyactionlab.org/initiative-project/improving-labor-courts-fighting-corruption-competition)    |             |
+|                                                                                                                                            |             |
+| Center for Economic Research ([CIE](http://cie.itam.mx/))                                                                                  |             |
+|                                                                                                                                            |             |
+| Instituto Tecnológico Autónomo de México ([ITAM](https://www.itam.mx/en))                                                                  |             |
++--------------------------------------------------------------------------------------------------------------------------------------------+-------------+
 
 ## Teaching experience
 
