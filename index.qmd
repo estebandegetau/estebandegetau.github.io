@@ -20,9 +20,9 @@ about:
 
 I'm an economist at Mexico's Social Security Institute ([IMSS](https://datos.imss.gob.mx/)).
 
-I'm interested in the intersection of economic development, labor, economics, data science and public policy. I'm currently studying a MA in Applied Economics at [ITAM](itam.mx).
+I'm interested in the intersection of labor economics, development, data science and public policy. I'm currently studying a MA in Applied Economics at [ITAM](itam.mx).
 
-Here you can check out my [CV](cv.qmd) and a [selection of work](research.qmd) I've done.
+Here you can check out my [CV](cv.qmd) and a [selection of my work](research.qmd).
 
 ## R packages
 
