@@ -39,23 +39,23 @@ pacman::p_load(markdown)
 
 ## Professional experience
 
-+:---------------------------------------------------------------------+-------------:+
-| **Fiscal policy planning manager**                                   | Since 2023   |
-|                                                                      |              |
-| Planning and Evaluation Unit                                         |              |
-|                                                                      |              |
-| Collection and Incorporation Directorate                             |              |
-|                                                                      |              |
-| Mexico's Social Security Institute ([IMSS](https://www.gob.mx/imss)) |              |
-+----------------------------------------------------------------------+--------------+
-| **Business analyst**                                                 | 2019 - 2021  |
-|                                                                      |              |
-| at [CEROMULTAS](https://ceromultas.mx/)                              |              |
-+----------------------------------------------------------------------+--------------+
-| **International trade analyst**                                      | 2018         |
-|                                                                      |              |
-| at [T-Rez Consulting](https://www.t-rezconsulting.com/)              |              |
-+----------------------------------------------------------------------+--------------+
++:-----------------------------------------------------------------------+-------------:+
+| **Subjefe de Division Planeación en Política Fiscal**                  | Since 2023   |
+|                                                                        |              |
+| Coordinación de Planeación y Evaluación                                |              |
+|                                                                        |              |
+| Dirección de Incorporación y Recaudación                               |              |
+|                                                                        |              |
+| Instituto Mexicano del Seguro Social ([IMSS](https://www.gob.mx/imss)) |              |
++------------------------------------------------------------------------+--------------+
+| **Business analyst**                                                   | 2019 - 2021  |
+|                                                                        |              |
+| at [CEROMULTAS](https://ceromultas.mx/)                                |              |
++------------------------------------------------------------------------+--------------+
+| **International trade analyst**                                        | 2018         |
+|                                                                        |              |
+| at [T-Rez Consulting](https://www.t-rezconsulting.com/)                |              |
++------------------------------------------------------------------------+--------------+
 
 ## Research experience
 
