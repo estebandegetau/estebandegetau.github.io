@@ -35,6 +35,8 @@ pacman::p_load(markdown)
 | **BS in Economics**                                                                                                                                | 2021          |
 |                                                                                                                                                    |               |
 | Instituto Tecnológico Autónomo de México ([ITAM](https://www.itam.mx/en))                                                                          |               |
+|                                                                                                                                                    |               |
+| Specialization in Law                                                                                                                              |               |
 +----------------------------------------------------------------------------------------------------------------------------------------------------+---------------+
 
 ## Professional experience
