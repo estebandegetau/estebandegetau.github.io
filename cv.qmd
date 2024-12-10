@@ -1,17 +1,23 @@
 ---
 title: "Curriculum vitae"
-subtitle: "[estebandegetau@gmail.com](mailto:estebandegetau@gmail.com)"
-date-modified: "`r Sys.Date()`"
 format: 
   html: 
+      date-modified: today
+      date-format: long
       css: styles.css
+  typst: 
+    fontsize: 9pt
+    papersize: us-letter
+    date: today
+    date-format: long
 tbl-colwidths: [70,30]
 author: 
-  - name: "Esteban Degetau Sentíes"
+  - name: "Esteban Degetau"
     orcid: 0009-0004-4095-8819
     email: estebandegetau@gmail.com
-    url: estebandegetau.com
+    url: https://www.estebandegetau.com
     github: estebandegetau
+    affiliation: Instituto Mexicano del Seguro Social
 ---
 
 ```{r}
@@ -23,72 +29,66 @@ pacman::p_load(markdown)
 
 ## Education
 
-+:---------------------------------------------------------------------------------------------------------------------------------------------------+--------------:+
-| **MA in Applied Economics**                                                                                                                        | Expected 2025 |
-|                                                                                                                                                    |               |
-| Instituto Tecnológico Autónomo de México ([ITAM](https://www.itam.mx/en))                                                                          |               |
-+----------------------------------------------------------------------------------------------------------------------------------------------------+---------------+
-| **MicroMasters in Data, Economics and Development Policy**                                                                                         | 2022          |
-|                                                                                                                                                    |               |
-| Massachusetts Institute of Technology ([MITx](https://mitxonline.mit.edu/certificate/program/cc5f08c4-e64b-4f5b-ac83-2fc1868b1c9a/ "Certificate")) |               |
-+----------------------------------------------------------------------------------------------------------------------------------------------------+---------------+
-| **BS in Economics**                                                                                                                                | 2021          |
-|                                                                                                                                                    |               |
-| Instituto Tecnológico Autónomo de México ([ITAM](https://www.itam.mx/en))                                                                          |               |
-|                                                                                                                                                    |               |
-| Specialization in Law                                                                                                                              |               |
-+----------------------------------------------------------------------------------------------------------------------------------------------------+---------------+
++:-------------------------------------------------------+--------------:+
+| **Instituto Tecnológico Autónomo de México**           | Expected 2025 |
+|                                                        |               |
+| MS in Applied Economics                                |               |
++--------------------------------------------------------+---------------+
+| **Massachusetts Institute of Technology**              | 2022          |
+|                                                        |               |
+| MicroMasters in Data, Economics and Development Policy |               |
++--------------------------------------------------------+---------------+
+| **Instituto Tecnológico Autónomo de México**           | 2021          |
+|                                                        |               |
+| BS in Economics - Specialization in Law                |               |
++--------------------------------------------------------+---------------+
 
-## Professional experience
+## Public service
 
-+:-----------------------------------------------------------------------+-------------:+
-| **Subjefe de Division Planeación en Política Fiscal**                  | Since 2023   |
-|                                                                        |              |
-| Coordinación de Planeación y Evaluación                                |              |
-|                                                                        |              |
-| Dirección de Incorporación y Recaudación                               |              |
-|                                                                        |              |
-| Instituto Mexicano del Seguro Social ([IMSS](https://www.gob.mx/imss)) |              |
-+------------------------------------------------------------------------+--------------+
-| **Business analyst**                                                   | 2019 - 2021  |
-|                                                                        |              |
-| at [CEROMULTAS](https://ceromultas.mx/)                                |              |
-+------------------------------------------------------------------------+--------------+
-| **International trade analyst**                                        | 2018         |
-|                                                                        |              |
-| at [T-Rez Consulting](https://www.t-rezconsulting.com/)                |              |
-+------------------------------------------------------------------------+--------------+
++:--------------------------------------------------+--------------:+
+| **Instituto Mexicano del Seguro Social**          | Since 2023    |
+|                                                   |               |
+| Subjefe de Division Planeación en Política Fiscal |               |
+|                                                   |               |
+| Coordinación de Planeación y Evaluación           |               |
+|                                                   |               |
+| Dirección de Incorporación y Recaudación          |               |
++---------------------------------------------------+---------------+
 
 ## Research experience
 
-+:-------------------------------------------------------------------------------------------------------------------------------------------+------------:+
-| **Data and field Research assistant**                                                                                                      | 2022 - 2023 |
-|                                                                                                                                            |             |
-| to [Enrique Seira](http://econ.msu.edu/faculty/seira/index.php) and [Joyce Sadka](https://faculty.itam.mx/facultad/4943-joyce-carol-sadka) |             |
-|                                                                                                                                            |             |
-| at [Improving Labor Courts](https://www.povertyactionlab.org/initiative-project/improving-labor-courts-fighting-corruption-competition)    |             |
-|                                                                                                                                            |             |
-| Center for Economic Research ([CIE](http://cie.itam.mx/))                                                                                  |             |
-|                                                                                                                                            |             |
-| Instituto Tecnológico Autónomo de México ([ITAM](https://www.itam.mx/en))                                                                  |             |
-+--------------------------------------------------------------------------------------------------------------------------------------------+-------------+
++:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------:+
+| **Instituto Tecnológico Autónomo de México** ([ITAM](https://www.itam.mx/en))                                                                                                                                                                                                                                        | 2022 - 2023 |
+|                                                                                                                                                                                                                                                                                                                      |             |
+| Data and field Research assistant to [Enrique Seira](http://econ.msu.edu/faculty/seira/index.php) and [Joyce Sadka](https://faculty.itam.mx/facultad/4943-joyce-carol-sadka) at [Improving Labor Courts](https://www.povertyactionlab.org/initiative-project/improving-labor-courts-fighting-corruption-competition) |             |
+|                                                                                                                                                                                                                                                                                                                      |             |
+| Center for Economic Research ([CIE](http://cie.itam.mx/))                                                                                                                                                                                                                                                            |             |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
 
 ## Teaching
 
-+:--------------------------------------------------------------------------+-------------------------:+
-| **Teaching assistant**                                                    | Fall 2022 to Spring 2023 |
-|                                                                           |                          |
-| to [Joyce Sadka](https://faculty.itam.mx/facultad/4943-joyce-carol-sadka) |                          |
-|                                                                           |                          |
-| Economic Analysis of Law (Undergrad)                                      |                          |
-|                                                                           |                          |
-| Instituto Tecnológico Autónomo de México ([ITAM](https://www.itam.mx/en)) |                          |
-+---------------------------------------------------------------------------+--------------------------+
++:--------------------------------------------------------------------------------------------------------------------------------------+------------------------:+
+| **Instituto Tecnológico Autónomo de México** ([ITAM](https://www.itam.mx/en))                                                         | Fall 2022 - Spring 2023 |
+|                                                                                                                                       |                         |
+| Teaching assistant to [Joyce Sadka](https://faculty.itam.mx/facultad/4943-joyce-carol-sadka) for Economic Analysis of Law (Undergrad) |                         |
++---------------------------------------------------------------------------------------------------------------------------------------+-------------------------+
 
 ## Recognitions
 
-+:-------------------------------------------------------------------------------------------------------+----------:+
-| **Honorable mention**                                                                                  | 2021      |
-|                                                                                                        |           |
-| Undergraduate [COFECE Essay contest](https://www.cofece.mx/revista-del-premio-cofece-de-ensayo-2021/). |           |
-+--------------------------------------------------------------------------------------------------------+-----------+
++:--------------------------------------------------------------+-------------:+
+| **Honorable mention**                                         | 2021         |
+|                                                               |              |
+| Undergraduate [COFECE Essay contest](docs/PENSY-Revista.pdf). |              |
++---------------------------------------------------------------+--------------+
+
+## Other work experience
+
++:---------------------------------------------------------+-------------:+
+| [**CEROMULTAS**](https://ceromultas.mx/)                 | 2019 - 2021  |
+|                                                          |              |
+| Business analyst                                         |              |
++----------------------------------------------------------+--------------+
+| [**T-Rez Consulting**](https://www.t-rezconsulting.com/) | 2018         |
+|                                                          |              |
+| International trade analyst                              |              |
++----------------------------------------------------------+--------------+

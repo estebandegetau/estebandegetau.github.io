@@ -1,7 +1,8 @@
 ---
 title: "Esteban Degetau"
 about:
-    template: trestles
+    template: solana
+    image-width: 20em
     links:
         - icon: twitter
           text: Twitter
@@ -21,9 +22,11 @@ image: "images/eds-2024.jpg"
 
 I'm an economist at Mexico's Social Security Institute ([IMSS](https://datos.imss.gob.mx/)).
 
-I'm interested in the intersection of labor economics, development, data science and public policy. I'm currently studying a MA in Applied Economics at [ITAM](itam.mx).
+I'm interested in labor economics, development, data science and public policy.
 
-Here you can check out my [CV](cv.qmd) and a [selection of my work](research.qmd).
+I'm currently studying a MS in Applied Economics at [ITAM](itam.mx).
+
+Check out my [CV](cv.qmd) and a [selection of my work](research.qmd).
 
 ## R packages
 

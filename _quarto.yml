@@ -5,7 +5,6 @@ project:
 website:
   title: "Esteban Degetau"
   repo-url: https://github.com/estebandegetau/estebandegetau.github.io
-  repo-actions: source
   google-analytics: "G-11D42BZNRY"
   navbar:
     left:
@@ -15,14 +14,19 @@ website:
         text: Research
       - href: cv.qmd
         text: CV
+      # - href: blog.qmd
+      #   text: Blog
 
 
 format:
   html:
-    theme: cosmo
-    toc: true
-    toc_depth: 3
-    toc_float: true
-    toc_smooth_scroll: true
-    toc_highlight: true
-    fig-align: center
+    theme: sandstone
+    # fontsize: 11pt
+    # toc: false
+    # toc_depth: 3
+    # toc_float: true
+    # toc_smooth_scroll: true
+    # toc_highlight: true
+    # fig-align: center
+    
+
