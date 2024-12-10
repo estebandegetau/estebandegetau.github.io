@@ -20,12 +20,6 @@ author:
     affiliation: Instituto Mexicano del Seguro Social
 ---
 
-```{r}
-#| include: false
-
-pacman::p_load(markdown)
-
-```
 
 ## Education
 
