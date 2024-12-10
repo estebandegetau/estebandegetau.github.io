@@ -57,13 +57,13 @@ pacman::p_load(markdown)
 
 ## Research experience
 
-+:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------:+
-| **Instituto Tecnológico Autónomo de México** ([ITAM](https://www.itam.mx/en))                                                                                                                                                                                                                                        | 2022 - 2023 |
-|                                                                                                                                                                                                                                                                                                                      |             |
-| Data and field Research assistant to [Enrique Seira](http://econ.msu.edu/faculty/seira/index.php) and [Joyce Sadka](https://faculty.itam.mx/facultad/4943-joyce-carol-sadka) at [Improving Labor Courts](https://www.povertyactionlab.org/initiative-project/improving-labor-courts-fighting-corruption-competition) |             |
-|                                                                                                                                                                                                                                                                                                                      |             |
-| Center for Economic Research ([CIE](http://cie.itam.mx/))                                                                                                                                                                                                                                                            |             |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
++:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------:+
+| **Instituto Tecnológico Autónomo de México** ([ITAM](https://www.itam.mx/en))                                                                                                                                                                                                                             | 2022 - 2023 |
+|                                                                                                                                                                                                                                                                                                           |             |
+| Data and field Research assistant to [Enrique Seira](https://enriqueseira.weebly.com/) and [Joyce Sadka](https://faculty.itam.mx/facultad/4943-joyce-carol-sadka) at [Improving Labor Courts](https://www.povertyactionlab.org/initiative-project/improving-labor-courts-fighting-corruption-competition) |             |
+|                                                                                                                                                                                                                                                                                                           |             |
+| Center for Economic Research ([CIE](http://cie.itam.mx/))                                                                                                                                                                                                                                                 |             |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
 
 ## Teaching
 
@@ -83,12 +83,12 @@ pacman::p_load(markdown)
 
 ## Other work experience
 
-+:---------------------------------------------------------+-------------:+
-| [**CEROMULTAS**](https://ceromultas.mx/)                 | 2019 - 2021  |
-|                                                          |              |
-| Business analyst                                         |              |
-+----------------------------------------------------------+--------------+
-| [**T-Rez Consulting**](https://www.t-rezconsulting.com/) | 2018         |
-|                                                          |              |
-| International trade analyst                              |              |
-+----------------------------------------------------------+--------------+
++:---------------------------------------------------------+--------------:+
+| [**CEROMULTAS**](https://ceromultas.mx/)                 | 2019 - 2021   |
+|                                                          |               |
+| Business analyst                                         |               |
++----------------------------------------------------------+---------------+
+| [**T-Rez Consulting**](https://www.t-rezconsulting.com/) | 2018          |
+|                                                          |               |
+| International trade analyst                              |               |
++----------------------------------------------------------+---------------+
