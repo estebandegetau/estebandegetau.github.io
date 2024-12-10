@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
 
+execute:
+  freeze: auto
+
 website:
   title: "Esteban Degetau"
   repo-url: https://github.com/estebandegetau/estebandegetau.github.io
