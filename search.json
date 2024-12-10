@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "erratic and incoherent",
+    "section": "",
+    "text": "Performance in the economics profession\n\n\n\n\n\n\n\n\n\n\n\nSep 30, 2024\n\n\nEsteban Degetau\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Esteban Degetau",
+    "section": "",
+    "text": "I’m an economist at Mexico’s Social Security Institute (IMSS).\nI’m interested in labor economics, development, data science and public policy.\nI’m currently studying a MS in Applied Economics at ITAM.\nCheck out my CV and a selection of my work."
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Esteban Degetau",
+    "section": "",
+    "text": "I’m an economist at Mexico’s Social Security Institute (IMSS).\nI’m interested in labor economics, development, data science and public policy.\nI’m currently studying a MS in Applied Economics at ITAM.\nCheck out my CV and a selection of my work."
+  },
+  {
+    "objectID": "index.html#r-packages",
+    "href": "index.html#r-packages",
+    "title": "Esteban Degetau",
+    "section": "R packages",
+    "text": "R packages\nI’m also an R enthusiast, so much so that I’ve developed a package:\ntidyenigh Ships analysis-ready data from the Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH)"
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Selected work",
@@ -33,76 +61,6 @@
     "title": "Selected work",
     "section": "2021",
     "text": "2021\n\nPoder de mercado laboral y brecha de género (pdf). Presented in COFECE Essay contest."
-  },
-  {
-    "objectID": "J-PAL/jpal-cv.html",
-    "href": "J-PAL/jpal-cv.html",
-    "title": "Curriculum vitae",
-    "section": "",
-    "text": "MA in Applied Economics\nInstituto Tecnológico Autónomo de México (ITAM)\nSince Aug 2023\nPart-time schedule\n\n\nMicroMasters in Data, Economics and Development Policy\nMassachusetts Institute of Technology (MITx)\nMay - Dec 2022\n\n\nBS in Economics\nInstituto Tecnológico Autónomo de México (ITAM)\nAug 2016 - Dec 2021"
-  },
-  {
-    "objectID": "J-PAL/jpal-cv.html#education",
-    "href": "J-PAL/jpal-cv.html#education",
-    "title": "Curriculum vitae",
-    "section": "",
-    "text": "MA in Applied Economics\nInstituto Tecnológico Autónomo de México (ITAM)\nSince Aug 2023\nPart-time schedule\n\n\nMicroMasters in Data, Economics and Development Policy\nMassachusetts Institute of Technology (MITx)\nMay - Dec 2022\n\n\nBS in Economics\nInstituto Tecnológico Autónomo de México (ITAM)\nAug 2016 - Dec 2021"
-  },
-  {
-    "objectID": "J-PAL/jpal-cv.html#work-experience",
-    "href": "J-PAL/jpal-cv.html#work-experience",
-    "title": "Curriculum vitae",
-    "section": "Work experience",
-    "text": "Work experience\n\n\n\n\n\n\n\nFiscal policy planning manager\nPlanning and Evaluation Unit\nCollection and Incorporation Directorate\nMexico’s Social Security Institute (IMSS)\nSince March 2023\n\n\nBusiness analyst\nat CEROMULTAS\nOct 2019 - Dec 2021\n\n\nInternational trade analyst\nat T-Rez Consulting\nAug 2018 - Dec 2018"
-  },
-  {
-    "objectID": "J-PAL/jpal-cv.html#research-experience",
-    "href": "J-PAL/jpal-cv.html#research-experience",
-    "title": "Curriculum vitae",
-    "section": "Research experience",
-    "text": "Research experience\n\n\n\n\n\n\n\nData and field Research assistant\nto Enrique Seira and Joyce Sadka\nat the Improving Labor Courts, a J-PAL Governance Initiative\nCenter for Economic Research (CIE)\nInstituto Tecnológico Autónomo de México (ITAM)\nJan 2022 - Feb 2023"
-  },
-  {
-    "objectID": "J-PAL/jpal-cv.html#teaching-experience",
-    "href": "J-PAL/jpal-cv.html#teaching-experience",
-    "title": "Curriculum vitae",
-    "section": "Teaching experience",
-    "text": "Teaching experience\n\n\n\n\n\n\n\nTeaching assistant\nto Joyce Sadka\nEconomic Analysis of Law (Undergrad)\nInstituto Tecnológico Autónomo de México (ITAM)\nAug 2022 - May 2023"
-  },
-  {
-    "objectID": "J-PAL/jpal-cv.html#recognitions",
-    "href": "J-PAL/jpal-cv.html#recognitions",
-    "title": "Curriculum vitae",
-    "section": "Recognitions",
-    "text": "Recognitions\n\n\n\n\n\n\n\nHonorable mention\nUndergraduate COFECE Essay contest.\nAug 2021"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Esteban Degetau",
-    "section": "",
-    "text": "I’m an economist at Mexico’s Social Security Institute (IMSS).\nI’m interested in labor economics, development, data science and public policy.\nI’m currently studying a MS in Applied Economics at ITAM.\nCheck out my CV and a selection of my work."
-  },
-  {
-    "objectID": "index.html#bio",
-    "href": "index.html#bio",
-    "title": "Esteban Degetau",
-    "section": "",
-    "text": "I’m an economist at Mexico’s Social Security Institute (IMSS).\nI’m interested in labor economics, development, data science and public policy.\nI’m currently studying a MS in Applied Economics at ITAM.\nCheck out my CV and a selection of my work."
-  },
-  {
-    "objectID": "index.html#r-packages",
-    "href": "index.html#r-packages",
-    "title": "Esteban Degetau",
-    "section": "R packages",
-    "text": "R packages\nI’m also an R enthusiast, so much so that I’ve developed a package:\ntidyenigh Ships analysis-ready data from the Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH)"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "erratic and incoherent",
-    "section": "",
-    "text": "Performance in the economics profession\n\n\n\n\n\n\n\n\n\n\n\nSep 30, 2024\n\n\nEsteban Degetau\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv.html",
