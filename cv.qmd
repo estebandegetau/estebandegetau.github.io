@@ -20,13 +20,12 @@ author:
     affiliation: Instituto Mexicano del Seguro Social
 ---
 
-
 ## Education
 
 +:-------------------------------------------------------+--------------:+
 | **Instituto Tecnológico Autónomo de México**           | Expected 2025 |
 |                                                        |               |
-| MS in Applied Economics                                |               |
+| Master in Applied Economics                            |               |
 +--------------------------------------------------------+---------------+
 | **Massachusetts Institute of Technology**              | 2022          |
 |                                                        |               |
@@ -34,7 +33,7 @@ author:
 +--------------------------------------------------------+---------------+
 | **Instituto Tecnológico Autónomo de México**           | 2021          |
 |                                                        |               |
-| BS in Economics - Specialization in Law                |               |
+| BA in Economics - Specialization in Law                |               |
 +--------------------------------------------------------+---------------+
 
 ## Public service

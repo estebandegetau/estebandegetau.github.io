@@ -1,0 +1,86 @@
+---
+title: "Currículum vitae"
+format: 
+  html: 
+      date-modified: today
+      date-format: long
+      css: styles.css
+  typst: 
+    fontsize: 9pt
+    papersize: us-letter
+    date: today
+    date-format: long
+tbl-colwidths: [70,30]
+lang: es
+author: 
+  - name: "Esteban Degetau"
+    orcid: 0009-0004-4095-8819
+    email: estebandegetau@gmail.com
+    url: https://www.estebandegetau.com
+    github: estebandegetau
+    affiliation: Instituto Mexicano del Seguro Social
+---
+
+## Educación
+
++:---------------------------------------------------------+-------------------:+
+| **Instituto Tecnológico Autónomo de México**             | Esperado para 2025 |
+|                                                          |                    |
+| Maestría en Economía Aplicada                            |                    |
++----------------------------------------------------------+--------------------+
+| **Massachusetts Institute of Technology**                | 2022               |
+|                                                          |                    |
+| MicroMasters en Datos, Economía y Política de Desarrollo |                    |
++----------------------------------------------------------+--------------------+
+| **Instituto Tecnológico Autónomo de México**             | 2021               |
+|                                                          |                    |
+| Licenciatura en Economía - Especialización en Derecho    |                    |
++----------------------------------------------------------+--------------------+
+
+## Servicio público
+
++:--------------------------------------------------+--------------:+
+| **Instituto Mexicano del Seguro Social**          | Desde 2023    |
+|                                                   |               |
+| Subjefe de División Planeación en Política Fiscal |               |
+|                                                   |               |
+| Coordinación de Planeación y Evaluación           |               |
+|                                                   |               |
+| Dirección de Incorporación y Recaudación          |               |
++---------------------------------------------------+---------------+
+
+## Experiencia en investigación
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------:+
+| **Instituto Tecnológico Autónomo de México** ([ITAM](https://www.itam.mx/en))                                                                                                                                                                                                                                          | 2022 - 2023 |
+|                                                                                                                                                                                                                                                                                                                        |             |
+| Asistente de investigación de datos y de campo para [Enrique Seira](https://enriqueseira.weebly.com/) y [Joyce Sadka](https://faculty.itam.mx/facultad/4943-joyce-carol-sadka) en [Improving Labor Courts](https://www.povertyactionlab.org/initiative-project/improving-labor-courts-fighting-corruption-competition) |             |
+|                                                                                                                                                                                                                                                                                                                        |             |
+| Centro de Investigación Económica ([CIE](http://cie.itam.mx/))                                                                                                                                                                                                                                                         |             |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
+
+## Experiencia en docencia
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------:+
+| **Instituto Tecnológico Autónomo de México** ([ITAM](https://www.itam.mx/en))                                                                       | Otoño 2022 - Primavera 2023 |
+|                                                                                                                                                     |                             |
+| Asistente de enseñanza para [Joyce Sadka](https://faculty.itam.mx/facultad/4943-joyce-carol-sadka) en Análisis Económico del Derecho (Licenciatura) |                             |
++-----------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------+
+
+## Reconocimientos
+
++:----------------------------------------------------------------------------------------------+-----------:+
+| **Mención honorífica** - Concurso de ensayo de licenciatura [COFECE](docs/PENSY-Revista.pdf). | 2021       |
++-----------------------------------------------------------------------------------------------+------------+
+
+## Otra experiencia laboral
+
++:---------------------------------------------------------+--------------:+
+| [**CEROMULTAS**](https://ceromultas.mx/)                 | 2019 - 2021   |
+|                                                          |               |
+| Analista de negocios                                     |               |
++----------------------------------------------------------+---------------+
+| [**T-Rez Consulting**](https://www.t-rezconsulting.com/) | 2018          |
+|                                                          |               |
+| Analista de comercio internacional                       |               |
++----------------------------------------------------------+---------------+
