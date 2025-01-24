@@ -1,103 +1,5 @@
 [
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum vitae",
-    "section": "",
-    "text": "Instituto Tecnológico Autónomo de México\nMaster in Applied Economics\nExpected 2025\n\n\nMassachusetts Institute of Technology\nMicroMasters in Data, Economics and Development Policy\n2022\n\n\nInstituto Tecnológico Autónomo de México\nBA in Economics - Specialization in Law\n2021"
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Curriculum vitae",
-    "section": "",
-    "text": "Instituto Tecnológico Autónomo de México\nMaster in Applied Economics\nExpected 2025\n\n\nMassachusetts Institute of Technology\nMicroMasters in Data, Economics and Development Policy\n2022\n\n\nInstituto Tecnológico Autónomo de México\nBA in Economics - Specialization in Law\n2021"
-  },
-  {
-    "objectID": "cv.html#public-service",
-    "href": "cv.html#public-service",
-    "title": "Curriculum vitae",
-    "section": "Public service",
-    "text": "Public service\n\n\n\n\n\n\n\nInstituto Mexicano del Seguro Social\nSubjefe de Division Planeación en Política Fiscal\nCoordinación de Planeación y Evaluación\nDirección de Incorporación y Recaudación\nSince 2023"
-  },
-  {
-    "objectID": "cv.html#research-experience",
-    "href": "cv.html#research-experience",
-    "title": "Curriculum vitae",
-    "section": "Research experience",
-    "text": "Research experience\n\n\n\n\n\n\n\nInstituto Tecnológico Autónomo de México (ITAM)\nData and field Research assistant to Enrique Seira and Joyce Sadka at Improving Labor Courts\nCenter for Economic Research (CIE)\n2022 - 2023"
-  },
-  {
-    "objectID": "cv.html#teaching",
-    "href": "cv.html#teaching",
-    "title": "Curriculum vitae",
-    "section": "Teaching",
-    "text": "Teaching\n\n\n\n\n\n\n\nInstituto Tecnológico Autónomo de México (ITAM)\nTeaching assistant to Joyce Sadka for Economic Analysis of Law (Undergrad)\nFall 2022 - Spring 2023"
-  },
-  {
-    "objectID": "cv.html#recognitions",
-    "href": "cv.html#recognitions",
-    "title": "Curriculum vitae",
-    "section": "Recognitions",
-    "text": "Recognitions\n\n\n\n\n\n\n\nHonorable mention\nUndergraduate COFECE Essay contest.\n2021"
-  },
-  {
-    "objectID": "cv.html#other-work-experience",
-    "href": "cv.html#other-work-experience",
-    "title": "Curriculum vitae",
-    "section": "Other work experience",
-    "text": "Other work experience\n\n\n\n\n\n\n\nCEROMULTAS\nBusiness analyst\n2019 - 2021\n\n\nT-Rez Consulting\nInternational trade analyst\n2018"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Performance in the economics profession",
-    "section": "",
-    "text": "What does it mean to be an economist? Is the question I’ve asked myself since I began my training as one, back in 2016. As any other question of being, a glance through the lense of performative arts may help me understand who economists think they are and why I one to become one. After all, every sense of self in the scene of life is perhaps no more than mere performance.\n\nThe dance of social sciences\nIf you as I, have but a vague idea of what a performance is"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Selected work",
-    "section": "",
-    "text": "Pronóstico de inflación en México: un enfoque de aprendizaje automático. Automated monthly inflation forecasting. URL"
-  },
-  {
-    "objectID": "research.html#section",
-    "href": "research.html#section",
-    "title": "Selected work",
-    "section": "",
-    "text": "Pronóstico de inflación en México: un enfoque de aprendizaje automático. Automated monthly inflation forecasting. URL"
-  },
-  {
-    "objectID": "research.html#section-1",
-    "href": "research.html#section-1",
-    "title": "Selected work",
-    "section": "2023",
-    "text": "2023\n\nGiving grade points according to GARP: A replication exercise (pdf). For Applied Microeconomics, ITAM.\nData Challenge: Monster hunt en el ITAM (pdf). With Andrea Rancaño and Andrés Bermudez. For Applied Econometrics I, ITAM."
-  },
-  {
-    "objectID": "research.html#section-2",
-    "href": "research.html#section-2",
-    "title": "Selected work",
-    "section": "2022",
-    "text": "2022\n\nCorruption or incompentence? Disentanle through learning (pdf). B.A. dissertation, ITAM."
-  },
-  {
-    "objectID": "research.html#section-3",
-    "href": "research.html#section-3",
-    "title": "Selected work",
-    "section": "2021",
-    "text": "2021\n\nPoder de mercado laboral y brecha de género (pdf). Presented in COFECE Essay contest."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "erratic and incoherent",
-    "section": "",
-    "text": "Performance in the economics profession\n\n\n\n\n\n\n\n\n\n\n\nSep 30, 2024\n\n\nEsteban Degetau\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "cv-es.html",
     "href": "cv-es.html",
     "title": "Currículum vitae",
@@ -166,5 +68,103 @@
     "title": "Esteban Degetau",
     "section": "R packages",
     "text": "R packages\nI’m also an R enthusiast, so much so that I’ve developed a package:\ntidyenigh Ships analysis-ready data from the Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH)"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "erratic and incoherent",
+    "section": "",
+    "text": "Performance in the economics profession\n\n\n\n\n\n\n\n\n\n\n\nSep 30, 2024\n\n\nEsteban Degetau\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Selected work",
+    "section": "",
+    "text": "Pronóstico de inflación en México: un enfoque de aprendizaje automático. Automated monthly inflation forecasting. URL"
+  },
+  {
+    "objectID": "research.html#section",
+    "href": "research.html#section",
+    "title": "Selected work",
+    "section": "",
+    "text": "Pronóstico de inflación en México: un enfoque de aprendizaje automático. Automated monthly inflation forecasting. URL"
+  },
+  {
+    "objectID": "research.html#section-1",
+    "href": "research.html#section-1",
+    "title": "Selected work",
+    "section": "2023",
+    "text": "2023\n\nGiving grade points according to GARP: A replication exercise (pdf). For Applied Microeconomics, ITAM.\nData Challenge: Monster hunt en el ITAM (pdf). With Andrea Rancaño and Andrés Bermudez. For Applied Econometrics I, ITAM."
+  },
+  {
+    "objectID": "research.html#section-2",
+    "href": "research.html#section-2",
+    "title": "Selected work",
+    "section": "2022",
+    "text": "2022\n\nCorruption or incompentence? Disentanle through learning (pdf). B.A. dissertation, ITAM."
+  },
+  {
+    "objectID": "research.html#section-3",
+    "href": "research.html#section-3",
+    "title": "Selected work",
+    "section": "2021",
+    "text": "2021\n\nPoder de mercado laboral y brecha de género (pdf). Presented in COFECE Essay contest."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Instituto Tecnológico Autónomo de México\nMaster in Applied Economics\nExpected 2025\n\n\nMassachusetts Institute of Technology\nMicroMasters in Data, Economics and Development Policy\n2022\n\n\nInstituto Tecnológico Autónomo de México\nBA in Economics - Specialization in Law\n2021"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Instituto Tecnológico Autónomo de México\nMaster in Applied Economics\nExpected 2025\n\n\nMassachusetts Institute of Technology\nMicroMasters in Data, Economics and Development Policy\n2022\n\n\nInstituto Tecnológico Autónomo de México\nBA in Economics - Specialization in Law\n2021"
+  },
+  {
+    "objectID": "cv.html#public-service",
+    "href": "cv.html#public-service",
+    "title": "Curriculum vitae",
+    "section": "Public service",
+    "text": "Public service\n\n\n\n\n\n\n\nInstituto Mexicano del Seguro Social\nSubjefe de Division Planeación en Política Fiscal\nCoordinación de Planeación y Evaluación\nDirección de Incorporación y Recaudación\nSince 2023"
+  },
+  {
+    "objectID": "cv.html#research-experience",
+    "href": "cv.html#research-experience",
+    "title": "Curriculum vitae",
+    "section": "Research experience",
+    "text": "Research experience\n\n\n\n\n\n\n\nInstituto Tecnológico Autónomo de México (ITAM)\nData and field Research assistant to Enrique Seira and Joyce Sadka at Improving Labor Courts\nCenter for Economic Research (CIE)\n2022 - 2023"
+  },
+  {
+    "objectID": "cv.html#teaching",
+    "href": "cv.html#teaching",
+    "title": "Curriculum vitae",
+    "section": "Teaching",
+    "text": "Teaching\n\n\n\n\n\n\n\nInstituto Tecnológico Autónomo de México (ITAM)\nTeaching assistant to Joyce Sadka for Economic Analysis of Law (Undergrad)\nFall 2022 - Spring 2023"
+  },
+  {
+    "objectID": "cv.html#recognitions",
+    "href": "cv.html#recognitions",
+    "title": "Curriculum vitae",
+    "section": "Recognitions",
+    "text": "Recognitions\n\n\n\n\n\n\n\nHonorable mention\nUndergraduate COFECE Essay contest.\n2021"
+  },
+  {
+    "objectID": "cv.html#other-work-experience",
+    "href": "cv.html#other-work-experience",
+    "title": "Curriculum vitae",
+    "section": "Other work experience",
+    "text": "Other work experience\n\n\n\n\n\n\n\nCEROMULTAS\nBusiness analyst\n2019 - 2021\n\n\nT-Rez Consulting\nInternational trade analyst\n2018"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Performance in the economics profession",
+    "section": "",
+    "text": "What does it mean to be an economist? Is the question I’ve asked myself since I began my training as one, back in 2016. As any other question of being, a glance through the lense of performative arts may help me understand who economists think they are and why I one to become one. After all, every sense of self in the scene of life is perhaps no more than mere performance.\n\nThe dance of social sciences\nIf you as I, have but a vague idea of what a performance is"
   }
 ]
