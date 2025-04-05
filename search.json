@@ -1,82 +1,5 @@
 [
   {
-    "objectID": "cv-es.html",
-    "href": "cv-es.html",
-    "title": "Currículum vitae",
-    "section": "",
-    "text": "Instituto Tecnológico Autónomo de México\nMaestría en Economía Aplicada\nEsperado para 2025\n\n\nMassachusetts Institute of Technology\nMicroMasters en Datos, Economía y Política de Desarrollo\n2022\n\n\nInstituto Tecnológico Autónomo de México\nLicenciatura en Economía - Especialización en Derecho\n2021"
-  },
-  {
-    "objectID": "cv-es.html#educación",
-    "href": "cv-es.html#educación",
-    "title": "Currículum vitae",
-    "section": "",
-    "text": "Instituto Tecnológico Autónomo de México\nMaestría en Economía Aplicada\nEsperado para 2025\n\n\nMassachusetts Institute of Technology\nMicroMasters en Datos, Economía y Política de Desarrollo\n2022\n\n\nInstituto Tecnológico Autónomo de México\nLicenciatura en Economía - Especialización en Derecho\n2021"
-  },
-  {
-    "objectID": "cv-es.html#servicio-público",
-    "href": "cv-es.html#servicio-público",
-    "title": "Currículum vitae",
-    "section": "Servicio público",
-    "text": "Servicio público\n\n\n\n\n\n\n\nInstituto Mexicano del Seguro Social\nSubjefe de División Planeación en Política Fiscal\nCoordinación de Planeación y Evaluación\nDirección de Incorporación y Recaudación\nDesde 2023"
-  },
-  {
-    "objectID": "cv-es.html#experiencia-en-investigación",
-    "href": "cv-es.html#experiencia-en-investigación",
-    "title": "Currículum vitae",
-    "section": "Experiencia en investigación",
-    "text": "Experiencia en investigación\n\n\n\n\n\n\n\nInstituto Tecnológico Autónomo de México (ITAM)\nAsistente de investigación de datos y de campo para Enrique Seira y Joyce Sadka en Improving Labor Courts\nCentro de Investigación Económica (CIE)\n2022 - 2023"
-  },
-  {
-    "objectID": "cv-es.html#experiencia-en-docencia",
-    "href": "cv-es.html#experiencia-en-docencia",
-    "title": "Currículum vitae",
-    "section": "Experiencia en docencia",
-    "text": "Experiencia en docencia\n\n\n\n\n\n\n\nInstituto Tecnológico Autónomo de México (ITAM)\nAsistente de enseñanza para Joyce Sadka en Análisis Económico del Derecho (Licenciatura)\nOtoño 2022 - Primavera 2023"
-  },
-  {
-    "objectID": "cv-es.html#reconocimientos",
-    "href": "cv-es.html#reconocimientos",
-    "title": "Currículum vitae",
-    "section": "Reconocimientos",
-    "text": "Reconocimientos\n\n\n\n\n\n\n\nMención honorífica - Concurso de ensayo de licenciatura COFECE.\n2021"
-  },
-  {
-    "objectID": "cv-es.html#otra-experiencia-laboral",
-    "href": "cv-es.html#otra-experiencia-laboral",
-    "title": "Currículum vitae",
-    "section": "Otra experiencia laboral",
-    "text": "Otra experiencia laboral\n\n\n\n\n\n\n\nCEROMULTAS\nAnalista de negocios\n2019 - 2021\n\n\nT-Rez Consulting\nAnalista de comercio internacional\n2018"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Esteban Degetau",
-    "section": "",
-    "text": "I’m an economist at Mexico’s Social Security Institute (IMSS).\nI’m interested in labor economics, development, data science and public policy.\nI’m currently studying a MS in Applied Economics at ITAM.\nCheck out my CV and a selection of my work."
-  },
-  {
-    "objectID": "index.html#bio",
-    "href": "index.html#bio",
-    "title": "Esteban Degetau",
-    "section": "",
-    "text": "I’m an economist at Mexico’s Social Security Institute (IMSS).\nI’m interested in labor economics, development, data science and public policy.\nI’m currently studying a MS in Applied Economics at ITAM.\nCheck out my CV and a selection of my work."
-  },
-  {
-    "objectID": "index.html#r-packages",
-    "href": "index.html#r-packages",
-    "title": "Esteban Degetau",
-    "section": "R packages",
-    "text": "R packages\nI’m also an R enthusiast, so much so that I’ve developed a package:\ntidyenigh Ships analysis-ready data from the Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH)"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "erratic and incoherent",
-    "section": "",
-    "text": "Performance in the economics profession\n\n\n\n\n\n\n\n\n\n\n\nSep 30, 2024\n\n\nEsteban Degetau\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Selected work",
@@ -112,18 +35,46 @@
     "text": "2021\n\nPoder de mercado laboral y brecha de género (pdf). Presented in COFECE Essay contest."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Esteban Degetau",
+    "section": "",
+    "text": "I’m an economist at Mexico’s Social Security Institute (IMSS).\nI’m interested in labor economics, development, data science and public policy.\nI’m currently studying a MS in Applied Economics at ITAM.\nCheck out my CV and a selection of my work."
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Esteban Degetau",
+    "section": "",
+    "text": "I’m an economist at Mexico’s Social Security Institute (IMSS).\nI’m interested in labor economics, development, data science and public policy.\nI’m currently studying a MS in Applied Economics at ITAM.\nCheck out my CV and a selection of my work."
+  },
+  {
+    "objectID": "index.html#r-packages",
+    "href": "index.html#r-packages",
+    "title": "Esteban Degetau",
+    "section": "R packages",
+    "text": "R packages\nI’m also an R enthusiast, so much so that I’ve developed a package:\ntidyenigh Ships analysis-ready data from the Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH)"
+  },
+  {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "Curriculum vitae",
     "section": "",
-    "text": "Instituto Tecnológico Autónomo de México\nMaster in Applied Economics\nExpected 2025\n\n\nMassachusetts Institute of Technology\nMicroMasters in Data, Economics and Development Policy\n2022\n\n\nInstituto Tecnológico Autónomo de México\nBA in Economics - Specialization in Law\n2021"
+    "text": "Address: Av. Paseo de la Reforma 476, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX\nPhone: +52 55 5238 2700\nEmail: mailto:esteban.degetau@imss.gob.mx"
+  },
+  {
+    "objectID": "cv.html#contact",
+    "href": "cv.html#contact",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Address: Av. Paseo de la Reforma 476, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX\nPhone: +52 55 5238 2700\nEmail: mailto:esteban.degetau@imss.gob.mx"
   },
   {
     "objectID": "cv.html#education",
     "href": "cv.html#education",
     "title": "Curriculum vitae",
-    "section": "",
-    "text": "Instituto Tecnológico Autónomo de México\nMaster in Applied Economics\nExpected 2025\n\n\nMassachusetts Institute of Technology\nMicroMasters in Data, Economics and Development Policy\n2022\n\n\nInstituto Tecnológico Autónomo de México\nBA in Economics - Specialization in Law\n2021"
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\n\n\nInstituto Tecnológico Autónomo de México\nMS in Applied Economics\nExpected 2025\n\n\nMassachusetts Institute of Technology\nMicroMasters in Data, Economics and Development Policy\n2022\n\n\nInstituto Tecnológico Autónomo de México\nBS in Economics - Specialization in Law\n2021"
   },
   {
     "objectID": "cv.html#public-service",
