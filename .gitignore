@@ -2,9 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
-
 /.quarto/
-
+/_site/
 /.luarc.json
 /J-PAL
 /docs/J-PAL
