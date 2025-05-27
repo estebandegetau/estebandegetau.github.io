@@ -45,22 +45,34 @@ Labor economics, social protection, applied econometrics, causal inference, publ
 
 ## Public Service
 
-+:------------------------------------------------------------------------------------------------------------------------------------------------------+---------------:+
-| **Subjefe de División, Política Fiscal** -*Instituto Mexicano del Seguro Social (IMSS)*                                                               | 2023 - Present |
-|                                                                                                                                                       |                |
-| -   Lead analytical planning and evaluation of budget targets related to tax collection and labor market incorporation (Incorporación y Recaudación). |                |
-| -   Developed and implemented causal impact evaluations on incorporation strategies.                                                                  |                |
-| -   Designed and led training initiatives to build internal technical capacity in statistical and economic analysis.                                  |                |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+
++:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------:+
+| **Subjefe de División, Política Fiscal** -*Instituto Mexicano del Seguro Social (IMSS)*                                                                                                                                                                                                                      | 2023 - Present |
+|                                                                                                                                                                                                                                                                                                              |                |
+| -   Lead analytical planning and policy evaluation in the areas of labor market enrollment and social security collection, using administrative data and quasi-experimental methods.                                                                                                                         |                |
+|                                                                                                                                                                                                                                                                                                              |                |
+| -   Direct research on collection opportunities and compliance strategies using econometric modeling and machine learning techniques.                                                                                                                                                                        |                |
+|                                                                                                                                                                                                                                                                                                              |                |
+| -   Evaluate the projected impact of hypothetical policy reforms—such as eligibility rule changes—on employment, wages, and institutional revenues.                                                                                                                                                          |                |
+|                                                                                                                                                                                                                                                                                                              |                |
+| -   Manage and mentor a team of analysts, advancing multiple projects to (i) improve record linkage with national surveys, (ii) automate reporting workflows, (iii) enhance the rigor and clarity of policy-facing deliverables, and (iv) integrate stronger empirical foundations into ongoing evaluations. |                |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+
 
 ## Research Experience
 
-+:---------------------------------------------------------------------------------------------------------------------+------------:+
-| **Research Assistant**, ITAM – Center for Economic Research (CIE)\                                                   | 2022 - 2023 |
-| *J-PAL Project*                                                                                                      |             |
-|                                                                                                                      |             |
-| -   Assisted Enrique Seira and Joyce Sadka in field and data research on judicial reform and labor court efficiency. |             |
-+----------------------------------------------------------------------------------------------------------------------+-------------+
++:----------------------------------------------------------------------------------------------------------------------------------------------------------------+------------:+
+| **Research Assistant**, ITAM – Center for Economic Research (CIE)\                                                                                              | 2022 - 2023 |
+| *J-PAL Project*                                                                                                                                                 |             |
+|                                                                                                                                                                 |             |
+| -   Supported Enrique Seira and Joyce Sadka in field implementation and data analysis for randomized and quasi-experimental evaluations of labor court reforms. |             |
+|                                                                                                                                                                 |             |
+| <!-- -->                                                                                                                                                        |             |
+|                                                                                                                                                                 |             |
+| -   Developed independent research, including a heterogeneous treatment effects analysis, which became the basis for my undergraduate thesis.                   |             |
+|                                                                                                                                                                 |             |
+| <!-- -->                                                                                                                                                        |             |
+|                                                                                                                                                                 |             |
+| -   Managed daily data workflows and delivered rapid-turnaround analyses to guide field operations and policy design.                                           |             |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
 
 ## Teaching
 
@@ -75,15 +87,15 @@ Labor economics, social protection, applied econometrics, causal inference, publ
 
 ## Private Sector
 
-+:------------------------------------------------------------------------+--------------:+
-| **Business Analyst**, CEROMULTAS                                        | 2019 - 2021   |
-|                                                                         |               |
-| -   Evaluated legal risk and compliance using operational vehicle data. |               |
-+-------------------------------------------------------------------------+---------------+
-| **International Trade Analyst**, T-Rez Consulting, 2018                 | 2018          |
-|                                                                         |               |
-| -   Supported trade compliance analysis for international clients.      |               |
-+-------------------------------------------------------------------------+---------------+
++:------------------------------------------------------------------------+-------------:+
+| **Business Analyst**, CEROMULTAS                                        | 2019 - 2021  |
+|                                                                         |              |
+| -   Evaluated legal risk and compliance using operational vehicle data. |              |
++-------------------------------------------------------------------------+--------------+
+| **International Trade Analyst**, T-Rez Consulting, 2018                 | 2018         |
+|                                                                         |              |
+| -   Supported trade compliance analysis for international clients.      |              |
++-------------------------------------------------------------------------+--------------+
 
 ## Technical Skills
 
