@@ -15,22 +15,12 @@ about:
         - icon: orcid  
           text: "ORCID"
           url: https://orcid.org/0009-0004-4095-8819
+        - icon: linkedin
+          text: LinkedIn
+          url: https://www.linkedin.com/in/esteban-degetau-187141344/
 image: "images/eds-2024.jpg"
 ---
 
-## Bio
+# About Me
 
-I'm an economist at Mexico's Social Security Institute ([IMSS](https://datos.imss.gob.mx/)).
-
-I'm interested in labor economics, development, data science and public policy.
-
-I'm currently studying a MS in Applied Economics at [ITAM](itam.mx).
-
-Check out my [CV](cv.qmd) and a [selection of my work](research.qmd).
-
-## R packages
-
-I'm also an R enthusiast, so much so that I've developed a package:
-
-[`tidyenigh`](https://www.estebandegetau.com/tidyenigh/) Ships analysis-ready data from the Encuesta Nacional de Ingresos y Gastos de los Hogares ([ENIGH](https://www.inegi.org.mx/programas/enigh/nc/2022/))
-
+I am a Policy Economist at the Mexican Social Security Institute ([IMSS](http://datos.imss.gob.mx/)). I hold a Master’s in Applied Economics from [ITAM](https://www.itam.mx/). My work draws on tools from labor economics and applied econometrics to study formal labor market participation and the effects of social protection policies. I plan to begin doctoral studies in 2026.

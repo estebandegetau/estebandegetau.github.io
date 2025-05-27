@@ -1,59 +1,108 @@
 [
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Selected work",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "Pronóstico de inflación en México: un enfoque de aprendizaje automático. Automated monthly inflation forecasting. URL"
+    "text": "Herramientas Estadísticas en R\nCourse, Instituto Mexicano del Seguro Social (IMMS), 2025"
   },
   {
-    "objectID": "research.html#section",
-    "href": "research.html#section",
-    "title": "Selected work",
+    "objectID": "teaching.html#primary-instructor",
+    "href": "teaching.html#primary-instructor",
+    "title": "Teaching",
     "section": "",
-    "text": "Pronóstico de inflación en México: un enfoque de aprendizaje automático. Automated monthly inflation forecasting. URL"
+    "text": "Herramientas Estadísticas en R\nCourse, Instituto Mexicano del Seguro Social (IMMS), 2025"
   },
   {
-    "objectID": "research.html#section-1",
-    "href": "research.html#section-1",
-    "title": "Selected work",
-    "section": "2023",
-    "text": "2023\n\nGiving grade points according to GARP: A replication exercise (pdf). For Applied Microeconomics, ITAM.\nData Challenge: Monster hunt en el ITAM (pdf). With Andrea Rancaño and Andrés Bermudez. For Applied Econometrics I, ITAM."
-  },
-  {
-    "objectID": "research.html#section-2",
-    "href": "research.html#section-2",
-    "title": "Selected work",
-    "section": "2022",
-    "text": "2022\n\nCorruption or incompentence? Disentanle through learning (pdf). B.A. dissertation, ITAM."
-  },
-  {
-    "objectID": "research.html#section-3",
-    "href": "research.html#section-3",
-    "title": "Selected work",
-    "section": "2021",
-    "text": "2021\n\nPoder de mercado laboral y brecha de género (pdf). Presented in COFECE Essay contest."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Esteban Degetau",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Performance in the economics profession",
     "section": "",
-    "text": "I’m an economist at Mexico’s Social Security Institute (IMSS).\nI’m interested in labor economics, development, data science and public policy.\nI’m currently studying a MS in Applied Economics at ITAM.\nCheck out my CV and a selection of my work."
+    "text": "What does it mean to be an economist? Is the question I’ve asked myself since I began my training as one, back in 2016. As any other question of being, a glance through the lense of performative arts may help me understand who economists think they are and why I one to become one. After all, every sense of self in the scene of life is perhaps no more than mere performance.\n\nThe dance of social sciences\nIf you as I, have but a vague idea of what a performance is"
   },
   {
-    "objectID": "index.html#bio",
-    "href": "index.html#bio",
-    "title": "Esteban Degetau",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "I’m an economist at Mexico’s Social Security Institute (IMSS).\nI’m interested in labor economics, development, data science and public policy.\nI’m currently studying a MS in Applied Economics at ITAM.\nCheck out my CV and a selection of my work."
+    "text": "Economist with expertise in causal inference, public finance, and policy evaluation. Experience leading analytical teams in government and academia, with a focus on incorporating rigorous statistical tools into program design and evaluation. Interested in labor markets, social protection, and the use of data for public impact."
   },
   {
-    "objectID": "index.html#r-packages",
-    "href": "index.html#r-packages",
-    "title": "Esteban Degetau",
-    "section": "R packages",
-    "text": "R packages\nI’m also an R enthusiast, so much so that I’ve developed a package:\ntidyenigh Ships analysis-ready data from the Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH)"
+    "objectID": "cv.html#profile",
+    "href": "cv.html#profile",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Economist with expertise in causal inference, public finance, and policy evaluation. Experience leading analytical teams in government and academia, with a focus on incorporating rigorous statistical tools into program design and evaluation. Interested in labor markets, social protection, and the use of data for public impact."
+  },
+  {
+    "objectID": "cv.html#research-interests",
+    "href": "cv.html#research-interests",
+    "title": "Curriculum Vitae",
+    "section": "Research Interests",
+    "text": "Research Interests\nLabor economics, social protection, applied econometrics, causal inference, public finance, data science for policy"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\n\n\nInstituto Tecnológico Autónomo de México\nMaster in Applied Economics\nExpected 2025\n\n\nMassachusetts Institute of Technology\nMicroMasters in Data, Economics and Development Policy\n2022\n\n\nInstituto Tecnológico Autónomo de México\nBA in Economics - Specialization in Law\n2021"
+  },
+  {
+    "objectID": "cv.html#public-service",
+    "href": "cv.html#public-service",
+    "title": "Curriculum Vitae",
+    "section": "Public Service",
+    "text": "Public Service\n\n\n\n\n\n\n\nSubjefe de División, Política Fiscal -Instituto Mexicano del Seguro Social (IMSS)\n\nLead analytical planning and evaluation of budget targets related to tax collection and labor market incorporation (Incorporación y Recaudación).\nDeveloped and implemented causal impact evaluations on incorporation strategies.\nDesigned and led training initiatives to build internal technical capacity in statistical and economic analysis.\n\n2023 - Present"
+  },
+  {
+    "objectID": "cv.html#research-experience",
+    "href": "cv.html#research-experience",
+    "title": "Curriculum Vitae",
+    "section": "Research Experience",
+    "text": "Research Experience\n\n\n\n\n\n\n\nResearch Assistant, ITAM – Center for Economic Research (CIE)\nJ-PAL Project\n\nAssisted Enrique Seira and Joyce Sadka in field and data research on judicial reform and labor court efficiency.\n\n2022 - 2023"
+  },
+  {
+    "objectID": "cv.html#teaching",
+    "href": "cv.html#teaching",
+    "title": "Curriculum Vitae",
+    "section": "Teaching",
+    "text": "Teaching\n\n\n\n\n\n\n\nInstructor, Instituto Mexicano del Seguro Social\nHerramientas estadísticas en R\nCourse materials\nSpring 2025\n\n\nTeaching Assistant, ITAM\nEconomic Analysis of Law (Undergraduate) – Joyce Sadka\nFall 2022 - Spring 2023"
+  },
+  {
+    "objectID": "cv.html#private-sector",
+    "href": "cv.html#private-sector",
+    "title": "Curriculum Vitae",
+    "section": "Private Sector",
+    "text": "Private Sector\n\n\n\n\n\n\n\nBusiness Analyst, CEROMULTAS\n\nEvaluated legal risk and compliance using operational vehicle data.\n\n2019 - 2021\n\n\nInternational Trade Analyst, T-Rez Consulting, 2018\n\nSupported trade compliance analysis for international clients.\n\n2018"
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "Curriculum Vitae",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\nProgramming: R (expert), Python (intermediate), SQL, Stata, SAS\n\nTools: Git, Quarto, Power BI, LaTeX\n\nMethods: RDD, DID, matching, IPW, random forests, GRF, data visualization"
+  },
+  {
+    "objectID": "cv.html#recognitions",
+    "href": "cv.html#recognitions",
+    "title": "Curriculum Vitae",
+    "section": "Recognitions",
+    "text": "Recognitions\n\n\n\n\n\n\n\nHonorable Mention, COFECE Undergraduate Essay Contest\n2021"
+  },
+  {
+    "objectID": "cv.html#references",
+    "href": "cv.html#references",
+    "title": "Curriculum Vitae",
+    "section": "References",
+    "text": "References\nAvailable upon request."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "erratic and incoherent",
+    "section": "",
+    "text": "Performance in the economics profession\n\n\n\n\n\n\n\n\nSep 30, 2024\n\n\nEsteban Degetau\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv-es.html",
@@ -105,66 +154,45 @@
     "text": "Otra experiencia laboral\n\n\n\n\n\n\n\nCEROMULTAS\nAnalista de negocios\n2019 - 2021\n\n\nT-Rez Consulting\nAnalista de comercio internacional\n2018"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "erratic and incoherent",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Esteban Degetau",
     "section": "",
-    "text": "Performance in the economics profession\n\n\n\n\n\n\n\n\n\n\n\nSep 30, 2024\n\n\nEsteban Degetau\n\n\n\n\n\n\nNo matching items"
+    "text": "About Me\nI am a Policy Economist at the Mexican Social Security Institute (IMSS). I hold a Master’s in Applied Economics from ITAM. My work draws on tools from labor economics and applied econometrics to study formal labor market participation and the effects of social protection policies. I plan to begin doctoral studies in 2026."
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum vitae",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Selected Work",
     "section": "",
-    "text": "Instituto Tecnológico Autónomo de México\nMaster in Applied Economics\nExpected 2025\n\n\nMassachusetts Institute of Technology\nMicroMasters in Data, Economics and Development Policy\n2022\n\n\nInstituto Tecnológico Autónomo de México\nBA in Economics - Specialization in Law\n2021"
+    "text": "Pronóstico de inflación en México: un enfoque de aprendizaje automático. Automated monthly inflation forecasting. URL"
   },
   {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Curriculum vitae",
+    "objectID": "research.html#section",
+    "href": "research.html#section",
+    "title": "Selected Work",
     "section": "",
-    "text": "Instituto Tecnológico Autónomo de México\nMaster in Applied Economics\nExpected 2025\n\n\nMassachusetts Institute of Technology\nMicroMasters in Data, Economics and Development Policy\n2022\n\n\nInstituto Tecnológico Autónomo de México\nBA in Economics - Specialization in Law\n2021"
+    "text": "Pronóstico de inflación en México: un enfoque de aprendizaje automático. Automated monthly inflation forecasting. URL"
   },
   {
-    "objectID": "cv.html#public-service",
-    "href": "cv.html#public-service",
-    "title": "Curriculum vitae",
-    "section": "Public service",
-    "text": "Public service\n\n\n\n\n\n\n\nInstituto Mexicano del Seguro Social\nSubjefe de Division Planeación en Política Fiscal\nCoordinación de Planeación y Evaluación\nDirección de Incorporación y Recaudación\nSince 2023"
+    "objectID": "research.html#section-1",
+    "href": "research.html#section-1",
+    "title": "Selected Work",
+    "section": "2023",
+    "text": "2023\n\nGiving grade points according to GARP: A replication exercise (pdf). For Applied Microeconomics, ITAM.\nData Challenge: Monster hunt en el ITAM (pdf). With Andrea Rancaño and Andrés Bermudez. For Applied Econometrics I, ITAM."
   },
   {
-    "objectID": "cv.html#research-experience",
-    "href": "cv.html#research-experience",
-    "title": "Curriculum vitae",
-    "section": "Research experience",
-    "text": "Research experience\n\n\n\n\n\n\n\nInstituto Tecnológico Autónomo de México (ITAM)\nData and field Research assistant to Enrique Seira and Joyce Sadka at Improving Labor Courts\nCenter for Economic Research (CIE)\n2022 - 2023"
+    "objectID": "research.html#section-2",
+    "href": "research.html#section-2",
+    "title": "Selected Work",
+    "section": "2022",
+    "text": "2022\n\nCorruption or incompentence? Disentanle through learning (pdf). B.A. dissertation, ITAM."
   },
   {
-    "objectID": "cv.html#teaching",
-    "href": "cv.html#teaching",
-    "title": "Curriculum vitae",
-    "section": "Teaching",
-    "text": "Teaching\n\n\n\n\n\n\n\nInstituto Tecnológico Autónomo de México (ITAM)\nTeaching assistant to Joyce Sadka for Economic Analysis of Law (Undergrad)\nFall 2022 - Spring 2023"
-  },
-  {
-    "objectID": "cv.html#recognitions",
-    "href": "cv.html#recognitions",
-    "title": "Curriculum vitae",
-    "section": "Recognitions",
-    "text": "Recognitions\n\n\n\n\n\n\n\nHonorable mention\nUndergraduate COFECE Essay contest.\n2021"
-  },
-  {
-    "objectID": "cv.html#other-work-experience",
-    "href": "cv.html#other-work-experience",
-    "title": "Curriculum vitae",
-    "section": "Other work experience",
-    "text": "Other work experience\n\n\n\n\n\n\n\nCEROMULTAS\nBusiness analyst\n2019 - 2021\n\n\nT-Rez Consulting\nInternational trade analyst\n2018"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Performance in the economics profession",
-    "section": "",
-    "text": "What does it mean to be an economist? Is the question I’ve asked myself since I began my training as one, back in 2016. As any other question of being, a glance through the lense of performative arts may help me understand who economists think they are and why I one to become one. After all, every sense of self in the scene of life is perhaps no more than mere performance.\n\nThe dance of social sciences\nIf you as I, have but a vague idea of what a performance is"
+    "objectID": "research.html#section-3",
+    "href": "research.html#section-3",
+    "title": "Selected Work",
+    "section": "2021",
+    "text": "2021\n\nPoder de mercado laboral y brecha de género (pdf). Presented in COFECE Essay contest."
   }
 ]

@@ -17,6 +17,8 @@ website:
         text: Research
       - href: cv.qmd
         text: CV
+      - href: teaching.qmd
+        text: Teaching
       # - href: blog.qmd
       #   text: Blog
 

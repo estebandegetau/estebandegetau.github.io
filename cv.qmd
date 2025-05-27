@@ -1,5 +1,5 @@
 ---
-title: "Curriculum vitae"
+title: "Curriculum Vitae"
 format: 
   html: 
       date-modified: today
@@ -17,8 +17,15 @@ author:
     email: estebandegetau@gmail.com
     url: https://www.estebandegetau.com
     github: estebandegetau
-    affiliation: Instituto Mexicano del Seguro Social
 ---
+
+## Profile
+
+Economist with expertise in causal inference, public finance, and policy evaluation. Experience leading analytical teams in government and academia, with a focus on incorporating rigorous statistical tools into program design and evaluation. Interested in labor markets, social protection, and the use of data for public impact.
+
+## Research Interests
+
+Labor economics, social protection, applied econometrics, causal inference, public finance, data science for policy
 
 ## Education
 
@@ -36,52 +43,60 @@ author:
 | BA in Economics - Specialization in Law                |               |
 +--------------------------------------------------------+---------------+
 
-## Public service
+## Public Service
 
-+:--------------------------------------------------+--------------:+
-| **Instituto Mexicano del Seguro Social**          | Since 2023    |
-|                                                   |               |
-| Subjefe de Division Planeación en Política Fiscal |               |
-|                                                   |               |
-| Coordinación de Planeación y Evaluación           |               |
-|                                                   |               |
-| Dirección de Incorporación y Recaudación          |               |
-+---------------------------------------------------+---------------+
++:------------------------------------------------------------------------------------------------------------------------------------------------------+---------------:+
+| **Subjefe de División, Política Fiscal** -*Instituto Mexicano del Seguro Social (IMSS)*                                                               | 2023 - Present |
+|                                                                                                                                                       |                |
+| -   Lead analytical planning and evaluation of budget targets related to tax collection and labor market incorporation (Incorporación y Recaudación). |                |
+| -   Developed and implemented causal impact evaluations on incorporation strategies.                                                                  |                |
+| -   Designed and led training initiatives to build internal technical capacity in statistical and economic analysis.                                  |                |
++-------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+
 
-## Research experience
+## Research Experience
 
-+:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------:+
-| **Instituto Tecnológico Autónomo de México** ([ITAM](https://www.itam.mx/en))                                                                                                                                                                                                                             | 2022 - 2023 |
-|                                                                                                                                                                                                                                                                                                           |             |
-| Data and field Research assistant to [Enrique Seira](https://enriqueseira.weebly.com/) and [Joyce Sadka](https://faculty.itam.mx/facultad/4943-joyce-carol-sadka) at [Improving Labor Courts](https://www.povertyactionlab.org/initiative-project/improving-labor-courts-fighting-corruption-competition) |             |
-|                                                                                                                                                                                                                                                                                                           |             |
-| Center for Economic Research ([CIE](http://cie.itam.mx/))                                                                                                                                                                                                                                                 |             |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
++:---------------------------------------------------------------------------------------------------------------------+------------:+
+| **Research Assistant**, ITAM – Center for Economic Research (CIE)\                                                   | 2022 - 2023 |
+| *J-PAL Project*                                                                                                      |             |
+|                                                                                                                      |             |
+| -   Assisted Enrique Seira and Joyce Sadka in field and data research on judicial reform and labor court efficiency. |             |
++----------------------------------------------------------------------------------------------------------------------+-------------+
 
 ## Teaching
 
-+:--------------------------------------------------------------------------------------------------------------------------------------+------------------------:+
-| **Instituto Tecnológico Autónomo de México** ([ITAM](https://www.itam.mx/en))                                                         | Fall 2022 - Spring 2023 |
-|                                                                                                                                       |                         |
-| Teaching assistant to [Joyce Sadka](https://faculty.itam.mx/facultad/4943-joyce-carol-sadka) for Economic Analysis of Law (Undergrad) |                         |
-+---------------------------------------------------------------------------------------------------------------------------------------+-------------------------+
++------------------------------------------------------------------------+------------------------:+
+| **Instructor**, Instituto Mexicano del Seguro Social\                  | Spring 2025             |
+| *Herramientas estadísticas en R*\                                      |                         |
+| [Course materials](https://estebandegetau.com/Statistical-tools-in-R/) |                         |
++------------------------------------------------------------------------+-------------------------+
+| **Teaching Assistant**, ITAM\                                          | Fall 2022 - Spring 2023 |
+| *Economic Analysis of Law (Undergraduate)* – Joyce Sadka               |                         |
++------------------------------------------------------------------------+-------------------------+
+
+## Private Sector
+
++:------------------------------------------------------------------------+--------------:+
+| **Business Analyst**, CEROMULTAS                                        | 2019 - 2021   |
+|                                                                         |               |
+| -   Evaluated legal risk and compliance using operational vehicle data. |               |
++-------------------------------------------------------------------------+---------------+
+| **International Trade Analyst**, T-Rez Consulting, 2018                 | 2018          |
+|                                                                         |               |
+| -   Supported trade compliance analysis for international clients.      |               |
++-------------------------------------------------------------------------+---------------+
+
+## Technical Skills
+
+-   **Programming**: R (expert), Python (intermediate), SQL, Stata, SAS\
+-   **Tools**: Git, Quarto, Power BI, LaTeX\
+-   **Methods**: RDD, DID, matching, IPW, random forests, GRF, data visualization
 
 ## Recognitions
 
-+:--------------------------------------------------------------+-------------:+
-| **Honorable mention**                                         | 2021         |
-|                                                               |              |
-| Undergraduate [COFECE Essay contest](docs/PENSY-Revista.pdf). |              |
-+---------------------------------------------------------------+--------------+
++:------------------------------------------------------+--------------:+
+| Honorable Mention, COFECE Undergraduate Essay Contest | 2021          |
++-------------------------------------------------------+---------------+
 
-## Other work experience
+## References
 
-+:---------------------------------------------------------+--------------:+
-| [**CEROMULTAS**](https://ceromultas.mx/)                 | 2019 - 2021   |
-|                                                          |               |
-| Business analyst                                         |               |
-+----------------------------------------------------------+---------------+
-| [**T-Rez Consulting**](https://www.t-rezconsulting.com/) | 2018          |
-|                                                          |               |
-| International trade analyst                              |               |
-+----------------------------------------------------------+---------------+
+Available upon request.
