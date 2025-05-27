@@ -1,9 +1,0 @@
----
-title: "Teaching"
----
-
-## Primary Instructor
-
-[**Herramientas Estadísticas en R**](https://estebandegetau.com/Statistical-tools-in-R/)
-
-Course, Instituto Mexicano del Seguro Social (IMMS), 2025
