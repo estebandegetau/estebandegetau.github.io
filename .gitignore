@@ -3,6 +3,8 @@
 .RData
 .Ruserdata
 /.quarto/
+/_freeze/
+/_extensions/
 /_site/
 /.luarc.json
 /J-PAL
