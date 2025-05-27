@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://estebandegetau.github.io/posts/welcome/index.html</loc>
-    <lastmod>2025-05-27T22:16:01.103Z</lastmod>
-  </url>
-  <url>
     <loc>https://estebandegetau.github.io/teaching.html</loc>
-    <lastmod>2025-05-27T22:16:01.110Z</lastmod>
+    <lastmod>2025-05-27T21:49:08.480Z</lastmod>
   </url>
   <url>
-    <loc>https://estebandegetau.github.io/research.html</loc>
-    <lastmod>2025-05-27T22:16:01.103Z</lastmod>
-  </url>
-  <url>
-    <loc>https://estebandegetau.github.io/cv-es.html</loc>
-    <lastmod>2025-05-27T22:16:01.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://estebandegetau.github.io/index.html</loc>
-    <lastmod>2025-05-27T22:16:01.098Z</lastmod>
+    <loc>https://estebandegetau.github.io/posts/welcome/index.html</loc>
+    <lastmod>2025-05-27T21:49:08.454Z</lastmod>
   </url>
   <url>
     <loc>https://estebandegetau.github.io/cv.html</loc>
-    <lastmod>2025-05-27T22:16:01.081Z</lastmod>
+    <lastmod>2025-05-27T21:49:08.335Z</lastmod>
   </url>
   <url>
     <loc>https://estebandegetau.github.io/blog.html</loc>
-    <lastmod>2025-05-27T22:16:01.081Z</lastmod>
+    <lastmod>2025-05-27T21:49:08.333Z</lastmod>
+  </url>
+  <url>
+    <loc>https://estebandegetau.github.io/cv-es.html</loc>
+    <lastmod>2025-05-27T21:49:08.334Z</lastmod>
+  </url>
+  <url>
+    <loc>https://estebandegetau.github.io/index.html</loc>
+    <lastmod>2025-05-27T21:49:08.451Z</lastmod>
+  </url>
+  <url>
+    <loc>https://estebandegetau.github.io/research.html</loc>
+    <lastmod>2025-05-27T22:05:36.967Z</lastmod>
   </url>
 </urlset>
