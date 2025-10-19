@@ -1,20 +1,17 @@
 ---
-title: "Selected Work"
+title: "Research"
 ---
 
-## 2024
 
-- **Pronóstico de inflación en México: un enfoque de aprendizaje automático**. Automated monthly inflation forecasting. [URL](https://www.estebandegetau.com/Inflation-Forecast/)
+## Working Papers
 
-## 2023
+- **The Labor Market Outcomes of (Quasi) Unemployment Insurance: Evidence from Mexico's *Retiro Parcial por Desempleo*** ([article](https://www.estebandegetau.com/RPD_LM/)). Master's thesis, ITAM.
+
+
+## Other Research
 
 - **Giving grade points according to GARP: A replication exercise** ([pdf](portfolio/garp.pdf)). For Applied Microeconomics, ITAM. 
 
-
-## 2022
-
 - **Corruption or incompentence? Disentanle through learning** ([pdf](portfolio/corruption.pdf)). B.A. dissertation, ITAM.
-
-## 2021
 
 - **Poder de mercado laboral y brecha de género** ([pdf](portfolio/monopsony.pdf)). Presented in [COFECE Essay contest](https://www.cofece.mx/revista-del-premio-cofece-de-ensayo-2021/).

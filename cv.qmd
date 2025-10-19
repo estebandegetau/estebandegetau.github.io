@@ -1,114 +1,111 @@
 ---
-title: "Curriculum Vitae"
 format: 
   html: 
+      title: "Curriculum Vitae"
+      author: 
+        - name: "Esteban Degetau"
       date-modified: today
       date-format: long
       css: styles.css
   typst: 
-    fontsize: 9pt
+    title: Esteban Degetau
+    subtitle: Curriculum Vitae
     papersize: us-letter
     date: today
     date-format: long
-tbl-colwidths: [70,30]
-author: 
-  - name: "Esteban Degetau"
-    orcid: 0009-0004-4095-8819
-    email: estebandegetau@gmail.com
-    url: https://www.estebandegetau.com
-    github: estebandegetau
+tbl-colwidths: [80,20]
 ---
 
-## Profile
+## Contact
 
-Economist with expertise in causal inference, public finance, and policy evaluation. Experience leading analytical teams in government and academia, with a focus on incorporating rigorous statistical tools into program design and evaluation. Interested in labor markets, social protection, and the use of data for public impact.
+Email: [estebandegetau\@gmail.com](mailto:estebandegetau@gmail.com)   
 
-## Research Interests
+Personal site: [estebandegetau.com](https://www.estebandegetau.com)           
 
-Labor economics, social protection, applied econometrics, causal inference, public finance, data science for policy
+GitHub: [github.com/estebandegetau](https://github.com/estebandegetau) 
+
+Location: Mexico City, Mexico
 
 ## Education
 
-+:-------------------------------------------------------+--------------:+
-| **Instituto Tecnológico Autónomo de México**           | Expected 2025 |
-|                                                        |               |
-| Master in Applied Economics                            |               |
-+--------------------------------------------------------+---------------+
-| **Massachusetts Institute of Technology**              | 2022          |
-|                                                        |               |
-| MicroMasters in Data, Economics and Development Policy |               |
-+--------------------------------------------------------+---------------+
-| **Instituto Tecnológico Autónomo de México**           | 2021          |
-|                                                        |               |
-| BA in Economics - Specialization in Law                |               |
-+--------------------------------------------------------+---------------+
+M.S. Applied Economics, Instituto Tecnológico Autónomo de México (ITAM), High Honors, 2025
 
-## Public Service
-
-+:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------:+
-| **Subjefe de División, Política Fiscal** -*Instituto Mexicano del Seguro Social (IMSS)*                                                                                                                                                                                                                      | 2023 - Present |
-|                                                                                                                                                                                                                                                                                                              |                |
-| -   Lead analytical planning and policy evaluation in the areas of labor market enrollment and social security collection, using administrative data and quasi-experimental methods.                                                                                                                         |                |
-|                                                                                                                                                                                                                                                                                                              |                |
-| -   Direct research on collection opportunities and compliance strategies using econometric modeling and machine learning techniques.                                                                                                                                                                        |                |
-|                                                                                                                                                                                                                                                                                                              |                |
-| -   Evaluate the projected impact of hypothetical policy reforms, such as eligibility rule changes, on employment, wages, and institutional revenues.                                                                                                                                                        |                |
-|                                                                                                                                                                                                                                                                                                              |                |
-| -   Manage and mentor a team of analysts, advancing multiple projects to (i) improve record linkage with national surveys, (ii) automate reporting workflows, (iii) enhance the rigor and clarity of policy-facing deliverables, and (iv) integrate stronger empirical foundations into ongoing evaluations. |                |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+
+B.S. Economics, ITAM, 2021
 
 ## Research Experience
 
-+:----------------------------------------------------------------------------------------------------------------------------------------------------------------+------------:+
-| **Research Assistant**, ITAM – Center for Economic Research (CIE)\                                                                                              | 2022 - 2023 |
-| *J-PAL Project*                                                                                                                                                 |             |
-|                                                                                                                                                                 |             |
-| -   Supported Enrique Seira and Joyce Sadka in field implementation and data analysis for randomized and quasi-experimental evaluations of labor court reforms. |             |
-|                                                                                                                                                                 |             |
-| <!-- -->                                                                                                                                                        |             |
-|                                                                                                                                                                 |             |
-| -   Developed independent research, including a heterogeneous treatment effects analysis, which became the basis for my undergraduate thesis.                   |             |
-|                                                                                                                                                                 |             |
-| <!-- -->                                                                                                                                                        |             |
-|                                                                                                                                                                 |             |
-| -   Managed daily data workflows and delivered rapid-turnaround analyses to guide field operations and policy design.                                           |             |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
++-----------------------------------------------------------------------------------------------------------------+---------------:+
+| World Bank                                                                                                      | \              |
+|                                                                                                                 | 2025 - present |
+| :   Short-term Consultant - Macroeconomics and Growth, Development Research Group, practice to Agustín Samano   |                |
++-----------------------------------------------------------------------------------------------------------------+----------------+
+| ITAM                                                                                                            | \              |
+|                                                                                                                 | 2022 - 2023    |
+| :   Graduate Research Assistant - Center for Economic Research (CIE), practice to Joyce Sadka and Enrique Seira |                |
++-----------------------------------------------------------------------------------------------------------------+----------------+
 
-## Teaching
+## Working Papers
 
-+------------------------------------------------------------------------+------------------------:+
-| **Instructor**, Instituto Mexicano del Seguro Social\                  | Spring 2025             |
-| *Herramientas estadísticas en R*\                                      |                         |
-| [Course materials](https://estebandegetau.com/Statistical-tools-in-R/) |                         |
-+------------------------------------------------------------------------+-------------------------+
-| **Teaching Assistant**, ITAM\                                          | Fall 2022 - Spring 2023 |
-| *Economic Analysis of Law (Undergraduate)* – Joyce Sadka               |                         |
-+------------------------------------------------------------------------+-------------------------+
+The Labor Market Outcomes of (Quasi) Unemployment Insurance: Evidence from Mexico's *Retiro Parcial por Desempleo*.
 
-## Private Sector
+## Teaching Experience
 
-+:------------------------------------------------------------------------+-------------:+
-| **Business Analyst**, CEROMULTAS                                        | 2019 - 2021  |
-|                                                                         |              |
-| -   Evaluated legal risk and compliance using operational vehicle data. |              |
-+-------------------------------------------------------------------------+--------------+
-| **International Trade Analyst**, T-Rez Consulting, 2018                 | 2018         |
-|                                                                         |              |
-| -   Supported trade compliance analysis for international clients.      |              |
-+-------------------------------------------------------------------------+--------------+
++------------------------------------------------------+--------------:+
+| ITAM                                                 | \             |
+|                                                      | Fall 2025     |
+| :   Principles of Microeconomics - undergraduate     |               |
++------------------------------------------------------+---------------+
+| Instituto Mexicano del Seguro Social (IMSS)          | \             |
+|                                                      | Spring 2025   |
+| :   Herramientas estadísticas en R - office training |               |
++------------------------------------------------------+---------------+
 
-## Technical Skills
 
--   **Programming**: R (expert), Python (intermediate), SQL, Stata, SAS\
--   **Tools**: Git, Quarto, Power BI, LaTeX\
--   **Methods**: RDD, DID, matching, IPW, random forests, GRF, data visualization
+
+## Public Service
+
++--------------------------------------------+--------------:+
+| IMSS                                       | \             |
+|                                            | 2023 - 2025   |
+| :   Deputy Head, Fiscal Policy Planning    |               |
++--------------------------------------------+---------------+
+
+## Industry Experience
+
++---------------------------------+--------------:+
+| CEROMULTAS                      | \             |
+|                                 | 2019 - 2021   |
+| :   Business Analyist           |               |
++---------------------------------+---------------+
+| T-Rez Consulting                | \             |
+|                                 | 2018          |
+| :   International Trade Analyst |               |
++---------------------------------+---------------+
 
 ## Recognitions
 
-+:------------------------------------------------------+--------------:+
-| Honorable Mention, COFECE Undergraduate Essay Contest | 2021          |
-+-------------------------------------------------------+---------------+
++--------------+:---------------------------------------------------------------+
+| 2021         | COFECE Undergraduate Essay Contest (Honorable mention), Mexico |
++--------------+----------------------------------------------------------------+
 
-## References
+: {tbl-colwidths="\[10,90\]"}
 
-Available upon request.
+## Certifications
+
++--------------+:--------------------------------------------------------------+
+| 2022         | MicroMasters in Data, Economics and Development Policy - MITx |
++--------------+---------------------------------------------------------------+
+
+: {tbl-colwidths="\[10,90\]"}
+
+## Technical Skills
+
++---------------:+:---------------------------------------------------+
+| Programming:   | R, Python, Stata, SQL, SAS                         |
++----------------+----------------------------------------------------+
+| Tools:         | Git, Quarto, Power BI, LaTeX                       |
++----------------+----------------------------------------------------+
+| Languages:     | Spanish, English                                   |
++----------------+----------------------------------------------------+
+
+: {tbl-colwidths="\[20,80\]"}

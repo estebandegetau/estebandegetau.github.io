@@ -4,9 +4,9 @@ about:
     template: solana
     image-width: 20em
     links:
-        - icon: twitter
-          text: Twitter
-          url: https://twitter.com/estebandegetau
+        - icon: x
+          text: X
+          url: https://x.com/estebandegetau
         - icon: github
           text: GitHub
           url: https://github.com/estebandegetau
@@ -23,4 +23,4 @@ image: "images/eds-2024.jpg"
 
 # About Me
 
-I am a Policy Economist at the Mexican Social Security Institute ([IMSS](http://datos.imss.gob.mx/)). I hold a Master’s in Applied Economics from [ITAM](https://www.itam.mx/). My work draws on tools from labor economics and applied econometrics to study formal labor market participation and the effects of social protection policies. I plan to begin doctoral studies in 2026.
+I am an economist working at the World Bank’s Development Research Group (Macroeconomics and Growth) as Short-Term Consultant. I hold an M.S. in Applied Economics with high honors from [ITAM](https://www.itam.mx/). Previously, I worked at the Mexican Social Security Institute (IMSS), where I developed an interest in labor market transitions and social protection policy. My research draws on labor economics and applied econometrics, and I plan to begin doctoral studies in economics in 2026.

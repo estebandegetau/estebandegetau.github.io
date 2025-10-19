@@ -2,8 +2,12 @@
 title: "Teaching"
 ---
 
-## Primary Instructor
 
-[**Herramientas Estadísticas en R**](https://estebandegetau.com/Statistical-tools-in-R/)
 
-Course, Instituto Mexicano del Seguro Social (IMMS), 2025
+- **Principios de Microeconomía** (Principles of Microeconomics)
+    
+    Undergraduate, Instituto Tecnológico Autónomo de México (ITAM), Fall 2025
+
+- [**Herramientas Estadísticas en R**](https://estebandegetau.com/Statistical-tools-in-R/) (Statistical Tools in R)
+
+    Office training, Instituto Mexicano del Seguro Social (IMSS), Spring 2025

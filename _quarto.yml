@@ -1,5 +1,11 @@
 project:
   type: website
+  render:
+    - cv.qmd
+    - index.qmd
+    - research.qmd
+    - teaching.qmd
+    # - blog.qmd
   output-dir: _site
 
 execute:
