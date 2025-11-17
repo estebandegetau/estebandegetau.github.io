@@ -28,13 +28,13 @@
 <p>En principio, cualquier mecanismo que sustituye ingresos durante el desempleo tiene dos efectos potenciales: puede prolongar la búsqueda de trabajo —porque reduce la urgencia inmediata de aceptar cualquier empleo—, pero también puede mejorar la calidad del siguiente empleo, al permitir un proceso de búsqueda más cuidadoso. Además, un buen seguro de desempleo generalmente reduce desigualdades, porque redistribuye el costo del riesgo desde los trabajadores más vulnerables hacia quienes tienen más ingresos y menos probabilidad de perder su empleo.</p>
 <p>¿Encaja el RPD en esa lógica? ¿Es realmente un mecanismo que ofrece liquidez en tiempos difíciles sin generar costos laborales o sociales?</p>
 <p>Cuando trabajé en el IMSS y analicé millones de trayectorias laborales en los datos administrativos, encontré evidencia que contradice esa narrativa por completo.<sup>1</sup></p>
-<section id="diseño-experimental-una-regla-simple-que-genera-un-experimento-natural" class="level2">
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;Este análisis forma parte de mi tesis de la Maestría en Economía Aplicada del ITAM, desarrollada precisamente mientras ocupaba ese puesto. Los resultados completos están disponibles en <span class="citation" data-cites="degetau">Degetau (2025)</span>. Aquí presento un resumen de los hallazgos más relevantes.</p></div></div><section id="diseño-experimental-una-regla-simple-que-genera-un-experimento-natural" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="diseño-experimental-una-regla-simple-que-genera-un-experimento-natural">Diseño experimental: una regla simple que genera un experimento natural</h2>
 <p>El RPD tiene una regla aparentemente trivial: solo pueden usarlo quienes acumulan dos años de cotización al IMSS al momento de perder el empleo.</p>
 <p>Esa línea precisa crea una oportunidad poco común. Permite comparar a trabajadores que, en la práctica, son casi idénticos —misma edad, historial laboral, salario previo— pero que se diferencian únicamente por haber cruzado o no ese umbral. Uno cotizó 1.99 años; otro, 2.01. Uno es elegible para el RPD; el otro no.</p>
 <p>Esa discontinuidad funciona como un experimento natural. Al observar lo que ocurre justo alrededor del umbral, puedo identificar el efecto causal del acceso al RPD, aislándolo de otras características del trabajador.</p>
 <p>La Figura&nbsp;1 muestra este salto en la probabilidad de usar el RPD durante los 12 meses posteriores al despido. Quienes apenas cumplen los dos años de cotización utilizan el programa con una probabilidad cercana al 6%, mientras que quienes se quedan justo por debajo lo hacen alrededor del 2%.<sup>2</sup> Ese salto de 4 puntos porcentuales es lo que activa el experimento natural: es la diferencia inducida únicamente por la regla.</p>
-<p>Es un uso modesto comparado con los seguros de desempleo en otros países, pero suficiente para estudiar sus consecuencias laborales.<sup>3</sup></p>
+<div class="no-row-height column-margin column-container"><div id="fn2"><p><sup>2</sup>&nbsp;Algunos trabajadores parecen usar el RPD aun cuando, según los datos, no serían elegibles. Esto probablemente refleja errores de captura o actualizaciones tardías: es posible que muchos de ellos sí cumplieran la regla al momento de solicitar el retiro.</p></div><div id="fn3"><p><sup>3</sup>&nbsp;Este diseño permite identificar efectos causales, pero solo para quienes están cerca del umbral de dos años de cotización —el grupo cuya elegibilidad cambia por muy poco. Los resultados no deben interpretarse como válidos para trabajadores con trayectorias mucho más largas o mucho más cortas.</p></div></div><p>Es un uso modesto comparado con los seguros de desempleo en otros países, pero suficiente para estudiar sus consecuencias laborales.<sup>3</sup></p>
 <div class="cell">
 <div class="cell-output-display">
 <div id="fig-rd-take-up" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -94,11 +94,11 @@ Figura&nbsp;2: Efecto del RPD en búsqueda de empleo. Intervalos de confianza al
 </figure>
 </div>
 </section>
-<section id="ese-tiempo-extra-no-se-traduce-en-mejores-trabajos" class="level2">
+<section id="ese-tiempo-extra-no-se-traduce-en-mejores-trabajos" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="ese-tiempo-extra-no-se-traduce-en-mejores-trabajos">Ese tiempo extra no se traduce en mejores trabajos</h2>
 <p>Una explicación posible para el aumento en la duración del desempleo es que los trabajadores aprovechan ese tiempo adicional para buscar mejores empleos. Bajo esa lógica, el RPD no solo prolongaría la búsqueda, sino que permitiría encontrar trabajos más estables o mejor remunerados.</p>
 <p>Pero la evidencia no respalda esa hipótesis. La Tabla&nbsp;1 muestra que, a pesar de los ocho meses adicionales de desempleo, no hay mejoras significativas en la calidad del empleo posterior. Ni los ingresos mensuales, ni los ingresos acumulados en los tres años siguientes, ni la duración del nuevo empleo cambian de forma estadísticamente relevante para quienes usan el RPD.<sup>4</sup></p>
-<p>En otras palabras: el RPD ofrece liquidez en el corto plazo, pero no mejora las oportunidades laborales subsecuentes. El costo —36 semanas adicionales sin empleo— no se compensa con empleos de mayor calidad. Eso vuelve el efecto aún más difícil de justificar desde la perspectiva de política pública.</p>
+<div class="no-row-height column-margin column-container"><div id="fn4"><p><sup>4</sup>&nbsp;Para interpretar los coeficientes de la tabla, usamos un criterio estándar en estadística aplicada: se divide el coeficiente entre su error estándar. Si ese cociente es aproximadamente mayor a dos en valor absoluto, consideramos que el coeficiente es estadísticamente distinto de cero al nivel del 5%. Si es menor, no podemos distinguir el efecto del cero con suficiente precisión.</p></div></div><p>En otras palabras: el RPD ofrece liquidez en el corto plazo, pero no mejora las oportunidades laborales subsecuentes. El costo —36 semanas adicionales sin empleo— no se compensa con empleos de mayor calidad. Eso vuelve el efecto aún más difícil de justificar desde la perspectiva de política pública.</p>
 <div id="tbl-job-search" class="quarto-layout-panel anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-job-search-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -210,12 +210,12 @@ Tabla&nbsp;1: Efectos del RPD en búsqueda de empleo
 </figure>
 </div>
 </section>
-<section id="amplifica-las-desigualdades-preexistentes" class="level2">
+<section id="amplifica-las-desigualdades-preexistentes" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="amplifica-las-desigualdades-preexistentes">Amplifica las desigualdades preexistentes</h2>
 <p>Los efectos del RPD no son uniformes: dependen de manera marcada del nivel de ingresos previo al despido.</p>
 <p>Entre los trabajadores con ingresos por debajo de la mediana, la duración del desempleo aumenta en alrededor de 46 semanas, y no hay mejoras salariales posteriores.</p>
 <p>Entre los trabajadores con ingresos por encima de la mediana, el RPD no prolonga significativamente el desempleo, y sí se observan mejores salarios posteriores —aproximadamente $6,000 MXN adicionales al mes— aunque con intervalos de confianza amplios.<sup>5</sup></p>
-<p>Este patrón sugiere una dinámica regresiva: el mismo mecanismo beneficia a quienes ya tenían mayor estabilidad financiera y castiga a quienes estaban en mayor vulnerabilidad. El RPD no solo refleja desigualdades laborales preexistentes; en muchos casos, las profundiza.</p>
+<div class="no-row-height column-margin column-container"><div id="fn5"><p><sup>5</sup>&nbsp;En las gráficas, los puntos muestran el efecto estimado y las líneas verticales su intervalo de confianza al 95%. Si ese intervalo incluye el cero, no podemos concluir que el efecto sea estadísticamente distinto de cero; si no lo incluye, el efecto se considera estadísticamente significativo.</p></div></div><p>Este patrón sugiere una dinámica regresiva: el mismo mecanismo beneficia a quienes ya tenían mayor estabilidad financiera y castiga a quienes estaban en mayor vulnerabilidad. El RPD no solo refleja desigualdades laborales preexistentes; en muchos casos, las profundiza.</p>
 <div id="fig-het-income" class="quarto-layout-panel">
 <figure class="quarto-float quarto-float-fig figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-het-income-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -252,13 +252,13 @@ Figura&nbsp;3: Efectos del RPD por nivel de ingresos previos al despido. Interva
 </figure>
 </div>
 </section>
-<section id="afecta-más-a-los-trabajadores-jóvenes" class="level2">
+<section id="afecta-más-a-los-trabajadores-jóvenes" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="afecta-más-a-los-trabajadores-jóvenes">Afecta más a los trabajadores jóvenes</h2>
 <p>Uno de los resultados más preocupantes es la diferencia generacional en los efectos del RPD. Al dividir la muestra por la edad mediana al momento del despido, los contrastes son marcados:</p>
 <p>Entre los trabajadores más jóvenes, el RPD está asociado con una pérdida de alrededor de 35 semanas de empleo formal, y no se observan mejoras salariales posteriores.</p>
 <p>Entre los trabajadores mayores, no se detecta una reducción significativa en las semanas de empleo formal, y el punto estimado en salarios posteriores es positivo (alrededor de $10,000 MXN), aunque el intervalo de confianza es amplio y no permite afirmar un efecto preciso.</p>
 <p>Esta asimetría importa porque las primeras etapas de la trayectoria laboral son especialmente sensibles. Una desconexión tan prolongada al inicio de la carrera —justo cuando se acumula experiencia y se consolidan habilidades— puede tener efectos persistentes durante años.<sup>6</sup></p>
-<div id="fig-het-age" class="quarto-layout-panel">
+<div class="no-row-height column-margin column-container"><div id="fn6"><p><sup>6</sup>&nbsp;Los efectos negativos del desempleo suelen ser más duraderos en trabajadores jóvenes porque sus primeras experiencias laborales son clave para acumular habilidades, reputación y redes profesionales. Una interrupción prolongada en esta etapa puede generar “cicatrices” persistentes: pérdida de experiencia, menor ritmo de aprendizaje y entrada más tardía a trayectorias laborales estables, lo que afecta ingresos y estabilidad en el largo plazo.</p></div></div><div id="fig-het-age" class="quarto-layout-panel">
 <figure class="quarto-float quarto-float-fig figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-het-age-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;4: Efectos del RPD por edad al momento del despido. Intervalos de confianza al 95%.
@@ -410,17 +410,7 @@ Degetau, Esteban. 2025. <span>«The Labor Market Outcomes of (Quasi) Unemploymen
 <div id="ref-sadka2024" class="csl-entry">
 Sadka, Joyce, Enrique Seira, y Christopher Woodruff. 2024. <span>«Information and Bargaining through Agents: Experimental Evidence from Mexico<span>’</span>s Labour Courts»</span>. <em>The Review of Economic Studies</em>, febrero, rdae003. <a href="https://doi.org/10.1093/restud/rdae003">https://doi.org/10.1093/restud/rdae003</a>.
 </div>
-</div></section><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Notas</h2>
-
-<ol>
-<li id="fn1"><p>Este análisis forma parte de mi tesis de la Maestría en Economía Aplicada del ITAM, desarrollada precisamente mientras ocupaba ese puesto. Los resultados completos están disponibles en <span class="citation" data-cites="degetau">Degetau (2025)</span>. Aquí presento un resumen de los hallazgos más relevantes.↩︎</p></li>
-<li id="fn2"><p>Algunos trabajadores parecen usar el RPD aun cuando, según los datos, no serían elegibles. Esto probablemente refleja errores de captura o actualizaciones tardías: es posible que muchos de ellos sí cumplieran la regla al momento de solicitar el retiro.↩︎</p></li>
-<li id="fn3"><p>Este diseño permite identificar efectos causales, pero solo para quienes están cerca del umbral de dos años de cotización —el grupo cuya elegibilidad cambia por muy poco. Los resultados no deben interpretarse como válidos para trabajadores con trayectorias mucho más largas o mucho más cortas.↩︎</p></li>
-<li id="fn4"><p>Para interpretar los coeficientes de la tabla, usamos un criterio estándar en estadística aplicada: se divide el coeficiente entre su error estándar. Si ese cociente es aproximadamente mayor a dos en valor absoluto, consideramos que el coeficiente es estadísticamente distinto de cero al nivel del 5%. Si es menor, no podemos distinguir el efecto del cero con suficiente precisión.↩︎</p></li>
-<li id="fn5"><p>En las gráficas, los puntos muestran el efecto estimado y las líneas verticales su intervalo de confianza al 95%. Si ese intervalo incluye el cero, no podemos concluir que el efecto sea estadísticamente distinto de cero; si no lo incluye, el efecto se considera estadísticamente significativo.↩︎</p></li>
-<li id="fn6"><p>Los efectos negativos del desempleo suelen ser más duraderos en trabajadores jóvenes porque sus primeras experiencias laborales son clave para acumular habilidades, reputación y redes profesionales. Una interrupción prolongada en esta etapa puede generar “cicatrices” persistentes: pérdida de experiencia, menor ritmo de aprendizaje y entrada más tardía a trayectorias laborales estables, lo que afecta ingresos y estabilidad en el largo plazo.↩︎</p></li>
-</ol>
-</section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reutilización</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es">CC BY-NC 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cómo citar</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{degetau2025,
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reutilización</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es">CC BY-NC 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cómo citar</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{degetau2025,
   author = {Degetau, Esteban},
   title = {El Retiro Parcial por Desempleo: un sustituto costoso ante la
     ausencia de un seguro de desempleo},
