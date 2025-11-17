@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.estebandegetau.com/posts/rpd/index.html</loc>
+    <lastmod>2025-11-17T14:02:37.158Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.estebandegetau.com/teaching.html</loc>
     <lastmod>2025-10-19T12:57:58.244Z</lastmod>
   </url>
   <url>
     <loc>https://www.estebandegetau.com/index.html</loc>
-    <lastmod>2025-10-30T13:43:18.234Z</lastmod>
+    <lastmod>2025-11-17T01:48:03.173Z</lastmod>
   </url>
   <url>
     <loc>https://www.estebandegetau.com/cv.html</loc>
-    <lastmod>2025-10-30T13:39:29.571Z</lastmod>
+    <lastmod>2025-11-05T17:53:53.295Z</lastmod>
   </url>
   <url>
     <loc>https://www.estebandegetau.com/research.html</loc>
     <lastmod>2025-10-18T22:49:34.255Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/blog.html</loc>
+    <lastmod>2025-11-17T01:34:03.002Z</lastmod>
   </url>
 </urlset>

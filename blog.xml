@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Esteban Degetau</title>
+<link>https://www.estebandegetau.com/blog.html</link>
+<atom:link href="https://www.estebandegetau.com/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Esteban Degetau&#39;s Personal Website</description>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Mon, 17 Nov 2025 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>El Retiro Parcial por Desempleo: un sustituto costoso ante la ausencia de un seguro de desempleo</title>
+  <dc:creator>Esteban Degetau</dc:creator>
+  <link>https://www.estebandegetau.com/posts/rpd/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>Perder el empleo en México no solo implica perder un ingreso: es enfrentarse a un sistema de protección casi inexistente. La mayoría de los trabajadores nunca recibe la indemnización que marca la Constitución; los juicios laborales se prolongan durante años; y no existe un seguro de desempleo nacional que distribuya el riesgo de manera colectiva. En ese vacío institucional, millones recurren al Retiro Parcial por Desempleo (RPD): retirar parte de su propio ahorro pensional para sobrevivir.</p>
+<p>En el debate público, sin embargo, la preocupación se ha centrado en otros frentes: el aumento inusual del uso del RPD desde la pandemia, que no ha cedido <span class="citation" data-cites="carbajal2025">(Carbajal 2025)</span>; la pérdida de semanas cotizadas al utilizarlo <span class="citation" data-cites="aguilar2025">(Aguilar 2025)</span>; o los retiros irregulares que ya detonaron ajustes normativos <span class="citation" data-cites="aristegui">(Aristegui Noticias 2025)</span>. Todos estos puntos son relevantes, pero comparten una omisión llamativa.</p>
+<p>Casi nadie discute qué implica el RPD para las trayectorias laborales de quienes lo usan.</p>
+<p>En principio, cualquier mecanismo que sustituye ingresos durante el desempleo tiene dos efectos potenciales: puede prolongar la búsqueda de trabajo —porque reduce la urgencia inmediata de aceptar cualquier empleo—, pero también puede mejorar la calidad del siguiente empleo, al permitir un proceso de búsqueda más cuidadoso. Además, un buen seguro de desempleo generalmente reduce desigualdades, porque redistribuye el costo del riesgo desde los trabajadores más vulnerables hacia quienes tienen más ingresos y menos probabilidad de perder su empleo.</p>
+<p>¿Encaja el RPD en esa lógica? ¿Es realmente un mecanismo que ofrece liquidez en tiempos difíciles sin generar costos laborales o sociales?</p>
+<p>Cuando trabajé en el IMSS y analicé millones de trayectorias laborales en los datos administrativos, encontré evidencia que contradice esa narrativa por completo.<sup>1</sup></p>
+<section id="diseño-experimental-una-regla-simple-que-genera-un-experimento-natural" class="level2">
+<h2 class="anchored" data-anchor-id="diseño-experimental-una-regla-simple-que-genera-un-experimento-natural">Diseño experimental: una regla simple que genera un experimento natural</h2>
+<p>El RPD tiene una regla aparentemente trivial: solo pueden usarlo quienes acumulan dos años de cotización al IMSS al momento de perder el empleo.</p>
+<p>Esa línea precisa crea una oportunidad poco común. Permite comparar a trabajadores que, en la práctica, son casi idénticos —misma edad, historial laboral, salario previo— pero que se diferencian únicamente por haber cruzado o no ese umbral. Uno cotizó 1.99 años; otro, 2.01. Uno es elegible para el RPD; el otro no.</p>
+<p>Esa discontinuidad funciona como un experimento natural. Al observar lo que ocurre justo alrededor del umbral, puedo identificar el efecto causal del acceso al RPD, aislándolo de otras características del trabajador.</p>
+<p>La Figura&nbsp;1 muestra este salto en la probabilidad de usar el RPD durante los 12 meses posteriores al despido. Quienes apenas cumplen los dos años de cotización utilizan el programa con una probabilidad cercana al 6%, mientras que quienes se quedan justo por debajo lo hacen alrededor del 2%.<sup>2</sup> Ese salto de 4 puntos porcentuales es lo que activa el experimento natural: es la diferencia inducida únicamente por la regla.</p>
+<p>Es un uso modesto comparado con los seguros de desempleo en otros países, pero suficiente para estudiar sus consecuencias laborales.<sup>3</sup></p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-rd-take-up" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-rd-take-up-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1: Efecto de elegibilidad sobre el uso del RPD a 12 meses de la separación laboral.
+</figcaption>
+<div aria-describedby="fig-rd-take-up-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="index_files/figure-html/fig-rd-take-up-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figura&nbsp;1: Efecto de elegibilidad sobre el uso del RPD a 12 meses de la separación laboral."><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-rd-take-up-1.png" class="img-fluid figure-img" width="672"></a>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="efecto-en-la-búsqueda-de-empleo" class="level2">
+<h2 class="anchored" data-anchor-id="efecto-en-la-búsqueda-de-empleo">Efecto en la búsqueda de empleo</h2>
+<p>El resultado más contundente —y también el más incómodo— es que usar el RPD prolonga de manera sustancial el desempleo. Entre quienes acceden al programa, la duración total del desempleo aumenta en alrededor de 36 semanas durante los primeros tres años, casi ocho meses adicionales, lo que equivale a un incremento cercano al 70%.</p>
+<p>La Figura&nbsp;2 (a) muestra el primer paso de esa dinámica: aunque el efecto inicial en la probabilidad de permanecer desempleado es relativamente modesto, persiste a lo largo del tiempo. Esa diferencia acumulada se traduce en el resultado más claro del estudio, que se observa en la Figura&nbsp;2 (b): una brecha creciente en la duración total del desempleo.</p>
+<p>Esto no es un ajuste marginal. Es una alteración significativa de la trayectoria laboral posterior al despido.</p>
+<p>Y lo más importante es lo que implica sobre el diseño del programa. El acceso a liquidez autofinanciada —que en principio debería ser neutral— modifica los incentivos de búsqueda y prolonga el tiempo sin empleo. No puedo identificar directamente el mecanismo, pero el patrón es consistente con una menor urgencia de aceptar un nuevo trabajo cuando se cuenta con un colchón financiero temporal.</p>
+<div id="fig-rd-survival" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-rd-survival-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;2: Efecto del RPD en búsqueda de empleo. Intervalos de confianza al 95%.
+</figcaption>
+<div aria-describedby="fig-rd-survival-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-rd-survival" style="flex-basis: 100.0%;justify-content: flex-start;">
+<div id="fig-rd-survival-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-fig" id="fig-rd-survival-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Efecto del RPD en tasa de supervivencia en el desempleo
+</figcaption>
+<div aria-describedby="fig-rd-survival-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="index_files/figure-html/fig-rd-survival-1.png" class="lightbox" data-gallery="fig-rd-survival" title="Figura&nbsp;2&nbsp;(a): Efecto del RPD en tasa de supervivencia en el desempleo"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-rd-survival-1.png" class="img-fluid figure-img" data-ref-parent="fig-rd-survival" width="768"></a>
+</div>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-rd-survival" style="flex-basis: 100.0%;justify-content: flex-start;">
+<div id="fig-rd-survival-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-fig" id="fig-rd-survival-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Efecto del RPD en duración del desempleo (semanas)
+</figcaption>
+<div aria-describedby="fig-rd-survival-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="index_files/figure-html/fig-rd-survival-2.png" class="lightbox" data-gallery="fig-rd-survival" title="Figura&nbsp;2&nbsp;(b): Efecto del RPD en duración del desempleo (semanas)"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-rd-survival-2.png" class="img-fluid figure-img" data-ref-parent="fig-rd-survival" width="768"></a>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</figure>
+</div>
+</section>
+<section id="ese-tiempo-extra-no-se-traduce-en-mejores-trabajos" class="level2">
+<h2 class="anchored" data-anchor-id="ese-tiempo-extra-no-se-traduce-en-mejores-trabajos">Ese tiempo extra no se traduce en mejores trabajos</h2>
+<p>Una explicación posible para el aumento en la duración del desempleo es que los trabajadores aprovechan ese tiempo adicional para buscar mejores empleos. Bajo esa lógica, el RPD no solo prolongaría la búsqueda, sino que permitiría encontrar trabajos más estables o mejor remunerados.</p>
+<p>Pero la evidencia no respalda esa hipótesis. La Tabla&nbsp;1 muestra que, a pesar de los ocho meses adicionales de desempleo, no hay mejoras significativas en la calidad del empleo posterior. Ni los ingresos mensuales, ni los ingresos acumulados en los tres años siguientes, ni la duración del nuevo empleo cambian de forma estadísticamente relevante para quienes usan el RPD.<sup>4</sup></p>
+<p>En otras palabras: el RPD ofrece liquidez en el corto plazo, pero no mejora las oportunidades laborales subsecuentes. El costo —36 semanas adicionales sin empleo— no se compensa con empleos de mayor calidad. Eso vuelve el efecto aún más difícil de justificar desde la perspectiva de política pública.</p>
+<div id="tbl-job-search" class="quarto-layout-panel anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-job-search-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;1: Efectos del RPD en búsqueda de empleo
+</figcaption>
+<div aria-describedby="tbl-job-search-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="cell quarto-layout-cell" data-tbl-cap="(A) Búsqueda de empleo" style="flex-basis: 100.0%;justify-content: center;">
+<div class="cell-output-display">
+<table class="table caption-top table-sm table-striped small">
+<caption>Búsqueda de empleo</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th"></th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">&nbsp;Supervivencia - 3 meses</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">&nbsp;Supervivencia - 36 meses</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">&nbsp;Duración - 6 meses (semanas)</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">&nbsp;Duración - 36 meses (semanas)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; width: 11em;">RPD</td>
+<td style="text-align: center; width: 6em;">0.31</td>
+<td style="text-align: center; width: 6em;">0.06</td>
+<td style="text-align: center; width: 6em;">4.85</td>
+<td style="text-align: center; width: 6em;">36.27</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; box-shadow: 0px 1.5pxwidth;"></td>
+<td style="text-align: center; box-shadow: 0px 1.5pxwidth;">(0.15)</td>
+<td style="text-align: center; box-shadow: 0px 1.5pxwidth;">(0.07)</td>
+<td style="text-align: center; box-shadow: 0px 1.5pxwidth;">(2.37)</td>
+<td style="text-align: center; box-shadow: 0px 1.5pxwidth;">(15.86)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 11em;">Promedio en el corte - no elegible</td>
+<td style="text-align: center; width: 6em;">0.778</td>
+<td style="text-align: center; width: 6em;">0.106</td>
+<td style="text-align: center; width: 6em;">20.5</td>
+<td style="text-align: center; width: 6em;">51.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 11em;">Observaciones</td>
+<td style="text-align: center; width: 6em;">877,749</td>
+<td style="text-align: center; width: 6em;">877,749</td>
+<td style="text-align: center; width: 6em;">877,749</td>
+<td style="text-align: center; width: 6em;">877,749</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="cell quarto-layout-cell" data-tbl-cap="(B) Calidad del siguiente empleo" style="flex-basis: 100.0%;justify-content: center;">
+<div class="cell-output-display">
+<table class="table caption-top table-sm table-striped small">
+<caption>Calidad del siguiente empleo</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th"></th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">&nbsp;Ingresos mensuales (2024 MXN)</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">&nbsp;Ingresos totales (2024 MXN)</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">Duración del empleo (semanas)</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">&nbsp;Ingresos del empleo previo (2024 MXN)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; width: 11em;">RPD</td>
+<td style="text-align: center; width: 6em;">9428.61</td>
+<td style="text-align: center; width: 6em;">67095.54</td>
+<td style="text-align: center; width: 6em;">16.49</td>
+<td style="text-align: center; width: 6em;">9626.59</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; box-shadow: 0px 1.5pxwidth;"></td>
+<td style="text-align: center; box-shadow: 0px 1.5pxwidth;">(4882.68)</td>
+<td style="text-align: center; box-shadow: 0px 1.5pxwidth;">(61137.52)</td>
+<td style="text-align: center; box-shadow: 0px 1.5pxwidth;">(14.54)</td>
+<td style="text-align: center; box-shadow: 0px 1.5pxwidth;">(6055.86)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 11em;">Promedio en el corte - no elegible</td>
+<td style="text-align: center; width: 6em;">8,327</td>
+<td style="text-align: center; width: 6em;">87,306</td>
+<td style="text-align: center; width: 6em;">35.7</td>
+<td style="text-align: center; width: 6em;">9,005</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 11em;">Observaciones</td>
+<td style="text-align: center; width: 6em;">873,434</td>
+<td style="text-align: center; width: 6em;">873,434</td>
+<td style="text-align: center; width: 6em;">873,434</td>
+<td style="text-align: center; width: 6em;">873,434</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<p><em>Nota:</em> Errores estándar robustos en paréntesis.</p>
+</div>
+</div>
+</div>
+</figure>
+</div>
+</section>
+<section id="amplifica-las-desigualdades-preexistentes" class="level2">
+<h2 class="anchored" data-anchor-id="amplifica-las-desigualdades-preexistentes">Amplifica las desigualdades preexistentes</h2>
+<p>Los efectos del RPD no son uniformes: dependen de manera marcada del nivel de ingresos previo al despido.</p>
+<p>Entre los trabajadores con ingresos por debajo de la mediana, la duración del desempleo aumenta en alrededor de 46 semanas, y no hay mejoras salariales posteriores.</p>
+<p>Entre los trabajadores con ingresos por encima de la mediana, el RPD no prolonga significativamente el desempleo, y sí se observan mejores salarios posteriores —aproximadamente $6,000 MXN adicionales al mes— aunque con intervalos de confianza amplios.<sup>5</sup></p>
+<p>Este patrón sugiere una dinámica regresiva: el mismo mecanismo beneficia a quienes ya tenían mayor estabilidad financiera y castiga a quienes estaban en mayor vulnerabilidad. El RPD no solo refleja desigualdades laborales preexistentes; en muchos casos, las profundiza.</p>
+<div id="fig-het-income" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-het-income-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;3: Efectos del RPD por nivel de ingresos previos al despido. Intervalos de confianza al 95%.
+</figcaption>
+<div aria-describedby="fig-het-income-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-het-income" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-het-income-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-fig" id="fig-het-income-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Duración del desempleo (semanas)
+</figcaption>
+<div aria-describedby="fig-het-income-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="index_files/figure-html/fig-het-income-1.png" class="lightbox" data-gallery="fig-het-income" title="Figura&nbsp;3&nbsp;(a): Duración del desempleo (semanas)"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-het-income-1.png" class="img-fluid figure-img" data-ref-parent="fig-het-income" width="480"></a>
+</div>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-het-income" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-het-income-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-fig" id="fig-het-income-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Ingresos mensuales después del despido
+</figcaption>
+<div aria-describedby="fig-het-income-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="index_files/figure-html/fig-het-income-2.png" class="lightbox" data-gallery="fig-het-income" title="Figura&nbsp;3&nbsp;(b): Ingresos mensuales después del despido"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-het-income-2.png" class="img-fluid figure-img" data-ref-parent="fig-het-income" width="480"></a>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</figure>
+</div>
+</section>
+<section id="afecta-más-a-los-trabajadores-jóvenes" class="level2">
+<h2 class="anchored" data-anchor-id="afecta-más-a-los-trabajadores-jóvenes">Afecta más a los trabajadores jóvenes</h2>
+<p>Uno de los resultados más preocupantes es la diferencia generacional en los efectos del RPD. Al dividir la muestra por la edad mediana al momento del despido, los contrastes son marcados:</p>
+<p>Entre los trabajadores más jóvenes, el RPD está asociado con una pérdida de alrededor de 35 semanas de empleo formal, y no se observan mejoras salariales posteriores.</p>
+<p>Entre los trabajadores mayores, no se detecta una reducción significativa en las semanas de empleo formal, y el punto estimado en salarios posteriores es positivo (alrededor de $10,000 MXN), aunque el intervalo de confianza es amplio y no permite afirmar un efecto preciso.</p>
+<p>Esta asimetría importa porque las primeras etapas de la trayectoria laboral son especialmente sensibles. Una desconexión tan prolongada al inicio de la carrera —justo cuando se acumula experiencia y se consolidan habilidades— puede tener efectos persistentes durante años.<sup>6</sup></p>
+<div id="fig-het-age" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-het-age-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;4: Efectos del RPD por edad al momento del despido. Intervalos de confianza al 95%.
+</figcaption>
+<div aria-describedby="fig-het-age-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-het-age" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-het-age-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-fig" id="fig-het-age-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Duración del desempleo (semanas)
+</figcaption>
+<div aria-describedby="fig-het-age-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="index_files/figure-html/fig-het-age-1.png" class="lightbox" data-gallery="fig-het-age" title="Figura&nbsp;4&nbsp;(a): Duración del desempleo (semanas)"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-het-age-1.png" class="img-fluid figure-img" data-ref-parent="fig-het-age" width="480"></a>
+</div>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-het-age" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-het-age-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-fig" id="fig-het-age-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Ingresos mensuales después del despido
+</figcaption>
+<div aria-describedby="fig-het-age-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="index_files/figure-html/fig-het-age-2.png" class="lightbox" data-gallery="fig-het-age" title="Figura&nbsp;4&nbsp;(b): Ingresos mensuales después del despido"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-het-age-2.png" class="img-fluid figure-img" data-ref-parent="fig-het-age" width="480"></a>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</figure>
+</div>
+</section>
+<section id="perspectiva-de-género" class="level2">
+<h2 class="anchored" data-anchor-id="perspectiva-de-género">Perspectiva de género</h2>
+<p>También aparecen diferencias claras por género. El RPD no afecta de la misma manera a hombres y mujeres.</p>
+<p>Entre los hombres, el uso del RPD está asociado con un aumento cercano a 50 semanas de desempleo, y el punto estimado en salarios posteriores es positivo, aunque con intervalos de confianza amplios que impiden afirmar un efecto preciso.</p>
+<p>Entre las mujeres, el RPD no prolonga el desempleo, pero tampoco genera mejoras salariales posteriores: los intervalos de confianza incluyen el cero en ambas dimensiones.</p>
+<p>En un mercado laboral donde las brechas de género ya eran profundas, estos patrones indican que el RPD no corrige desigualdades preexistentes; en varios casos, las reproduce. Para los hombres, los efectos parecen más volátiles —con mayor pérdida de empleo y salarios inciertos—, mientras que para las mujeres el programa simplemente no ofrece beneficios laborales medibles después del despido.</p>
+<div id="fig-het-gender" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-het-gender-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;5: Efectos del RPD por género. Intervalos de confianza al 95%.
+</figcaption>
+<div aria-describedby="fig-het-gender-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-het-gender" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-het-gender-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-fig" id="fig-het-gender-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Duración del desempleo (semanas)
+</figcaption>
+<div aria-describedby="fig-het-gender-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="index_files/figure-html/fig-het-gender-1.png" class="lightbox" data-gallery="fig-het-gender" title="Figura&nbsp;5&nbsp;(a): Duración del desempleo (semanas)"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-het-gender-1.png" class="img-fluid figure-img" data-ref-parent="fig-het-gender" width="480"></a>
+</div>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-het-gender" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-het-gender-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-fig" id="fig-het-gender-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Ingresos mensuales después del despido
+</figcaption>
+<div aria-describedby="fig-het-gender-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="index_files/figure-html/fig-het-gender-2.png" class="lightbox" data-gallery="fig-het-gender" title="Figura&nbsp;5&nbsp;(b): Ingresos mensuales después del despido"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-het-gender-2.png" class="img-fluid figure-img" data-ref-parent="fig-het-gender" width="480"></a>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</figure>
+</div>
+</section>
+<section id="el-rpd-como-política-contracíclica" class="level2">
+<h2 class="anchored" data-anchor-id="el-rpd-como-política-contracíclica">El RPD como política contracíclica</h2>
+<p>Un contraste llamativo surge cuando analizo a los trabajadores que perdieron su empleo durante la pandemia. A diferencia de lo que ocurre en periodos normales, los efectos del RPD en este grupo son más moderados —e incluso apuntan en la dirección opuesta.</p>
+<p>La duración del desempleo apenas aumenta, y el intervalo de confianza incluye el cero, lo que indica que el efecto no es estadísticamente distinto de cero.</p>
+<p>Los ingresos posteriores son mayores, aunque con intervalos amplios; aun así, el punto estimado sugiere que el acceso a liquidez inmediata pudo facilitar una recuperación laboral algo más sólida.</p>
+<p>En un contexto de crisis severa, donde el mercado laboral colapsó y las opciones eran escasas, el acceso a recursos inmediatos parece haber funcionado como un amortiguador contracíclico. En lugar de prolongar el desempleo o deteriorar trayectorias laborales, el RPD ayudó a los trabajadores a lidear el peor momento sin comprometer —al menos no adicionalmente— su regreso al empleo formal.</p>
+<div id="fig-het-covid" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-het-covid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;6: Efectos del RPD durante la pandemia. Intervalos de confianza al 95%.
+</figcaption>
+<div aria-describedby="fig-het-covid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-het-covid" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-het-covid-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-fig" id="fig-het-covid-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Duración del desempleo (semanas)
+</figcaption>
+<div aria-describedby="fig-het-covid-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="index_files/figure-html/fig-het-covid-1.png" class="lightbox" data-gallery="fig-het-covid" title="Figura&nbsp;6&nbsp;(a): Duración del desempleo (semanas)"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-het-covid-1.png" class="img-fluid figure-img" data-ref-parent="fig-het-covid" width="480"></a>
+</div>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-het-covid" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-het-covid-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-fig" id="fig-het-covid-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Ingreso mensual promedio (3 años)
+</figcaption>
+<div aria-describedby="fig-het-covid-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="index_files/figure-html/fig-het-covid-2.png" class="lightbox" data-gallery="fig-het-covid" title="Figura&nbsp;6&nbsp;(b): Ingreso mensual promedio (3 años)"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-het-covid-2.png" class="img-fluid figure-img" data-ref-parent="fig-het-covid" width="480"></a>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</figure>
+</div>
+</section>
+<section id="el-problema-real-no-es-el-rpd-es-la-ausencia-de-un-sistema-de-protección-al-desempleo" class="level2">
+<h2 class="anchored" data-anchor-id="el-problema-real-no-es-el-rpd-es-la-ausencia-de-un-sistema-de-protección-al-desempleo">El problema real no es el RPD: es la ausencia de un sistema de protección al desempleo</h2>
+<p>La conclusión central no surge solo de los resultados cuantitativos, sino del contexto institucional en el que el RPD opera.</p>
+<p>Este mecanismo existe porque las alternativas fallan. El sistema de justicia laboral es lento, incierto y costoso; la indemnización constitucional rara vez llega al trabajador <span class="citation" data-cites="sadka2024">(Sadka, Seira, y Woodruff 2024)</span>; y México carece de un seguro de desempleo que distribuya colectivamente el riesgo de perder el trabajo. En ese vacío, el RPD funciona como sustituto improvisado: una forma de financiar la crisis inmediata con el ahorro para el retiro.</p>
+<p>El problema es que este diseño desplaza los costos hacia quienes menos pueden absorberlos. Para los trabajadores con menos ingresos, menor estabilidad y menos redes, el RPD no solo no protege: <strong>agrava su vulnerabilidad</strong>. En lugar de suavizar desigualdades —como lo haría un seguro de desempleo bien diseñado— las reproduce y, en muchos casos, las agudiza.</p>
+</section>
+<section id="la-pregunta-que-queda-abierta" class="level2">
+<h2 class="anchored" data-anchor-id="la-pregunta-que-queda-abierta">La pregunta que queda abierta</h2>
+<p>El RPD ofrece liquidez en el corto plazo, pero lo hace a costa de trayectorias laborales más frágiles, mayores periodos de desempleo y brechas más profundas entre grupos de trabajadores. Durante una crisis severa, como la pandemia, sus efectos son menos dañinos, pero eso no corrige su problema estructural: depende del ahorro de quienes menos tienen.</p>
+<p>La decisión pendiente es simple de enunciar, pero políticamente difícil: ¿seguirá México confiando en un mecanismo que convierte el ahorro pensionario de los trabajadores vulnerables en un pseudo–seguro de desempleo, o construiremos por fin instituciones capaces de proteger la pérdida del empleo sin comprometer el futuro laboral y patrimonial de quienes menos margen tienen?</p>
+
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="ref-aguilar2025" class="csl-entry">
+Aguilar, Carolina. 2025. <span>«Menos semanas cotizadas y fraudes: lo que no te dicen del retiro por desempleo»</span>. <em>Expansión</em>, julio. <a href="https://expansion.mx/finanzas-personales/2025/07/04/conviene-tramitar-retiro-por-desempleo-afore">https://expansion.mx/finanzas-personales/2025/07/04/conviene-tramitar-retiro-por-desempleo-afore</a>.
+</div>
+<div id="ref-aristegui" class="csl-entry">
+Aristegui Noticias. 2025. <span>«Diputados aprueban reforma para limitar retiros de Afore en caso de desempleo»</span>. <em>Aristegui Noticias</em>, junio. <a href="https://aristeguinoticias.com/2306/mexico/diputados-aprueban-reforma-para-limitar-retiros-de-afore-en-caso-de-desempleo/">https://aristeguinoticias.com/2306/mexico/diputados-aprueban-reforma-para-limitar-retiros-de-afore-en-caso-de-desempleo/</a>.
+</div>
+<div id="ref-carbajal2025" class="csl-entry">
+Carbajal, Braulio. 2025. <span>«Entre enero y abril, retiros de las Afore por desempleo alcanzaron récord de 11 mil 360 mdp»</span>. <em>La Jornada</em>, mayo. <a href="https://www.jornada.com.mx/noticia/2025/05/16/economia/entre-enero-y-abril-retiros-de-las-afore-por-desempleo-alcanzaron-record-de-11-mil-360-mdp">https://www.jornada.com.mx/noticia/2025/05/16/economia/entre-enero-y-abril-retiros-de-las-afore-por-desempleo-alcanzaron-record-de-11-mil-360-mdp</a>.
+</div>
+<div id="ref-degetau" class="csl-entry">
+Degetau, Esteban. 2025. <span>«The Labor Market Outcomes of (Quasi) Unemployment Insurance»</span>, noviembre. <a href="https://www.estebandegetau.com/RPD_LM/">https://www.estebandegetau.com/RPD_LM/</a>.
+</div>
+<div id="ref-sadka2024" class="csl-entry">
+Sadka, Joyce, Enrique Seira, y Christopher Woodruff. 2024. <span>«Information and Bargaining through Agents: Experimental Evidence from Mexico<span>’</span>s Labour Courts»</span>. <em>The Review of Economic Studies</em>, febrero, rdae003. <a href="https://doi.org/10.1093/restud/rdae003">https://doi.org/10.1093/restud/rdae003</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Notas</h2>
+
+<ol>
+<li id="fn1"><p>Este análisis forma parte de mi tesis de la Maestría en Economía Aplicada del ITAM, desarrollada precisamente mientras ocupaba ese puesto. Los resultados completos están disponibles en <span class="citation" data-cites="degetau">Degetau (2025)</span>. Aquí presento un resumen de los hallazgos más relevantes.↩︎</p></li>
+<li id="fn2"><p>Algunos trabajadores parecen usar el RPD aun cuando, según los datos, no serían elegibles. Esto probablemente refleja errores de captura o actualizaciones tardías: es posible que muchos de ellos sí cumplieran la regla al momento de solicitar el retiro.↩︎</p></li>
+<li id="fn3"><p>Este diseño permite identificar efectos causales, pero solo para quienes están cerca del umbral de dos años de cotización —el grupo cuya elegibilidad cambia por muy poco. Los resultados no deben interpretarse como válidos para trabajadores con trayectorias mucho más largas o mucho más cortas.↩︎</p></li>
+<li id="fn4"><p>Para interpretar los coeficientes de la tabla, usamos un criterio estándar en estadística aplicada: se divide el coeficiente entre su error estándar. Si ese cociente es aproximadamente mayor a dos en valor absoluto, consideramos que el coeficiente es estadísticamente distinto de cero al nivel del 5%. Si es menor, no podemos distinguir el efecto del cero con suficiente precisión.↩︎</p></li>
+<li id="fn5"><p>En las gráficas, los puntos muestran el efecto estimado y las líneas verticales su intervalo de confianza al 95%. Si ese intervalo incluye el cero, no podemos concluir que el efecto sea estadísticamente distinto de cero; si no lo incluye, el efecto se considera estadísticamente significativo.↩︎</p></li>
+<li id="fn6"><p>Los efectos negativos del desempleo suelen ser más duraderos en trabajadores jóvenes porque sus primeras experiencias laborales son clave para acumular habilidades, reputación y redes profesionales. Una interrupción prolongada en esta etapa puede generar “cicatrices” persistentes: pérdida de experiencia, menor ritmo de aprendizaje y entrada más tardía a trayectorias laborales estables, lo que afecta ingresos y estabilidad en el largo plazo.↩︎</p></li>
+</ol>
+</section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reutilización</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es">CC BY-NC 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cómo citar</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{degetau2025,
+  author = {Degetau, Esteban},
+  title = {El Retiro Parcial por Desempleo: un sustituto costoso ante la
+    ausencia de un seguro de desempleo},
+  date = {2025-11-17},
+  url = {https://www.estebandegetau.com/posts/rpd/},
+  langid = {es}
+}
+</code></pre><div class="quarto-appendix-secondary-label">Por favor, cita este trabajo como:</div><div id="ref-degetau2025" class="csl-entry quarto-appendix-citeas">
+Degetau, Esteban. 2025. <span>“El Retiro Parcial por Desempleo: un
+sustituto costoso ante la ausencia de un seguro de desempleo.”</span>
+November 17, 2025. <a href="https://www.estebandegetau.com/posts/rpd/">https://www.estebandegetau.com/posts/rpd/</a>.
+</div></div></section></div> ]]></description>
+  <category>política pública</category>
+  <category>mercado laboral</category>
+  <category>retiro parcial por desempleo</category>
+  <category>México</category>
+  <guid>https://www.estebandegetau.com/posts/rpd/</guid>
+  <pubDate>Mon, 17 Nov 2025 06:00:00 GMT</pubDate>
+  <media:content url="https://www.estebandegetau.com/posts/rpd/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

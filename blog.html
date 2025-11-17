@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Esteban Degetau">
 
-<title>Curriculum Vitae – Esteban Degetau</title>
+<title>Blog – Esteban Degetau</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -73,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-11D42BZNRY"></script>
 
 <script type="text/javascript">
@@ -83,9 +113,37 @@ gtag('js', new Date());
 gtag('config', 'G-11D42BZNRY', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
-</head>
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="Esteban Degetau" href="blog.xml" data-external="1"></head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
@@ -252,7 +310,7 @@ gtag('config', 'G-11D42BZNRY', { 'anonymize_ip': true});
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -281,11 +339,11 @@ gtag('config', 'G-11D42BZNRY', { 'anonymize_ip': true});
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link active" href="./blog.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./cv.html" aria-current="page"> 
+    <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -304,238 +362,95 @@ gtag('config', 'G-11D42BZNRY', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Blog</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="cv.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li></ul></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWVyY2FkbyUyMGxhYm9yYWw=">mercado laboral <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TSVDMyVBOXhpY28=">México <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cG9sJUMzJUFEdGljYSUyMHAlQzMlQkFibGljYQ==">política pública <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmV0aXJvJTIwcGFyY2lhbCUyMHBvciUyMGRlc2VtcGxlbw==">retiro parcial por desempleo <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Curriculum Vitae</h1>
-</div>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Esteban Degetau </p>
-          </div>
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+    </select>
   </div>
-    
-  
-    <div>
-    <div class="quarto-title-meta-heading">Modified</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date-modified">November 17, 2025</p>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
     </div>
-  </div>
-    
-  </div>
-  
-
-
-</header>
-
-
-<div class="smallcaps center">
-<p><a href="mailto:estebandegetau@gmail.com">estebandegetau@gmail.com</a> | <a href="https://www.estebandegetau.com">www.estebandegetau.com</a> | Mexico City, Mexico</p>
 </div>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
-<p>M.S. Applied Economics, Instituto Tecnológico Autónomo de México (ITAM), High Honors, 2025</p>
-<p>B.S. Economics, ITAM, 2023</p>
-</section>
-<section id="research-experience" class="level2">
-<h2 class="anchored" data-anchor-id="research-experience">Research Experience</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 80%">
-<col style="width: 20%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><dl>
-<dt>World Bank</dt>
-<dd>
-<p>Short-term Consultant - Macroeconomics and Growth, Development Research Group, practice to Agustín Samano</p>
-</dd>
-</dl></td>
-<td style="text-align: right;"><br>
-2025 - present</td>
-</tr>
-<tr class="even">
-<td><dl>
-<dt>ITAM</dt>
-<dd>
-<p>Graduate Research Assistant - Center for Economic Research (CIE), practice to Joyce Sadka and Enrique Seira</p>
-</dd>
-</dl></td>
-<td style="text-align: right;"><br>
-2022 - 2023</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="working-papers" class="level2">
-<h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
-<p>The Labor Market Outcomes of (Quasi) Unemployment Insurance: Evidence from Mexico’s <em>Retiro Parcial por Desempleo</em>.</p>
-</section>
-<section id="teaching-experience" class="level2">
-<h2 class="anchored" data-anchor-id="teaching-experience">Teaching Experience</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 80%">
-<col style="width: 20%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><dl>
-<dt>ITAM</dt>
-<dd>
-<p>Principles of Microeconomics - undergraduate</p>
-</dd>
-</dl></td>
-<td style="text-align: right;"><br>
-Fall 2025</td>
-</tr>
-<tr class="even">
-<td><dl>
-<dt>Instituto Mexicano del Seguro Social (IMSS)</dt>
-<dd>
-<p>Herramientas estadísticas en R - office training</p>
-</dd>
-</dl></td>
-<td style="text-align: right;"><br>
-Spring 2025</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="public-service" class="level2">
-<h2 class="anchored" data-anchor-id="public-service">Public Service</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 80%">
-<col style="width: 20%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><dl>
-<dt>IMSS</dt>
-<dd>
-<p>Deputy Head, Fiscal Policy Planning</p>
-</dd>
-</dl></td>
-<td style="text-align: right;"><br>
-2023 - 2025</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="industry-experience" class="level2">
-<h2 class="anchored" data-anchor-id="industry-experience">Industry Experience</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 80%">
-<col style="width: 20%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="line-block"><strong>CEROMULTAS</strong></div></td>
-<td style="text-align: right;"></td>
-</tr>
-<tr class="even">
-<td><div class="line-block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Senior Business Analyst</div></td>
-<td style="text-align: right;">2021</td>
-</tr>
-<tr class="odd">
-<td><div class="line-block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Business Analyst</div></td>
-<td style="text-align: right;">2019 - 2020</td>
-</tr>
-</tbody>
-</table>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 80%">
-<col style="width: 20%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="line-block"><strong>T-Rez Consulting</strong></div></td>
-<td style="text-align: right;"></td>
-</tr>
-<tr class="even">
-<td><div class="line-block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;International Trade Analyst</div></td>
-<td style="text-align: right;">2018</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="recognitions" class="level2">
-<h2 class="anchored" data-anchor-id="recognitions">Recognitions</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 10%">
-<col style="width: 90%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>2021</td>
-<td style="text-align: left;">COFECE Undergraduate Essay Contest (Honorable mention), Mexico</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="certifications" class="level2">
-<h2 class="anchored" data-anchor-id="certifications">Certifications</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 10%">
-<col style="width: 90%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>2022</td>
-<td style="text-align: left;">MicroMasters in Data, Economics and Development Policy - MITx</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="technical-skills" class="level2">
-<h2 class="anchored" data-anchor-id="technical-skills">Technical Skills</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 80%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">Programming:</td>
-<td style="text-align: left;">R, Python, Stata, SQL, SAS</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">Tools:</td>
-<td style="text-align: left;">Quarto, Git, Power BI, LaTeX</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">Languages:</td>
-<td style="text-align: left;">Spanish, English</td>
-</tr>
-</tbody>
-</table>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="cG9sJUMzJUFEdGljYSUyMHAlQzMlQkFibGljYSUyQ21lcmNhZG8lMjBsYWJvcmFsJTJDcmV0aXJvJTIwcGFyY2lhbCUyMHBvciUyMGRlc2VtcGxlbyUyQ00lQzMlQTl4aWNv" data-listing-date-sort="1763359200000" data-listing-file-modified-sort="1763388157158" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="23" data-listing-word-count-sort="4504">
+<div class="thumbnail"><a href="./posts/rpd/index.html" class="no-external">
 
+<img loading="lazy" src="./posts/rpd/thumbnail.jpg" class="thumbnail-image">
 
-</section>
-
-</main> <!-- /main -->
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/rpd/index.html" class="no-external">El Retiro Parcial por Desempleo: un sustituto costoso ante la ausencia de un seguro de desempleo</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/rpd/index.html" class="no-external">Evidencia causal sobre cómo un mecanismo de emergencia prolonga el desempleo y amplifica desigualdades laborales</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/rpd/index.html" class="no-external">
+<div class="listing-date">
+Nov 17, 2025
+</div>
+<div class="listing-author">
+Esteban Degetau
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
