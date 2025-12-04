@@ -53,7 +53,7 @@ Figura&nbsp;1: Efecto de elegibilidad sobre el uso del RPD a 12 meses de la sepa
 <section id="efecto-en-la-búsqueda-de-empleo" class="level2">
 <h2 class="anchored" data-anchor-id="efecto-en-la-búsqueda-de-empleo">Efecto en la búsqueda de empleo</h2>
 <p>El resultado más contundente —y también el más incómodo— es que usar el RPD prolonga de manera sustancial el desempleo. Entre quienes acceden al programa, la duración total del desempleo aumenta en alrededor de 36 semanas durante los primeros tres años, casi ocho meses adicionales, lo que equivale a un incremento cercano al 70%.</p>
-<p>La Figura&nbsp;2 (a) muestra el primer paso de esa dinámica: aunque el efecto inicial en la probabilidad de permanecer desempleado es relativamente modesto, persiste a lo largo del tiempo. Esa diferencia acumulada se traduce en el resultado más claro del estudio, que se observa en la Figura&nbsp;2 (b): una brecha creciente en la duración total del desempleo.</p>
+<p>La Figura&nbsp;2 (a) muestra el primer paso de esa dinámica: aunque el efecto inicial en la probabilidad de permanecer desempleado es relativamente modesto, persiste a lo largo del tiempo. Esa diferencia acumulada se traduce en el resultado más claro del estudio, que se observa en la Figura&nbsp;2 (b): una brecha creciente en la duración total del desempleo. A los 3 años de haber perdido el empleo, quienes usan el RPD no tienen una probabilidad mayor ni menor de permanecer en desempleo, pero sí han acumulado 36 semanas adicionales sin trabajo formal.</p>
 <p>Esto no es un ajuste marginal. Es una alteración significativa de la trayectoria laboral posterior al despido.</p>
 <p>Y lo más importante es lo que implica sobre el diseño del programa. El acceso a liquidez autofinanciada —que en principio debería ser neutral— modifica los incentivos de búsqueda y prolonga el tiempo sin empleo. No puedo identificar directamente el mecanismo, pero el patrón es consistente con una menor urgencia de aceptar un nuevo trabajo cuando se cuenta con un colchón financiero temporal.</p>
 <div id="fig-rd-survival" class="quarto-layout-panel">
@@ -377,6 +377,11 @@ Figura&nbsp;6: Efectos del RPD durante la pandemia. Intervalos de confianza al 9
 </div>
 </figure>
 </div>
+</section>
+<section id="el-costo-real-de-usar-el-retiro-parcial-por-desempleo" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="el-costo-real-de-usar-el-retiro-parcial-por-desempleo">El costo real de usar el Retiro Parcial por Desempleo</h2>
+<p>¿Cuánto cuesta realmente usar el RPD? Por un lado, el retiro promedio es de $7,690 MXN<sup>7</sup>. Estos recursos salen del AFORE del trabajador, reduciendo su ahorro para el retiro futuro. Adicionalmente, se descuentan los días proporcionales de cotización al IMSS, que en promedio son 318 días. Para cuantificar esta pérdida en términos monetarios, uso el salario promedio del trabajo previo al despido, que es de $9,095 MXN mensuales. Multiplicando ese salario diario por los días descontados, la pérdida promedio por días de cotización es de $94,830 MXN.</p>
+<div class="no-row-height column-margin column-container"><div id="fn7"><p><sup>7</sup>&nbsp;Las cifras de esta sección las obtuve de <span class="citation" data-cites="degetau">Degetau (2025)</span>. Todas las cifras están en pesos mexicanos en valor de 2024.</p></div></div><p>Además, hay que incluir las ganancias que se dejaron de tener a causa del RPD. Después de tres años, los trabajadores que usaron el programa dejaron de ganar en promedio $20,379 MXN en ingresos acumulados, comparados con quienes no lo usaron. Al tomar en cuenta todas estas pérdidas, <strong>el costo total promedio de retirar $7,690 MXN a través del RPD asciende a $122,899 MXN en términos presentes</strong>.</p>
 </section>
 <section id="el-problema-real-no-es-el-rpd-es-la-ausencia-de-un-sistema-de-protección-al-desempleo" class="level2">
 <h2 class="anchored" data-anchor-id="el-problema-real-no-es-el-rpd-es-la-ausencia-de-un-sistema-de-protección-al-desempleo">El problema real no es el RPD: es la ausencia de un sistema de protección al desempleo</h2>
