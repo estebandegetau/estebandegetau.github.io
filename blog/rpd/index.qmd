@@ -1,0 +1,557 @@
+---
+title: "El Retiro Parcial por Desempleo: un sustituto costoso ante la ausencia de un seguro de desempleo"
+subtitle: "Evidencia causal sobre cómo un mecanismo de emergencia prolonga el desempleo y amplifica desigualdades laborales"
+author: "Esteban Degetau"
+date: 2025-11-17
+date-modified: 2025-12-04
+categories: [política pública, mercado laboral, retiro parcial por desempleo, México]
+lang: es
+image: thumbnail.jpg
+nocite: |
+    @degetau
+---
+
+```{r}
+#| label: setup
+#| include: false
+#| cache: false
+
+
+rm(list = ls())
+gc()
+
+pacman::p_load(
+    tidyverse,
+    here,
+    targets,
+    gt,
+    rdrobust,
+    ggpubr,
+    kableExtra,
+    modelsummary
+)
+
+theme_set(theme_minimal())
+
+
+
+targets::tar_config_set(store = "C:/Users/L E N O V O/OneDrive - INSTITUTO TECNOLOGICO AUTONOMO DE MEXICO/Documentos/Research/RPD/_targets")
+
+targets::tar_source("C:/Users/L E N O V O/OneDrive - INSTITUTO TECNOLOGICO AUTONOMO DE MEXICO/Documentos/Research/RPD/R")
+
+
+```
+
+```{r}
+#| label: functions
+#| cache: false
+#| include: false
+clean_hate <- function(x) {
+    x |>
+        mutate(
+            label = case_when(
+                str_detect(name, "take_up") ~ "Uso del RPD",
+                str_detect(name, "survival") ~ "Supervivencia - 3 meses",
+                str_detect(name, "duration_36") ~ "Duración - 36 meses (semanas)",
+                str_detect(name, "next_job_duration") ~ "Duración del empleo (semanas)",
+                str_detect(name, "next_job_av_earnings") ~ "Ingresos mensuales",
+                str_detect(name, "av_earnings_total") ~ "Ingresos mensuales - 3 años",
+                str_detect(name, "earnings_total") ~ "Ingresos totales - 3 años",
+                str_detect(name, "months_worked_total") ~ "Meses trabajados - 3 años",
+            )
+        ) |>
+        select(-name) |>
+        drop_na(label) |>
+        mutate(
+            rd = map(rd, "output"),
+            point = map(rd, "coef"),
+            ci = map(rd, "ci"),
+            lower = map_dbl(ci, 3),
+            upper = map_dbl(ci, 6),
+            point = map_dbl(point, 3)
+            # ci = map(ci, as_tibble),
+        
+        )
+}
+
+
+glance.rdrobust <- function(model, ...) {
+  ret <- tibble(
+    "Promedio en el corte - no elegible" = pluck(model, "tau_bc", 1) |>
+      format(digits = 3, big.mark = ",", scientific = F) |>
+      as.character(),
+    Observaciones = (pluck(model, "N", 2) + pluck(model, "N", 1)) |>
+      format(big.mark = ",", scientific = F) |>
+      as.character()
+    
+  )
+  ret
+}
+
+
+my_modelsummary_es <- function(x, digits = 2) {
+  names <- x$label
+  row.names(names) <- NULL
+  models <- x$rd |> map("output")
+
+  named_list <- as.list(setNames(models, names))
+
+  y <- modelsummary::modelsummary(
+    named_list,
+    escape = FALSE,
+    fmt = digits,
+    output = "kableExtra"
+  )
+  y
+}
+```
+
+Perder el empleo en México no solo implica perder un ingreso: es enfrentarse a un sistema de protección casi inexistente. La mayoría de los trabajadores nunca recibe la indemnización que marca la Constitución; los juicios laborales se prolongan durante años; y no existe un seguro de desempleo nacional que distribuya el riesgo de manera colectiva. En ese vacío institucional, millones recurren al Retiro Parcial por Desempleo (RPD): retirar parte de su propio ahorro pensional para sobrevivir.
+
+En el debate público, sin embargo, la preocupación se ha centrado en otros frentes: el aumento inusual del uso del RPD desde la pandemia, que no ha cedido [@carbajal2025]; la pérdida de semanas cotizadas al utilizarlo [@aguilar2025]; o los retiros irregulares que ya detonaron ajustes normativos [@aristegui]. Todos estos puntos son relevantes, pero comparten una omisión llamativa.
+
+Casi nadie discute qué implica el RPD para las trayectorias laborales de quienes lo usan.
+
+En principio, cualquier mecanismo que sustituye ingresos durante el desempleo tiene dos efectos potenciales: puede prolongar la búsqueda de trabajo —porque reduce la urgencia inmediata de aceptar cualquier empleo—, pero también puede mejorar la calidad del siguiente empleo, al permitir un proceso de búsqueda más cuidadoso. Además, un buen seguro de desempleo generalmente reduce desigualdades, porque redistribuye el costo del riesgo desde los trabajadores más vulnerables hacia quienes tienen más ingresos y menos probabilidad de perder su empleo.
+
+¿Encaja el RPD en esa lógica? ¿Es realmente un mecanismo que ofrece liquidez en tiempos difíciles sin generar costos laborales o sociales?
+
+Cuando trabajé en el IMSS y analicé millones de trayectorias laborales en los datos administrativos, encontré evidencia que contradice esa narrativa por completo.^[Este análisis forma parte de mi tesis de la Maestría en Economía Aplicada del ITAM, desarrollada precisamente mientras ocupaba ese puesto. Los resultados completos están disponibles en @degetau. Aquí presento un resumen de los hallazgos más relevantes.]
+
+## Diseño experimental: una regla simple que genera un experimento natural
+
+El RPD tiene una regla aparentemente trivial: solo pueden usarlo quienes acumulan dos años de cotización al IMSS al momento de perder el empleo.
+
+Esa línea precisa crea una oportunidad poco común. Permite comparar a trabajadores que, en la práctica, son casi idénticos —misma edad, historial laboral, salario previo— pero que se diferencian únicamente por haber cruzado o no ese umbral. Uno cotizó 1.99 años; otro, 2.01. Uno es elegible para el RPD; el otro no.
+
+Esa discontinuidad funciona como un experimento natural. Al observar lo que ocurre justo alrededor del umbral, puedo identificar el efecto causal del acceso al RPD, aislándolo de otras características del trabajador.
+
+La @fig-rd-take-up muestra este salto en la probabilidad de usar el RPD durante los 12 meses posteriores al despido. Quienes apenas cumplen los dos años de cotización utilizan el programa con una probabilidad cercana al 6%, mientras que quienes se quedan justo por debajo lo hacen alrededor del 2%.[^1]
+ Ese salto de 4 puntos porcentuales es lo que activa el experimento natural: es la diferencia inducida únicamente por la regla.
+
+[^1]: Algunos trabajadores parecen usar el RPD aun cuando, según los datos, no serían elegibles. Esto probablemente refleja errores de captura o actualizaciones tardías: es posible que muchos de ellos sí cumplieran la regla al momento de solicitar el retiro.
+
+Es un uso modesto comparado con los seguros de desempleo en otros países, pero suficiente para estudiar sus consecuencias laborales.[^2]
+
+[^2]: Este diseño permite identificar efectos causales, pero solo para quienes están cerca del umbral de dos años de cotización —el grupo cuya elegibilidad cambia por muy poco. Los resultados no deben interpretarse como válidos para trabajadores con trayectorias mucho más largas o mucho más cortas.
+
+
+```{r}
+#| label: fig-rd-take-up
+#| fig-cap: "Efecto de elegibilidad sobre el uso del RPD a 12 meses de la separación laboral."
+
+
+x <- targets::tar_read(rd_data)
+
+plots <- x |>
+        filter(str_detect(name, "take_up")) |>
+        filter(!str_detect(name, "days")) |>
+        mutate(
+            months = str_extract(name, "\\d+") |> as.numeric()
+        ) |>
+        filter(
+            months %in% c(12)
+        ) |>
+        arrange(months) |>
+        compute_rd_plot()
+    
+    labeled <- plots |>
+        mutate(
+            plot = map(rd, "plot"),
+            plot = map(plot, "rdplot"),
+            label = case_when(
+                !is.na(months) ~ str_c("Take up - ", months, " months"),
+                T ~ label
+            ),
+            plot = map2(plot, label, label_plots),
+            plot = map(plot, ~ .x + coord_cartesian(ylim = c(0, 0.15)))
+        ) |>
+        select(name, label, plot)
+
+labeled$plot[[1]] +
+    labs(
+        title = "",
+        x = "Días de cotización para ser elegible",
+        y = "Proporción que usa el RPD"
+    ) +
+    scale_y_continuous(labels = scales::percent_format(accuracy = 1)) 
+
+
+```
+
+## Efecto en la búsqueda de empleo
+
+El resultado más contundente —y también el más incómodo— es que usar el RPD prolonga de manera sustancial el desempleo. Entre quienes acceden al programa, la duración total del desempleo aumenta en alrededor de 36 semanas durante los primeros tres años, casi ocho meses adicionales, lo que equivale a un incremento cercano al 70%.
+
+La @fig-rd-survival-1 muestra el primer paso de esa dinámica: aunque el efecto inicial en la probabilidad de permanecer desempleado es relativamente modesto, persiste a lo largo del tiempo. Esa diferencia acumulada se traduce en el resultado más claro del estudio, que se observa en la @fig-rd-survival-2: una brecha creciente en la duración total del desempleo. A los 3 años de haber perdido el empleo, quienes usan el RPD no tienen una probabilidad mayor ni menor de permanecer en desempleo, pero sí han acumulado 36 semanas adicionales sin trabajo formal.
+
+Esto no es un ajuste marginal. Es una alteración significativa de la trayectoria laboral posterior al despido.
+
+Y lo más importante es lo que implica sobre el diseño del programa. El acceso a liquidez autofinanciada —que en principio debería ser neutral— modifica los incentivos de búsqueda y prolonga el tiempo sin empleo. No puedo identificar directamente el mecanismo, pero el patrón es consistente con una menor urgencia de aceptar un nuevo trabajo cuando se cuenta con un colchón financiero temporal.
+
+```{r}
+#| label: fig-rd-survival
+#| fig-cap: "Efecto del RPD en búsqueda de empleo. Intervalos de confianza al 95%."
+#| layout-ncol: 1
+#| fig-subcap: 
+#|  - "Efecto del RPD en tasa de supervivencia en el desempleo"
+#|  - "Efecto del RPD en duración del desempleo (semanas)"
+#| fig-width: 8
+#| fig-height: 3
+
+survival_iv <- tar_read(survival_iv)
+
+res <- survival_iv |>
+        filter(str_detect(name, "survival")) |>
+        mutate(
+            months = str_extract(name, "\\d+") |> as.numeric(),
+            rd = map(rd, "output"),
+            point = map(rd, "coef"),
+            ci = map(rd, "ci"),
+            lower = map_dbl(ci, 3),
+            upper = map_dbl(ci, 6),
+            point = map_dbl(point, 3)
+        )
+
+res |>
+    ggplot(aes(months)) +
+    # geom_pointrange(aes(ymin = lower, ymax = upper)) +
+    geom_line(aes(y = point)) +
+    geom_ribbon(aes(ymin = lower, ymax = upper), alpha = 0.2) +
+    geom_hline(yintercept = 0) +
+    scale_x_continuous(breaks = seq(from = 3, to = 48, by = 3)) +
+    labs(
+        x = "Meses desde la separación laboral",
+        y = "Supervivencia en el desempleo"
+    ) +
+    scale_y_continuous(labels = scales::percent_format(accuracy = 1)) 
+
+
+res <- survival_iv |>
+    filter(str_detect(name, "duration")) |>
+    mutate(
+        months = str_extract(name, "\\d+") |> as.numeric(),
+        rd = map(rd, "output"),
+        point = map(rd, "coef"),
+        ci = map(rd, "ci"),
+        lower = map_dbl(ci, 3),
+        upper = map_dbl(ci, 6),
+        point = map_dbl(point, 3)
+        # ci = map(ci, as_tibble)
+    )
+
+res |>
+        ggplot(aes(months)) +
+        # geom_pointrange(aes(ymin = lower, ymax = upper)) +
+        geom_line(aes(y = point)) +
+        geom_ribbon(aes(ymin = lower, ymax = upper), alpha = 0.2) +
+        geom_hline(yintercept = 0) +
+        scale_x_continuous(breaks = seq(from = 3, to = 48, by = 3)) +
+        labs(
+            x = "Meses desde la separación laboral",
+            y = "Duración del desempleo (semanas)"
+        )
+
+
+```
+
+## Ese tiempo extra no se traduce en mejores trabajos
+
+Una explicación posible para el aumento en la duración del desempleo es que los trabajadores aprovechan ese tiempo adicional para buscar mejores empleos. Bajo esa lógica, el RPD no solo prolongaría la búsqueda, sino que permitiría encontrar trabajos más estables o mejor remunerados.
+
+Pero la evidencia no respalda esa hipótesis. La @tbl-job-search muestra que, a pesar de los ocho meses adicionales de desempleo, no hay mejoras significativas en la calidad del empleo posterior. Ni los ingresos mensuales, ni los ingresos acumulados en los tres años siguientes, ni la duración del nuevo empleo cambian de forma estadísticamente relevante para quienes usan el RPD.[^3]
+
+[^3]: Para interpretar los coeficientes de la tabla, usamos un criterio estándar en estadística aplicada: se divide el coeficiente entre su error estándar. Si ese cociente es aproximadamente mayor a dos en valor absoluto, consideramos que el coeficiente es estadísticamente distinto de cero al nivel del 5%. Si es menor, no podemos distinguir el efecto del cero con suficiente precisión.
+
+En otras palabras: el RPD ofrece liquidez en el corto plazo, pero no mejora las oportunidades laborales subsecuentes. El costo —36 semanas adicionales sin empleo— no se compensa con empleos de mayor calidad. Eso vuelve el efecto aún más difícil de justificar desde la perspectiva de política pública.
+
+::: {#tbl-job-search layout-ncol="1"}
+```{r}
+#| tbl-cap: "(A) Búsqueda de empleo"
+tar_read(survival_iv) |>
+    mutate(months = str_extract(name, "\\d+") |> as.numeric()) |>
+    filter(name %in% c("survival_3", "survival_36", "duration_6", "duration_36")) |>
+    arrange(desc(str_remove(name, "_\\d+")), months) |>
+    mutate(label = case_when(
+        str_detect(name, "survival") ~ str_c("Supervivencia - ", months, " meses"),
+        str_detect(name, "duration") ~ str_c("Duración (wks) - ", months, " meses")
+    )) |>
+    mutate(label = case_when(
+        str_detect(name, "survival") ~ str_c("Supervivencia - ", months, " meses "),
+        str_detect(name, "duration") ~ str_c("Duración - ", months, " meses (semanas)")
+    ))  |>
+    my_modelsummary_es() |>
+    column_spec(1, width = "11em") |>
+    column_spec(2:5, width = "6em")
+```
+
+```{r}
+#| tbl-cap: "(B) Calidad del siguiente empleo"
+tar_read(next_job_iv) |>
+    arrange(name) |>
+    mutate(
+        label = case_when(
+            name == "next_job_av_earnings" ~ "Ingresos mensuales (2024 MXN)",
+            name == "next_job_cum_earnings" ~ "Ingresos totales (2024 MXN)",
+            name == "next_job_duration" ~ "Duración del empleo (semanas)",
+            name == "prev_job_av_earnings" ~ "Ingresos del empleo previo (2024 MXN)",
+        )
+    ) |>
+    my_modelsummary_es() |>
+    column_spec(1, width = "11em") |>
+    column_spec(2:5, width = "6em") 
+
+```
+
+*Nota:* Errores estándar robustos en paréntesis.
+
+Efectos del RPD en búsqueda de empleo
+:::
+
+## Amplifica las desigualdades preexistentes
+
+Los efectos del RPD no son uniformes: dependen de manera marcada del nivel de ingresos previo al despido.
+
+Entre los trabajadores con ingresos por debajo de la mediana, la duración del desempleo aumenta en alrededor de 46 semanas, y no hay mejoras salariales posteriores.
+
+Entre los trabajadores con ingresos por encima de la mediana, el RPD no prolonga significativamente el desempleo, y sí se observan mejores salarios posteriores —aproximadamente $6,000 MXN adicionales al mes— aunque con intervalos de confianza amplios.^[En las gráficas, los puntos muestran el efecto estimado y las líneas verticales su intervalo de confianza al 95%. Si ese intervalo incluye el cero, no podemos concluir que el efecto sea estadísticamente distinto de cero; si no lo incluye, el efecto se considera estadísticamente significativo.]
+
+
+Este patrón sugiere una dinámica regresiva: el mismo mecanismo beneficia a quienes ya tenían mayor estabilidad financiera y castiga a quienes estaban en mayor vulnerabilidad. El RPD no solo refleja desigualdades laborales preexistentes; en muchos casos, las profundiza.
+
+```{r}
+#| label: fig-het-income
+#| fig-cap: "Efectos del RPD por nivel de ingresos previos al despido. Intervalos de confianza al 95%."
+#| fig-width: 5
+#| fig-height: 3
+#| layout-ncol: 2
+#| fig-subcap:
+#|  - "Duración del desempleo (semanas)"
+#|  - "Ingresos mensuales después del despido"
+
+
+
+results <- tar_read(income_results) |>
+    clean_hate() |>
+    mutate(split = factor(split, labels = c("Abajo de la mediana", "Arriba de la mediana")))
+
+
+results |>
+    filter(label == "Duración - 36 meses (semanas)") |>
+    ggplot(aes(split, point, color = split)) +
+    geom_pointrange(aes(ymin = lower, ymax = upper)) +
+    geom_hline(yintercept = 0) +
+    theme(legend.position = "none") +
+    labs(
+        x = "Ingresos previos al despido",
+        y = "Efecto del RPD"
+
+    )+
+    scale_color_brewer(palette = "Set1")
+
+results |>
+    filter(label == "Ingresos mensuales") |>
+    ggplot(aes(split, point, color = split)) +
+    geom_pointrange(aes(ymin = lower, ymax = upper)) +
+    geom_hline(yintercept = 0) +
+    scale_y_continuous(labels = scales::dollar_format(prefix = "$")) +
+    theme(legend.position = "none") +
+    
+    labs(
+        x = "Ingresos previos al despido",
+        y = "Efecto del RPD"
+    ) +
+    scale_color_brewer(palette = "Set1")
+
+```
+
+## Afecta más a los trabajadores jóvenes
+
+Uno de los resultados más preocupantes es la diferencia generacional en los efectos del RPD. Al dividir la muestra por la edad mediana al momento del despido, los contrastes son marcados:
+
+Entre los trabajadores más jóvenes, el RPD está asociado con una pérdida de alrededor de 35 semanas de empleo formal, y no se observan mejoras salariales posteriores.
+
+Entre los trabajadores mayores, no se detecta una reducción significativa en las semanas de empleo formal, y el punto estimado en salarios posteriores es positivo (alrededor de $10,000 MXN), aunque el intervalo de confianza es amplio y no permite afirmar un efecto preciso.
+
+Esta asimetría importa porque las primeras etapas de la trayectoria laboral son especialmente sensibles. Una desconexión tan prolongada al inicio de la carrera —justo cuando se acumula experiencia y se consolidan habilidades— puede tener efectos persistentes durante años.^[Los efectos negativos del desempleo suelen ser más duraderos en trabajadores jóvenes porque sus primeras experiencias laborales son clave para acumular habilidades, reputación y redes profesionales. Una interrupción prolongada en esta etapa puede generar “cicatrices” persistentes: pérdida de experiencia, menor ritmo de aprendizaje y entrada más tardía a trayectorias laborales estables, lo que afecta ingresos y estabilidad en el largo plazo.]
+
+```{r}
+#| label: fig-het-age
+#| fig-cap: "Efectos del RPD por edad al momento del despido. Intervalos de confianza al 95%."
+#| fig-width: 5
+#| fig-height: 3
+#| layout-ncol: 2
+#| fig-subcap:
+#|  - "Duración del desempleo (semanas)"
+#|  - "Ingresos mensuales después del despido"
+
+
+
+results <- tar_read(age_results) |>
+    drop_na(split) |>
+    clean_hate() |>
+    mutate(split = factor(split, labels = c("Abajo de la mediana", "Arriba de la mediana")))
+
+
+results |>
+    filter(label == "Duración - 36 meses (semanas)") |>
+    ggplot(aes(split, point, color = split)) +
+    geom_pointrange(aes(ymin = lower, ymax = upper)) +
+    geom_hline(yintercept = 0) +
+    theme(legend.position = "none") +
+    labs(
+        x = "Edad al momento del despido",
+        y = "Efecto del RPD"
+
+    ) +
+    scale_color_brewer(palette = "Set1")
+
+results |>
+    filter(label == "Ingresos mensuales") |>
+    ggplot(aes(split, point, color = split)) +
+    geom_pointrange(aes(ymin = lower, ymax = upper)) +
+    geom_hline(yintercept = 0) +
+    scale_y_continuous(labels = scales::dollar_format(prefix = "$")) +
+    theme(legend.position = "none") +
+    
+    labs(
+        x = "Edad al momento del despido",
+        y = "Efecto del RPD"
+    ) +
+    scale_color_brewer(palette = "Set1")
+
+```
+
+## Perspectiva de género
+
+También aparecen diferencias claras por género. El RPD no afecta de la misma manera a hombres y mujeres.
+
+Entre los hombres, el uso del RPD está asociado con un aumento cercano a 50 semanas de desempleo, y el punto estimado en salarios posteriores es positivo, aunque con intervalos de confianza amplios que impiden afirmar un efecto preciso.
+
+Entre las mujeres, el RPD no prolonga el desempleo, pero tampoco genera mejoras salariales posteriores: los intervalos de confianza incluyen el cero en ambas dimensiones.
+
+En un mercado laboral donde las brechas de género ya eran profundas, estos patrones indican que el RPD no corrige desigualdades preexistentes; en varios casos, las reproduce. Para los hombres, los efectos parecen más volátiles —con mayor pérdida de empleo y salarios inciertos—, mientras que para las mujeres el programa simplemente no ofrece beneficios laborales medibles después del despido.
+
+```{r}
+#| label: fig-het-gender
+#| fig-cap: "Efectos del RPD por género. Intervalos de confianza al 95%."
+#| fig-width: 5
+#| fig-height: 3
+#| layout-ncol: 2
+#| fig-subcap:
+#|  - "Duración del desempleo (semanas)"
+#|  - "Ingresos mensuales después del despido"
+
+
+
+results <- tar_read(gender_results) |>
+    clean_hate() |>
+    mutate(split = factor(split, labels = c("Hombres", "Mujeres")))
+
+
+results |>
+    filter(label == "Duración - 36 meses (semanas)") |>
+    ggplot(aes(split, point, color = split)) +
+    geom_pointrange(aes(ymin = lower, ymax = upper)) +
+    geom_hline(yintercept = 0) +
+    theme(legend.position = "none") +
+    labs(
+        x = "",
+        y = "Efecto del RPD"
+
+    )+
+    scale_color_brewer(palette = "Set1")
+
+results |>
+    filter(label == "Ingresos mensuales") |>
+    ggplot(aes(split, point, color = split)) +
+    geom_pointrange(aes(ymin = lower, ymax = upper)) +
+    geom_hline(yintercept = 0) +
+    scale_y_continuous(labels = scales::dollar_format(prefix = "$")) +
+    theme(legend.position = "none") +
+    
+    labs(
+        x = "",
+        y = "Efecto del RPD"
+    ) +
+    scale_color_brewer(palette = "Set1")
+
+```
+
+## El RPD como política contracíclica
+
+Un contraste llamativo surge cuando analizo a los trabajadores que perdieron su empleo durante la pandemia. A diferencia de lo que ocurre en periodos normales, los efectos del RPD en este grupo son más moderados —e incluso apuntan en la dirección opuesta.
+
+La duración del desempleo apenas aumenta, y el intervalo de confianza incluye el cero, lo que indica que el efecto no es estadísticamente distinto de cero.
+
+Los ingresos posteriores son mayores, aunque con intervalos amplios; aun así, el punto estimado sugiere que el acceso a liquidez inmediata pudo facilitar una recuperación laboral algo más sólida.
+
+En un contexto de crisis severa, donde el mercado laboral colapsó y las opciones eran escasas, el acceso a recursos inmediatos parece haber funcionado como un amortiguador contracíclico. En lugar de prolongar el desempleo o deteriorar trayectorias laborales, el RPD ayudó a los trabajadores a lidear el peor momento sin comprometer —al menos no adicionalmente— su regreso al empleo formal.
+```{r}
+#| label: fig-het-covid
+#| fig-cap: "Efectos del RPD durante la pandemia. Intervalos de confianza al 95%."
+#| fig-width: 5
+#| fig-height: 3
+#| layout-ncol: 2
+#| fig-subcap:
+#|  - "Duración del desempleo (semanas)"
+#|  - "Ingreso mensual promedio (3 años)"
+
+
+
+results <- tar_read(covid_results) |>
+    clean_hate() |>
+    filter(split != "Partial Exposure") |>
+    mutate(split = factor(split, labels = c("No expuesto", "Expuesto"), levels = c("No Exposure", "Full Exposure")))
+    
+
+
+results |>
+    filter(label == "Duración - 36 meses (semanas)") |>
+    ggplot(aes(split, point, color = split)) +
+    geom_pointrange(aes(ymin = lower, ymax = upper)) +
+    geom_hline(yintercept = 0) +
+    theme(legend.position = "none") +
+    labs(
+        x = "Exposición al COVID-19",
+        y = "Efecto del RPD"
+
+    ) +
+    scale_color_brewer(palette = "Set1")
+
+results |>
+    filter(label == "Ingresos mensuales - 3 años") |>
+    ggplot(aes(split, point, color = split)) +
+    geom_pointrange(aes(ymin = lower, ymax = upper)) +
+    geom_hline(yintercept = 0) +
+    scale_y_continuous(labels = scales::dollar_format(prefix = "$")) +
+    theme(legend.position = "none") +
+    
+    labs(
+        x = "Exposición al COVID-19",
+        y = "Efecto del RPD"
+    ) +
+    scale_color_brewer(palette = "Set1")
+
+```
+
+
+## El costo real de usar el Retiro Parcial por Desempleo
+
+¿Cuánto cuesta realmente usar el RPD? Por un lado, el retiro promedio es de $7,690 MXN^[Las cifras de esta sección las obtuve de @degetau. Todas las cifras están en pesos mexicanos en valor de 2024.]. Estos recursos salen del AFORE del trabajador, reduciendo su ahorro para el retiro futuro. Adicionalmente, se descuentan los días proporcionales de cotización al IMSS, que en promedio son 318 días. Para cuantificar esta pérdida en términos monetarios, uso el salario promedio del trabajo previo al despido, que es de $9,095 MXN mensuales. Multiplicando ese salario diario por los días descontados, la pérdida promedio por días de cotización es de $94,830 MXN.
+
+Además, hay que incluir las ganancias que se dejaron de tener a causa del RPD. Después de tres años, los trabajadores que usaron el programa dejaron de ganar en promedio $20,379 MXN en ingresos acumulados, comparados con quienes no lo usaron. Al tomar en cuenta todas estas pérdidas, **el costo total promedio de retirar $7,690 MXN a través del RPD asciende a $122,899 MXN en términos presentes**.
+
+## El problema real no es el RPD: es la ausencia de un sistema de protección al desempleo
+
+La conclusión central no surge solo de los resultados cuantitativos, sino del contexto institucional en el que el RPD opera.
+
+Este mecanismo existe porque las alternativas fallan. El sistema de justicia laboral es lento, incierto y costoso; la indemnización constitucional rara vez llega al trabajador [@sadka2024]; y México carece de un seguro de desempleo que distribuya colectivamente el riesgo de perder el trabajo. En ese vacío, el RPD funciona como sustituto improvisado: una forma de financiar la crisis inmediata con el ahorro para el retiro.
+
+El problema es que este diseño desplaza los costos hacia quienes menos pueden absorberlos. Para los trabajadores con menos ingresos, menor estabilidad y menos redes, el RPD no solo no protege: **agrava su vulnerabilidad**. En lugar de suavizar desigualdades —como lo haría un seguro de desempleo bien diseñado— las reproduce y, en muchos casos, las agudiza.
+
+## La pregunta que queda abierta
+
+El RPD ofrece liquidez en el corto plazo, pero lo hace a costa de trayectorias laborales más frágiles, mayores periodos de desempleo y brechas más profundas entre grupos de trabajadores. Durante una crisis severa, como la pandemia, sus efectos son menos dañinos, pero eso no corrige su problema estructural: depende del ahorro de quienes menos tienen.
+
+La decisión pendiente es simple de enunciar, pero políticamente difícil: ¿seguirá México confiando en un mecanismo que convierte el ahorro pensionario de los trabajadores vulnerables en un pseudo–seguro de desempleo, o construiremos por fin instituciones capaces de proteger la pérdida del empleo sin comprometer el futuro laboral y patrimonial de quienes menos margen tienen?
