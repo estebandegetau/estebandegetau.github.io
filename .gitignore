@@ -14,3 +14,7 @@ _extensions/
 tailored-cv/
 **/*.quarto_ipynb
 site_libs/
+_*.qmd
+*_files/
+.vscode/
+prompts/

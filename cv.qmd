@@ -7,30 +7,29 @@ format:
       date-modified: today
       date-format: long
       css: styles.css
+      tbl-colwidths: [80,20]
   typst: 
     title: Esteban Degetau
     subtitle: Curriculum Vitae
     papersize: us-letter
     date: today
     date-format: long
+    brand: false
+    tbl-colwidths: [75,25]
 tbl-colwidths: [80,20]
 ---
 
-## Contact
+:::{.smallcaps .center}
+[estebandegetau\@gmail.com](mailto:estebandegetau@gmail.com) | [www.estebandegetau.com](https://www.estebandegetau.com)     | Mexico City, Mexico      
+:::
 
-Email: [estebandegetau\@gmail.com](mailto:estebandegetau@gmail.com)   
 
-Personal site: [estebandegetau.com](https://www.estebandegetau.com)           
-
-GitHub: [github.com/estebandegetau](https://github.com/estebandegetau) 
-
-Location: Mexico City, Mexico
 
 ## Education
 
-M.S. Applied Economics, Instituto Tecnológico Autónomo de México (ITAM), High Honors, 2025
+Master in Applied Economics, Instituto Tecnológico Autónomo de México (ITAM), High Honors, 2025
 
-B.S. Economics, ITAM, 2021
+B.A. Economics, ITAM, 2023
 
 ## Research Experience
 
@@ -60,27 +59,29 @@ The Labor Market Outcomes of (Quasi) Unemployment Insurance: Evidence from Mexic
 | :   Herramientas estadísticas en R - office training |               |
 +------------------------------------------------------+---------------+
 
-
-
 ## Public Service
 
-+--------------------------------------------+--------------:+
-| IMSS                                       | \             |
-|                                            | 2023 - 2025   |
-| :   Deputy Head, Fiscal Policy Planning    |               |
-+--------------------------------------------+---------------+
++------------------------------------------+--------------:+
+| IMSS                                     | \             |
+|                                          | 2023 - 2025   |
+| :   Deputy Head, Fiscal Policy Planning  |               |
++------------------------------------------+---------------+
 
 ## Industry Experience
 
 +---------------------------------+--------------:+
-| CEROMULTAS                      | \             |
-|                                 | 2019 - 2021   |
-| :   Business Analyist           |               |
+|| **CEROMULTAS**                 |               |
 +---------------------------------+---------------+
-| T-Rez Consulting                | \             |
-|                                 | 2018          |
-| :   International Trade Analyst |               |
+||      Senior Business Analyst   | 2021          |
 +---------------------------------+---------------+
+||      Business Analyst          | 2019 - 2020   |
++---------------------------------+---------------+
+
++----------------------------------+--------------:+
+|| **T-Rez Consulting**            |               |
++----------------------------------+---------------+
+||      International Trade Analyst| 2018          |
++----------------------------------+---------------+
 
 ## Recognitions
 
@@ -100,12 +101,12 @@ The Labor Market Outcomes of (Quasi) Unemployment Insurance: Evidence from Mexic
 
 ## Technical Skills
 
-+---------------:+:---------------------------------------------------+
-| Programming:   | R, Python, Stata, SQL, SAS                         |
-+----------------+----------------------------------------------------+
-| Tools:         | Git, Quarto, Power BI, LaTeX                       |
-+----------------+----------------------------------------------------+
-| Languages:     | Spanish, English                                   |
-+----------------+----------------------------------------------------+
++---------------:+:--------------------------------------------------+
+| Programming:   | R, Python, Stata, SQL, SAS                        |
++----------------+---------------------------------------------------+
+| Tools:         | Quarto, Git, Power BI, LaTeX                      |
++----------------+---------------------------------------------------+
+| Languages:     | Spanish, English                                  |
++----------------+---------------------------------------------------+
 
 : {tbl-colwidths="\[20,80\]"}

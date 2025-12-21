@@ -5,7 +5,8 @@ project:
     - index.qmd
     - research.qmd
     - teaching.qmd
-    # - blog.qmd
+    - blog.qmd
+    - blog
   output-dir: _site
 
 execute:
@@ -13,6 +14,8 @@ execute:
 
 website:
   title: "Esteban Degetau"
+  site-url: https://www.estebandegetau.com/
+  description: "Esteban Degetau's Personal Website"
   repo-url: https://github.com/estebandegetau/estebandegetau.github.io
   google-analytics: "G-11D42BZNRY"
   navbar:
@@ -21,23 +24,17 @@ website:
         text: Home
       - href: research.qmd
         text: Research
-      - href: cv.qmd
-        text: CV
       - href: teaching.qmd
         text: Teaching
-      # - href: blog.qmd
-      #   text: Blog
+      - href: blog.qmd
+        text: Blog
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: rss
+        href: index.xml
 
 
-format:
-  html:
-    theme: sandstone
-    # fontsize: 11pt
-    # toc: false
-    # toc_depth: 3
-    # toc_float: true
-    # toc_smooth_scroll: true
-    # toc_highlight: true
-    # fig-align: center
-    
+format: html
 
+# brand: _brand.yml

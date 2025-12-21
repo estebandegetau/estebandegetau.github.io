@@ -1,26 +1,54 @@
 ---
 title: "Esteban Degetau"
+format:
+  html:
+    page-layout: full
 about:
-    template: solana
+    template: trestles
     image-width: 20em
     links:
-        - icon: x
-          text: X
+        - icon: twitter
+          text: Twitter
           url: https://x.com/estebandegetau
+        - icon: spotify 
+          text: Spotify
+          url: https://open.spotify.com/user/estebandegetau?si=b3ecc16446d449eb
         - icon: github
           text: GitHub
           url: https://github.com/estebandegetau
-        - text: "Email"
+        - icon: linkedin
+          text: LinkedIn
+          url: https://www.linkedin.com/in/esteban-degetau-187141344/
+        - icon: letterboxd
+          text: Letterboxd
+          url: https://letterboxd.com/estebandegetau/
+        - icon: email
+          text: "Email"
           url: mailto:estebandegetau@gmail.com
         - icon: orcid  
           text: "ORCID"
           url: https://orcid.org/0009-0004-4095-8819
-        - icon: linkedin
-          text: LinkedIn
-          url: https://www.linkedin.com/in/esteban-degetau-187141344/
 image: "images/eds-2024.jpg"
+comments: false
+listing:
+  id: blog
+  contents: blog
+  sort: "date desc"
+  type: default
+  fields: [image, date, title]
+  categories: false
+  feed:
+    items: 5
 ---
 
 # About Me
 
-I am an economist working at the World Bank’s Development Research Group (Macroeconomics and Growth) as Short-Term Consultant. I hold an M.S. in Applied Economics with high honors from [ITAM](https://www.itam.mx/). Previously, I worked at the Mexican Social Security Institute (IMSS), where I developed an interest in labor market transitions and social protection policy. My research draws on labor economics and applied econometrics, and I plan to begin doctoral studies in economics in 2026.
+I am an economist working at the World Bank’s Development Research Group (Macroeconomics and Growth) as Short-Term Consultant. I hold an M.S. in Applied Economics with high honors from [ITAM](https://www.itam.mx/). 
+
+Previously, I worked at the Mexican Social Security Institute (IMSS), where I developed a keen interest in labor market transitions and social protection policy. My research draws on labor economics and applied econometrics. I plan to begin doctoral studies in economics in 2026.
+
+## Blog
+
+::: {#blog}
+
+:::

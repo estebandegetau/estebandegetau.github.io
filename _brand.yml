@@ -1,0 +1,59 @@
+# _brand.yml
+meta:
+  name: Esteban Degetau # ← replace with your full consulting entity name
+  link: https://www.estebandegetau.com/     # ← your personal/professional site domain
+
+
+logo:
+  # Since you don’t yet have a logo, you can leave these blank for now
+  # Once you have one: small, medium, large can be specified
+  # Example:
+  # medium:
+  #   light: assets/logo-medium-light.png
+  #   dark:  assets/logo-medium-dark.png
+  medium:
+    light: ""  # placeholder
+    dark:  ""   # placeholder
+
+color:
+  palette:
+    blue: "#1E4E8C"           # a deep, trustworthy blue
+    light-blue: "#E9F2FF"     # subtle background accent
+    dark-grey: "#222222"      # deep text color in light mode
+    light-grey: "#F6F6F6"     # light background
+    white: "#FFFFFF"
+    black: "#000000"
+  background:
+    light: light-grey
+    dark: "#111111"
+  foreground:
+    light: dark-grey
+    dark: light-grey
+  primary:
+    light: blue
+    dark: light-blue
+  link:
+    light: blue
+    dark: light-blue
+
+typography:
+  fonts:
+    - family: Poppins       # modern sans serif, good for web readability
+      source: google
+    - family: Merriweather  # optional serif if you ever use PDFs / print
+      source: google
+  base: Poppins
+  headings:
+    family: Poppins
+    weight: 600
+  link:
+    color:
+      light: blue
+      dark: light-blue
+
+defaults:
+  bootstrap:
+    code-font-family: "Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+    body-font-family: "Poppins, sans-serif"
+    heading-font-family: "Poppins, sans-serif"
+
