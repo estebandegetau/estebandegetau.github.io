@@ -9,12 +9,12 @@
 <link>https://www.estebandegetau.com/blog.html</link>
 <atom:link href="https://www.estebandegetau.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Esteban Degetau&#39;s Personal Website</description>
-<generator>quarto-1.8.25</generator>
-<lastBuildDate>Mon, 17 Nov 2025 06:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Mon, 17 Nov 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>El Retiro Parcial por Desempleo: un sustituto costoso ante la ausencia de un seguro de desempleo</title>
   <dc:creator>Esteban Degetau</dc:creator>
-  <link>https://www.estebandegetau.com/posts/rpd/</link>
+  <link>https://www.estebandegetau.com/blog/rpd/</link>
   <description><![CDATA[ 
 
 
@@ -43,7 +43,7 @@
 Figura&nbsp;1: Efecto de elegibilidad sobre el uso del RPD a 12 meses de la separación laboral.
 </figcaption>
 <div aria-describedby="fig-rd-take-up-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="index_files/figure-html/fig-rd-take-up-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figura&nbsp;1: Efecto de elegibilidad sobre el uso del RPD a 12 meses de la separación laboral."><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-rd-take-up-1.png" class="img-fluid figure-img" width="672"></a>
+<a href="index_files/figure-html/fig-rd-take-up-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figura&nbsp;1: Efecto de elegibilidad sobre el uso del RPD a 12 meses de la separación laboral."><img src="https://www.estebandegetau.com/blog/rpd/index_files/figure-html/fig-rd-take-up-1.png" class="img-fluid figure-img" width="672"></a>
 </div>
 </figure>
 </div>
@@ -70,7 +70,7 @@ Figura&nbsp;2: Efecto del RPD en búsqueda de empleo. Intervalos de confianza al
 (a) Efecto del RPD en tasa de supervivencia en el desempleo
 </figcaption>
 <div aria-describedby="fig-rd-survival-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="index_files/figure-html/fig-rd-survival-1.png" class="lightbox" data-gallery="fig-rd-survival" title="Figura&nbsp;2&nbsp;(a): Efecto del RPD en tasa de supervivencia en el desempleo"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-rd-survival-1.png" class="img-fluid figure-img" data-ref-parent="fig-rd-survival" width="768"></a>
+<a href="index_files/figure-html/fig-rd-survival-1.png" class="lightbox" data-gallery="fig-rd-survival" title="Figura&nbsp;2&nbsp;(a): Efecto del RPD en tasa de supervivencia en el desempleo"><img src="https://www.estebandegetau.com/blog/rpd/index_files/figure-html/fig-rd-survival-1.png" class="img-fluid figure-img" data-ref-parent="fig-rd-survival" width="768"></a>
 </div>
 </figure>
 </div>
@@ -84,7 +84,7 @@ Figura&nbsp;2: Efecto del RPD en búsqueda de empleo. Intervalos de confianza al
 (b) Efecto del RPD en duración del desempleo (semanas)
 </figcaption>
 <div aria-describedby="fig-rd-survival-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="index_files/figure-html/fig-rd-survival-2.png" class="lightbox" data-gallery="fig-rd-survival" title="Figura&nbsp;2&nbsp;(b): Efecto del RPD en duración del desempleo (semanas)"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-rd-survival-2.png" class="img-fluid figure-img" data-ref-parent="fig-rd-survival" width="768"></a>
+<a href="index_files/figure-html/fig-rd-survival-2.png" class="lightbox" data-gallery="fig-rd-survival" title="Figura&nbsp;2&nbsp;(b): Efecto del RPD en duración del desempleo (semanas)"><img src="https://www.estebandegetau.com/blog/rpd/index_files/figure-html/fig-rd-survival-2.png" class="img-fluid figure-img" data-ref-parent="fig-rd-survival" width="768"></a>
 </div>
 </figure>
 </div>
@@ -230,7 +230,7 @@ Figura&nbsp;3: Efectos del RPD por nivel de ingresos previos al despido. Interva
 (a) Duración del desempleo (semanas)
 </figcaption>
 <div aria-describedby="fig-het-income-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="index_files/figure-html/fig-het-income-1.png" class="lightbox" data-gallery="fig-het-income" title="Figura&nbsp;3&nbsp;(a): Duración del desempleo (semanas)"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-het-income-1.png" class="img-fluid figure-img" data-ref-parent="fig-het-income" width="480"></a>
+<a href="index_files/figure-html/fig-het-income-1.png" class="lightbox" data-gallery="fig-het-income" title="Figura&nbsp;3&nbsp;(a): Duración del desempleo (semanas)"><img src="https://www.estebandegetau.com/blog/rpd/index_files/figure-html/fig-het-income-1.png" class="img-fluid figure-img" data-ref-parent="fig-het-income" width="480"></a>
 </div>
 </figure>
 </div>
@@ -242,7 +242,7 @@ Figura&nbsp;3: Efectos del RPD por nivel de ingresos previos al despido. Interva
 (b) Ingresos mensuales después del despido
 </figcaption>
 <div aria-describedby="fig-het-income-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="index_files/figure-html/fig-het-income-2.png" class="lightbox" data-gallery="fig-het-income" title="Figura&nbsp;3&nbsp;(b): Ingresos mensuales después del despido"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-het-income-2.png" class="img-fluid figure-img" data-ref-parent="fig-het-income" width="480"></a>
+<a href="index_files/figure-html/fig-het-income-2.png" class="lightbox" data-gallery="fig-het-income" title="Figura&nbsp;3&nbsp;(b): Ingresos mensuales después del despido"><img src="https://www.estebandegetau.com/blog/rpd/index_files/figure-html/fig-het-income-2.png" class="img-fluid figure-img" data-ref-parent="fig-het-income" width="480"></a>
 </div>
 </figure>
 </div>
@@ -272,7 +272,7 @@ Figura&nbsp;4: Efectos del RPD por edad al momento del despido. Intervalos de co
 (a) Duración del desempleo (semanas)
 </figcaption>
 <div aria-describedby="fig-het-age-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="index_files/figure-html/fig-het-age-1.png" class="lightbox" data-gallery="fig-het-age" title="Figura&nbsp;4&nbsp;(a): Duración del desempleo (semanas)"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-het-age-1.png" class="img-fluid figure-img" data-ref-parent="fig-het-age" width="480"></a>
+<a href="index_files/figure-html/fig-het-age-1.png" class="lightbox" data-gallery="fig-het-age" title="Figura&nbsp;4&nbsp;(a): Duración del desempleo (semanas)"><img src="https://www.estebandegetau.com/blog/rpd/index_files/figure-html/fig-het-age-1.png" class="img-fluid figure-img" data-ref-parent="fig-het-age" width="480"></a>
 </div>
 </figure>
 </div>
@@ -284,7 +284,7 @@ Figura&nbsp;4: Efectos del RPD por edad al momento del despido. Intervalos de co
 (b) Ingresos mensuales después del despido
 </figcaption>
 <div aria-describedby="fig-het-age-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="index_files/figure-html/fig-het-age-2.png" class="lightbox" data-gallery="fig-het-age" title="Figura&nbsp;4&nbsp;(b): Ingresos mensuales después del despido"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-het-age-2.png" class="img-fluid figure-img" data-ref-parent="fig-het-age" width="480"></a>
+<a href="index_files/figure-html/fig-het-age-2.png" class="lightbox" data-gallery="fig-het-age" title="Figura&nbsp;4&nbsp;(b): Ingresos mensuales después del despido"><img src="https://www.estebandegetau.com/blog/rpd/index_files/figure-html/fig-het-age-2.png" class="img-fluid figure-img" data-ref-parent="fig-het-age" width="480"></a>
 </div>
 </figure>
 </div>
@@ -314,7 +314,7 @@ Figura&nbsp;5: Efectos del RPD por género. Intervalos de confianza al 95%.
 (a) Duración del desempleo (semanas)
 </figcaption>
 <div aria-describedby="fig-het-gender-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="index_files/figure-html/fig-het-gender-1.png" class="lightbox" data-gallery="fig-het-gender" title="Figura&nbsp;5&nbsp;(a): Duración del desempleo (semanas)"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-het-gender-1.png" class="img-fluid figure-img" data-ref-parent="fig-het-gender" width="480"></a>
+<a href="index_files/figure-html/fig-het-gender-1.png" class="lightbox" data-gallery="fig-het-gender" title="Figura&nbsp;5&nbsp;(a): Duración del desempleo (semanas)"><img src="https://www.estebandegetau.com/blog/rpd/index_files/figure-html/fig-het-gender-1.png" class="img-fluid figure-img" data-ref-parent="fig-het-gender" width="480"></a>
 </div>
 </figure>
 </div>
@@ -326,7 +326,7 @@ Figura&nbsp;5: Efectos del RPD por género. Intervalos de confianza al 95%.
 (b) Ingresos mensuales después del despido
 </figcaption>
 <div aria-describedby="fig-het-gender-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="index_files/figure-html/fig-het-gender-2.png" class="lightbox" data-gallery="fig-het-gender" title="Figura&nbsp;5&nbsp;(b): Ingresos mensuales después del despido"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-het-gender-2.png" class="img-fluid figure-img" data-ref-parent="fig-het-gender" width="480"></a>
+<a href="index_files/figure-html/fig-het-gender-2.png" class="lightbox" data-gallery="fig-het-gender" title="Figura&nbsp;5&nbsp;(b): Ingresos mensuales después del despido"><img src="https://www.estebandegetau.com/blog/rpd/index_files/figure-html/fig-het-gender-2.png" class="img-fluid figure-img" data-ref-parent="fig-het-gender" width="480"></a>
 </div>
 </figure>
 </div>
@@ -356,7 +356,7 @@ Figura&nbsp;6: Efectos del RPD durante la pandemia. Intervalos de confianza al 9
 (a) Duración del desempleo (semanas)
 </figcaption>
 <div aria-describedby="fig-het-covid-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="index_files/figure-html/fig-het-covid-1.png" class="lightbox" data-gallery="fig-het-covid" title="Figura&nbsp;6&nbsp;(a): Duración del desempleo (semanas)"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-het-covid-1.png" class="img-fluid figure-img" data-ref-parent="fig-het-covid" width="480"></a>
+<a href="index_files/figure-html/fig-het-covid-1.png" class="lightbox" data-gallery="fig-het-covid" title="Figura&nbsp;6&nbsp;(a): Duración del desempleo (semanas)"><img src="https://www.estebandegetau.com/blog/rpd/index_files/figure-html/fig-het-covid-1.png" class="img-fluid figure-img" data-ref-parent="fig-het-covid" width="480"></a>
 </div>
 </figure>
 </div>
@@ -368,7 +368,7 @@ Figura&nbsp;6: Efectos del RPD durante la pandemia. Intervalos de confianza al 9
 (b) Ingreso mensual promedio (3 años)
 </figcaption>
 <div aria-describedby="fig-het-covid-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="index_files/figure-html/fig-het-covid-2.png" class="lightbox" data-gallery="fig-het-covid" title="Figura&nbsp;6&nbsp;(b): Ingreso mensual promedio (3 años)"><img src="https://www.estebandegetau.com/posts/rpd/index_files/figure-html/fig-het-covid-2.png" class="img-fluid figure-img" data-ref-parent="fig-het-covid" width="480"></a>
+<a href="index_files/figure-html/fig-het-covid-2.png" class="lightbox" data-gallery="fig-het-covid" title="Figura&nbsp;6&nbsp;(b): Ingreso mensual promedio (3 años)"><img src="https://www.estebandegetau.com/blog/rpd/index_files/figure-html/fig-het-covid-2.png" class="img-fluid figure-img" data-ref-parent="fig-het-covid" width="480"></a>
 </div>
 </figure>
 </div>
@@ -420,21 +420,21 @@ Sadka, Joyce, Enrique Seira, y Christopher Woodruff. 2024. <span>«Information a
   title = {El Retiro Parcial por Desempleo: un sustituto costoso ante la
     ausencia de un seguro de desempleo},
   date = {2025-11-17},
-  url = {https://www.estebandegetau.com/posts/rpd/},
+  url = {https://www.estebandegetau.com/blog/rpd/},
   langid = {es}
 }
 </code></pre><div class="quarto-appendix-secondary-label">Por favor, cita este trabajo como:</div><div id="ref-degetau2025" class="csl-entry quarto-appendix-citeas">
 Degetau, Esteban. 2025. <span>“El Retiro Parcial por Desempleo: un
 sustituto costoso ante la ausencia de un seguro de desempleo.”</span>
-November 17, 2025. <a href="https://www.estebandegetau.com/posts/rpd/">https://www.estebandegetau.com/posts/rpd/</a>.
+November 17, 2025. <a href="https://www.estebandegetau.com/blog/rpd/">https://www.estebandegetau.com/blog/rpd/</a>.
 </div></div></section></div> ]]></description>
   <category>política pública</category>
   <category>mercado laboral</category>
   <category>retiro parcial por desempleo</category>
   <category>México</category>
-  <guid>https://www.estebandegetau.com/posts/rpd/</guid>
-  <pubDate>Mon, 17 Nov 2025 06:00:00 GMT</pubDate>
-  <media:content url="https://www.estebandegetau.com/posts/rpd/thumbnail.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://www.estebandegetau.com/blog/rpd/</guid>
+  <pubDate>Mon, 17 Nov 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://www.estebandegetau.com/blog/rpd/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
