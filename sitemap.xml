@@ -2,26 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.estebandegetau.com/blog/rpd/index.html</loc>
-    <lastmod>2026-02-11T14:43:03.136Z</lastmod>
+    <lastmod>2026-02-05T23:42:41.105Z</lastmod>
   </url>
   <url>
-    <loc>https://www.estebandegetau.com/teaching.html</loc>
-    <lastmod>2026-02-11T14:43:03.161Z</lastmod>
+    <loc>https://www.estebandegetau.com/teaching/index.html</loc>
+    <lastmod>2026-02-28T17:29:20.883Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/research/working_papers.html</loc>
+    <lastmod>2026-02-28T15:42:03.881Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/research/index.html</loc>
+    <lastmod>2026-02-28T15:44:43.877Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/cv/index_typst.html</loc>
+    <lastmod>2026-02-28T18:34:08.808Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/cv/cv_months.html</loc>
+    <lastmod>2026-02-28T22:07:51.726Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/cv/cv_long_term.html</loc>
+    <lastmod>2026-02-28T22:07:40.189Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/cv/index.html</loc>
+    <lastmod>2026-02-28T22:11:21.027Z</lastmod>
   </url>
   <url>
     <loc>https://www.estebandegetau.com/index.html</loc>
-    <lastmod>2026-02-11T14:43:03.153Z</lastmod>
+    <lastmod>2026-02-05T23:42:41.133Z</lastmod>
   </url>
   <url>
-    <loc>https://www.estebandegetau.com/cv.html</loc>
-    <lastmod>2026-02-11T14:43:03.137Z</lastmod>
+    <loc>https://www.estebandegetau.com/research/other_research.html</loc>
+    <lastmod>2026-02-28T15:45:30.472Z</lastmod>
   </url>
   <url>
-    <loc>https://www.estebandegetau.com/research.html</loc>
-    <lastmod>2026-02-11T14:43:03.161Z</lastmod>
+    <loc>https://www.estebandegetau.com/teaching/classes.html</loc>
+    <lastmod>2026-02-28T21:25:33.409Z</lastmod>
   </url>
   <url>
     <loc>https://www.estebandegetau.com/blog.html</loc>
-    <lastmod>2026-02-11T14:43:03.135Z</lastmod>
+    <lastmod>2026-02-05T23:42:41.101Z</lastmod>
   </url>
 </urlset>
