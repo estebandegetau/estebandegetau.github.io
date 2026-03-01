@@ -1,0 +1,79 @@
+---
+title: "From Coder to Conductor"
+subtitle: "What Happens When You Stop Writing Code and Start Managing AI"
+author: Esteban Degetau
+date: today
+categories: [Claude code, R, Empirical research]
+lang: en
+draft: true
+---
+
+I've spent my entire research career building one skill above all others: thinking in R. Not just using it. Thinking in it. When I had a question about my data, I didn't reason through it in words and then translate to code. I wrote the code. The pipe operator was how I thought. `dplyr` verbs were my research vocabulary. Years of following a reproducibility mantra through the body of R eventually became my professional identity; my entire empirical intuition speaks the language.
+
+Then this January I started using Claude Code, and within minutes of watching it write R, I was immediately certain I would never code the same way again.
+
+## The shock, and the trap
+
+The sheer breadth of programming knowledge Claude has *off-the-shelf* is shocking. Not "good for an AI." Good, period. It wrote R code that was cleaner, faster, and more idiomatically correct than what I would have produced after hours of careful work. It did it in seconds.
+
+For a research project, I'm testing whether LLMs can classify the economic motives behind fiscal policy decisions; barging into the AI literature from an economics background. The pipeline involves serious data work, which I'm used to, but now Claude handles the mechanical side of it with a proficiency that immediately made me reassess what, exactly, I was bringing to the table. If R was my professional identity and Claude writes better R than I do, where does that leave me?
+
+Here's where a stupid human like me made an implicit assumption: *someone* this proficient at R code must also be proficient at evaluating AI systems. Surely, an AI system built through rounds and rounds of evaluation must itself know how to rigorously evaluate AI outputs.
+
+You would be mistaken. I was.
+
+After Claude finished writing the code, I asked it to run the pipeline, then generate an evaluation report on its own output: a Quarto report with sanity checks, visualizations, diagnostic tests. The kind of thing I'd always done myself to verify I cooked the data right. And the reports it produced in five minutes were far better than what I could have managed after a full work day. Clean. Thorough. Confident.
+
+I managed to write the data pipeline, run it, and report on it in under an hour. So what's the problem, then? I didn't know if it was performing the *right* tests. I didn't know *why* it was testing what it was testing. I was looking at a beautiful report and I had no framework to judge whether any of it meant what it appeared to mean. I was blind, with only Claude's self-assessment to go on.
+
+This is the first prior I had to challenge, and I think it's the most important one for anyone working with LLMs: **off-the-shelf AI knowledge cannot be anticipated, much less taken for granted.** Claude's brilliance in one domain tells you nothing about its competence in another. The heuristics that can tell you whether *someone* might know something well based on what you know about them simply don't translate to LLMs; the boundary between what an LLM knows cold and what it's confidently improvising is invisible.
+
+## The uncomfortable realization
+
+I realized I had to become proficient in AI evaluation. Or rather: I had to become an expert in the methods my paper would leverage. Who would have thought AI can't do this for me. (That's sarcasm, but only barely.)
+
+This is the part that doesn't make it into the hype cycle. The tool is powerful, but it doesn't know what it doesn't know; and more dangerously, neither do you, unless you put in the work. Claude needs context. The more clear, thorough, and to the point, the better. And *you* are the one who has to build that context, which means you have to understand the domain deeply enough to know what context matters.
+
+There's no prompt smart enough to give meaning to your results. That's the researcher's job. It always has been.
+
+## Use AI to define what you don't know
+
+The lesson isn't "AI is overrated." The lesson is that the real edge is using AI to *develop your own expertise*, not to substitute for it.
+
+I stopped asking Claude to evaluate itself and told it everything I could about the research project instead, in as much detail as I could manage. Then I made the problem explicit: "Right now I'm stuck because Claude is producing evaluation reports that I can't even interpret." That was it. Claude identified what it called a *closed knowledge gap*: I didn't need to invent new methods; I just needed to learn the existing ones. It suggested sources. I fed those into NotebookLM and built a personalized learning guide around my project's specific needs.
+
+The payoff was concrete and immediate. Before this, I didn't have a clear grasp of the recall-precision trade-off, let alone how to leverage it in my economics context. After working through the material, the logic clicked: I wanted high recall to capture all the fiscal shocks in the data, but high precision to classify them as exogenous, because incorrectly labeling an endogenous fiscal shock as exogenous would bias the results. That single distinction reshaped how I trained and evaluated the model.
+
+Claude is extraordinarily good at this kind of structured knowledge synthesis. It can map a field for you in minutes. But the mapping is only useful if *you* then walk the territory.
+
+## The workflow
+
+After the lessons, I rebuilt how I work from the ground up. Claude is very helpful writing all of this, by the way; you just have to know what to ask.
+
+The system has layers, and the layers exist for a reason. The mantra is: build documentation from source to implementation, crystallizing each step in files that I can review and learn from before moving on.
+
+`CLAUDE.md` covers the high-level objectives of the research project and maps out where the more complete documentation lives, so Claude knows where to find what it needs without saturating its context window. Think of it as a table of contents for the AI.
+
+I keep a master `literature_review.md` (which Claude also populates) containing the ground truths: the established methods, the key findings, the debates. This is the shared knowledge base.
+
+Then `methods/` takes the raw literature and applies it to my specific research question. Romer and Romer wrote the foundational note on how they performed their narrative approach to classifying fiscal shocks in the US. Halterman and Keith (2025) demonstrate how to codify data from text using LLMs in social science contexts. The methods file crystallizes what is specifically applicable from both to my project: using LLMs to replicate the Romer and Romer approach in other countries. Literature in, implementation-ready logic out.
+
+My biggest contribution was asking Claude to make a plan for the whole research project, mapping `methods/` into a concrete research design. After enough back and forth, once the plan was right, I saved it as `strategy.md`. Another nicety about having Claude is that it makes it far easier to keep all the documentation up to date.
+
+Now, could Claude implement the whole thing in one prompt? Probably. But the fact that Claude *can* do something doesn't mean it should. I know I don't have the brain capacity to review all of the outputs in one sitting. And as someone who isn't an AI expert by training, I don't want a small mistake early on to cost me the whole API budget, or worse, to propagate silently through every downstream result. So I break the strategy into stages. Each stage gets its own implementation plan. Each plan gets reviewed in its own Quarto notebook before I'm certain I can move on.
+
+This is where the creativity actually lives. Not in the code, not in the prompts, but in the space between stages, where I can slow down, check what happened, and decide whether the next step still makes sense. Giving yourself room to fail at small scale is the most underrated part of any ~~AI~~ workflow.
+
+## What I keep
+
+Not everything gets delegated. There's a boundary I've learned to protect: the parts where the intellectual contribution actually lives.
+
+Research design stays with me. The choice of identification strategy, the decision about which robustness checks matter, the interpretation of results. If I outsourced these, I wouldn't have a research project. I'd have a book report on what an AI thinks about fiscal policy.
+
+The weird edge cases stay with me. The country that breaks the pattern. The result that doesn't fit the framework. These are where the interesting research lives, and they require the kind of contextual judgment that no amount of context window can encode.
+
+And interpretation stays with me. Always. The moment you let the AI tell you what your results mean is the moment you stop being a researcher.
+
+I'm more confident than I was six weeks ago, not because the tools got better, but because I finally understand what the question is. It was never "how do I write better code?" It was always "what should I, the human, do now that Claude can write all the code?" The answer is the part that was always the point: know enough to ask the right questions, and have the judgment to know when the answers don't hold.
+
+Don't outsource your judgment. Outsource the things that free it up. Everything else is plumbing.

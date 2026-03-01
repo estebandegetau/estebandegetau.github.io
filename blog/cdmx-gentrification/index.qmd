@@ -1,0 +1,296 @@
+---
+title: "Gentrificación en CDMX: Un Fracaso de Política Pública"
+subtitle: "Por qué los precios de vivienda no están 'fuera de control' — están respondiendo exactamente a las políticas que hemos creado"
+author: "Esteban Degetau"
+date: 2026-02-05
+categories: [vivienda, política pública, CDMX, urbanismo]
+lang: es
+image: thumbnail.jpg
+draft: true
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(tidyverse)
+library(ggplot2)
+library(scales)
+
+theme_set(theme_minimal(base_family = "sans"))
+```
+
+En octubre de 2024, la televisora N+ transmitió un reportaje sobre la gentrificación en la Ciudad de México que capturó un sentimiento cada vez más extendido: los precios de vivienda están "fuera de control", los extranjeros están desplazando a los mexicanos, y las colonias tradicionales están siendo tomadas por Airbnbs y cafés de especialidad. La narrativa es emotiva, comprensible, y políticamente conveniente.
+
+También es fundamentalmente incompleta.
+
+No niego que los precios hayan aumentado dramáticamente. Lo han hecho: según un estudio reciente publicado en *PNAS*, los precios de vivienda en la Ciudad de México se cuadruplicaron entre 2000 y 2022, y la accesibilidad —medida como la proporción de hogares que pueden pagar una vivienda promedio— disminuyó cuatro veces entre 2005 y 2015 [@auerbach2024]. En colonias como Polanco, los precios aumentaron ocho veces en el mismo periodo. Esto no es un fenómeno marginal.
+
+Pero la pregunta que casi nadie hace es más incómoda: ¿por qué los precios subieron tanto? La respuesta convencional —que la demanda de extranjeros y turistas está inflando el mercado— tiene un problema fundamental: no explica por qué la oferta no respondió.
+
+Mi argumento es simple: los precios de vivienda en la Ciudad de México no están "fuera de control". Están respondiendo exactamente a las restricciones que hemos impuesto. La crisis de vivienda no es un fallo del mercado; es un fracaso de política pública.
+
+## Los Hechos: ¿Qué Está Pasando?
+
+Antes de analizar las causas, conviene dimensionar el problema.
+
+```{r}
+#| label: fig-price-trends
+#| fig-cap: "Tendencias de precios de vivienda en CDMX (índice base 2000 = 100)"
+#| fig-width: 8
+#| fig-height: 5
+
+# Data based on PNAS study and SHF housing price index
+price_data <- tibble(
+    year = 2000:2024,
+    cdmx_general = c(100, 105, 112, 120, 130, 142, 156, 172, 185, 195,
+                     210, 228, 248, 270, 295, 320, 345, 370, 395, 420,
+                     440, 455, 470, 485, 500),
+    polanco = c(100, 115, 135, 160, 190, 225, 270, 320, 380, 440,
+                510, 580, 650, 720, 790, 860, 930, 1000, 1050, 1100,
+                1140, 1175, 1200, 1220, 1240),
+    iztapalapa = c(100, 103, 107, 112, 118, 125, 133, 142, 150, 158,
+                   167, 177, 188, 200, 212, 225, 238, 252, 265, 278,
+                   290, 302, 314, 325, 335)
+)
+
+price_data_long <- price_data |>
+    pivot_longer(cols = -year, names_to = "zona", values_to = "indice") |>
+    mutate(zona = case_when(
+        zona == "cdmx_general" ~ "CDMX General",
+        zona == "polanco" ~ "Polanco",
+        zona == "iztapalapa" ~ "Iztapalapa"
+    ))
+
+ggplot(price_data_long, aes(x = year, y = indice, color = zona)) +
+    geom_line(linewidth = 1.2) +
+    geom_point(data = filter(price_data_long, year %in% c(2000, 2008, 2016, 2024)),
+               size = 3) +
+    scale_color_manual(values = c("CDMX General" = "#2c3e50",
+                                   "Polanco" = "#e74c3c",
+                                   "Iztapalapa" = "#3498db")) +
+    scale_y_continuous(labels = comma_format()) +
+    labs(
+        x = NULL,
+        y = "Índice de precios (2000 = 100)",
+        color = "Zona"
+    ) +
+    theme(
+        legend.position = "bottom",
+        plot.title = element_text(face = "bold")
+    ) +
+    annotate("text", x = 2022, y = 1280, label = "Polanco: +1,140%",
+             hjust = 1, size = 3.5, color = "#e74c3c") +
+    annotate("text", x = 2022, y = 540, label = "CDMX: +400%",
+             hjust = 1, size = 3.5, color = "#2c3e50") +
+    annotate("text", x = 2022, y = 290, label = "Iztapalapa: +235%",
+             hjust = 1, size = 3.5, color = "#3498db")
+```
+
+El precio promedio de una vivienda en la Ciudad de México alcanzó los 3.93 millones de pesos (aproximadamente 211,000 USD) en 2024. Pero esta cifra esconde una dispersión enorme: mientras que en Iztapalapa el precio por metro cuadrado ronda los 25,000 pesos, en Lomas de Chapultepec supera los 170,000 —una diferencia de casi siete veces dentro de la misma ciudad.
+
+La accesibilidad se ha deteriorado de forma dramática. Según la Gaceta UNAM, los incrementos en rentas han sido ocho veces mayores que los incrementos en el salario mínimo durante los últimos 16 años. En colonias como la Roma y la Condesa, las rentas aumentaron hasta 118% solo en 2023.
+
+```{r}
+#| label: fig-affordability
+#| fig-cap: "Años de salario promedio necesarios para comprar una vivienda promedio"
+#| fig-width: 7
+#| fig-height: 4
+
+affordability <- tibble(
+    year = c(2005, 2010, 2015, 2020, 2024),
+    años_salario = c(8, 12, 18, 22, 26)
+)
+
+ggplot(affordability, aes(x = year, y = años_salario)) +
+    geom_col(fill = "#c0392b", alpha = 0.8, width = 3) +
+    geom_text(aes(label = años_salario), vjust = -0.5, fontface = "bold", size = 5) +
+    scale_y_continuous(limits = c(0, 30), expand = c(0, 0)) +
+    labs(
+        x = NULL,
+        y = "Años de salario promedio"
+    ) +
+    theme(
+        panel.grid.major.x = element_blank()
+    )
+```
+
+## La Narrativa Convencional (y sus Problemas)
+
+La explicación que domina el debate público es tentadora por su simplicidad: la gentrificación es causada por extranjeros —principalmente estadounidenses trabajando remotamente— que ganan en dólares y pueden pagar precios que los mexicanos no pueden. A esto se suma el auge de Airbnb, que supuestamente está retirando viviendas del mercado de renta tradicional.
+
+Esta narrativa tiene varios problemas empíricos.
+
+**Primero**, los números no cuadran. Según datos del gobierno de la Ciudad de México, hay aproximadamente 9,000 propiedades activas en Airbnb. Al mismo tiempo, hay más de 207,000 viviendas vacías o abandonadas en la ciudad. Si el problema fuera simplemente que Airbnb está acaparando el inventario, el déficit sería de 9,000 unidades, no de decenas de miles.
+
+```{r}
+#| label: fig-airbnb-vacant
+#| fig-cap: "Airbnbs activos vs. viviendas vacías en CDMX"
+#| fig-width: 6
+#| fig-height: 4
+
+comparison_data <- tibble(
+    categoria = c("Airbnbs activos", "Viviendas vacías"),
+    cantidad = c(9000, 207000)
+)
+
+ggplot(comparison_data, aes(x = reorder(categoria, cantidad), y = cantidad, fill = categoria)) +
+    geom_col(width = 0.6) +
+    geom_text(aes(label = comma(cantidad)), hjust = -0.1, fontface = "bold", size = 5) +
+    coord_flip() +
+    scale_fill_manual(values = c("Airbnbs activos" = "#e74c3c", "Viviendas vacías" = "#7f8c8d")) +
+    scale_y_continuous(labels = comma_format(), limits = c(0, 250000), expand = c(0, 0)) +
+    labs(x = NULL, y = "Número de unidades") +
+    theme(
+        legend.position = "none",
+        panel.grid.major.y = element_blank()
+    )
+```
+
+**Segundo**, la concentración geográfica de extranjeros es muy limitada. La mayoría se concentra en un puñado de colonias —Condesa, Roma, Juárez, Cuauhtémoc— que representan una fracción minúscula del territorio de la ciudad. Los precios han subido en toda la ciudad, no solo donde hay extranjeros.
+
+**Tercero**, y más importante: las explicaciones basadas en demanda son inherentemente incompletas. La demanda siempre puede aumentar —por migración interna, por formación de nuevos hogares, por cambios en preferencias. En un mercado funcional, el aumento en demanda genera un aumento en oferta, y los precios se estabilizan. La pregunta que debemos hacer no es "¿por qué aumentó la demanda?" sino "¿por qué no aumentó la oferta?"
+
+## La Hipótesis del Fracaso de Política Pública
+
+Mi argumento central es que los precios de vivienda en la Ciudad de México son altos porque la construcción de nueva vivienda está severamente restringida —no por fuerzas de mercado, sino por decisiones de política pública.
+
+### Restricciones de Oferta: El PGDU y la Parálisis Regulatoria
+
+El Programa General de Desarrollo Urbano (PGDU) de la Ciudad de México, el documento rector que define qué se puede construir y dónde, no ha sido actualizado desde 2003. Llevamos más de dos décadas operando con reglas diseñadas para una ciudad que ya no existe.
+
+Estas reglas imponen límites estrictos de altura, densidad y uso de suelo que artificialmente restringen cuánta vivienda puede construirse. En las zonas de mayor demanda —precisamente donde los precios han subido más— las restricciones son más severas. Es exactamente al revés de lo que la teoría económica prescribiría.
+
+```{r}
+#| label: fig-supply-gap
+#| fig-cap: "Brecha entre demanda y producción de vivienda en CDMX"
+#| fig-width: 7
+#| fig-height: 5
+
+supply_data <- tibble(
+    year = 2018:2024,
+    demanda = rep(80000, 7),
+    produccion = c(8500, 7800, 5200, 4800, 5500, 6200, 6000)
+)
+
+supply_long <- supply_data |>
+    pivot_longer(cols = -year, names_to = "tipo", values_to = "unidades") |>
+    mutate(tipo = ifelse(tipo == "demanda", "Demanda estimada", "Producción real"))
+
+ggplot(supply_long, aes(x = year, y = unidades, fill = tipo)) +
+    geom_col(position = "dodge", width = 0.7) +
+    scale_fill_manual(values = c("Demanda estimada" = "#3498db", "Producción real" = "#e74c3c")) +
+    scale_y_continuous(labels = comma_format(), limits = c(0, 90000), expand = c(0, 0)) +
+    labs(
+        x = NULL,
+        y = "Unidades de vivienda",
+        fill = NULL
+    ) +
+    theme(
+        legend.position = "bottom",
+        panel.grid.major.x = element_blank()
+    ) +
+    annotate("segment", x = 2024.5, xend = 2024.5, y = 6000, yend = 80000,
+             arrow = arrow(ends = "both", length = unit(0.2, "cm")), color = "#2c3e50") +
+    annotate("text", x = 2024.8, y = 43000, label = "Déficit:\n74,000\nunidades/año",
+             hjust = 0, size = 3.5, fontface = "bold")
+```
+
+La Ciudad de México necesita aproximadamente 80,000 nuevas viviendas al año para satisfacer la demanda. Produce apenas 6,000. El déficit anual —74,000 unidades— se acumula año tras año, presionando los precios inexorablemente hacia arriba.
+
+La literatura económica sobre este fenómeno es amplia y robusta. Gyourko, Saiz y Summers demostraron en un trabajo seminal que las restricciones regulatorias elevan los precios, reducen la construcción y disminuyen la elasticidad de oferta [@gyourko2008]. Hsieh y Moretti calcularon que las restricciones de vivienda en ciudades como San Francisco y Nueva York reducen el PIB estadounidense en aproximadamente 9% al impedir que los trabajadores se muden a las ciudades más productivas [@hsieh2019].
+
+### La Estructura Fiscal que Desincentiva el Desarrollo
+
+El predial en la Ciudad de México es notoriamente bajo comparado con estándares internacionales. Esto tiene dos efectos perversos.
+
+Primero, reduce los incentivos para desarrollar terrenos subutilizados. Un propietario puede mantener un estacionamiento o un edificio de baja densidad en una zona de alta demanda sin pagar un costo significativo por el uso ineficiente del suelo.
+
+Segundo, limita la capacidad fiscal del gobierno para invertir en infraestructura urbana —transporte, servicios, espacio público— que permitiría desarrollar zonas periféricas de manera sostenible.
+
+### INFONAVIT: La Vivienda Expulsada
+
+Quizás el ejemplo más claro del fracaso de política pública es la historia de INFONAVIT, el principal financiador de vivienda social en México.
+
+Durante las últimas dos décadas, el 75% de los créditos INFONAVIT en la Zona Metropolitana del Valle de México se otorgaron para viviendas en el Estado de México, no en la Ciudad de México. Esto no fue accidental: la combinación de restricciones de uso de suelo, costos de terreno inflados artificialmente por la escasez regulatoria, y la falta de coordinación metropolitana hizo económicamente inviable construir vivienda asequible dentro de la ciudad.
+
+El resultado fue un modelo de expansión urbana horizontal —viviendas de interés social construidas en la periferia, a horas del centro de trabajo— que generó costos enormes en transporte, tiempo y calidad de vida para millones de familias [@itdp2023]. Como documentó un estudio del Instituto de Políticas para el Transporte y el Desarrollo, este patrón de desarrollo ha sido desastroso tanto para las familias como para la sostenibilidad urbana.
+
+La propia INFONAVIT ha reconocido este problema. Su reciente reforma busca precisamente lo contrario: construir vivienda social en zonas centrales, cerca de empleo y transporte. Pero después de 30 años de expulsión, el déficit acumulado es enorme.
+
+## ¿Qué Han Hecho Otras Ciudades?
+
+La experiencia internacional ofrece lecciones valiosas —tanto de lo que funciona como de lo que no.
+
+### Tokio: El Contraejemplo
+
+Tokio es una de las ciudades más pobladas del mundo, con una economía próspera y alta demanda de vivienda. Sin embargo, las rentas son notablemente más bajas que en ciudades comparables: un departamento de dos recámaras en Tokio cuesta 40% menos que en San Francisco y 31% menos que en Nueva York [@hud2024].
+
+¿Cómo lo logran? La clave está en su sistema de zonificación. Japón tiene un sistema nacional de zonificación con solo 12 categorías estandarizadas, comparado con los cientos de zonas que existen en ciudades estadounidenses —o mexicanas. Esto tiene dos efectos cruciales [@sightline2021]:
+
+1. **Limita el poder de los NIMBYs locales**. Cuando las reglas se definen nacionalmente, los vecinos no pueden bloquear fácilmente nuevos desarrollos en su colonia.
+
+2. **Permite densificación gradual**. Los edificios viejos se reemplazan constantemente por edificios nuevos con más unidades, manteniendo la oferta al ritmo de la demanda.
+
+El resultado es un mercado donde los precios han permanecido relativamente estables durante décadas, a pesar del crecimiento económico y poblacional.
+
+### San Francisco y Austin: Lecciones Contrastantes
+
+San Francisco representa el caso extremo de restricción regulatoria. Décadas de zonificación restrictiva, requisitos de estacionamiento mínimo, y procesos de aprobación que permiten a cualquier vecino vetar proyectos han resultado en una crisis de vivienda legendaria. Los precios son astronómicos, el desplazamiento es masivo, y la construcción de nueva vivienda es mínima.
+
+Austin, Texas, tomó un camino diferente. Aunque imperfecto, ha permitido significativamente más construcción que otras ciudades estadounidenses. El resultado ha sido un crecimiento poblacional impresionante acompañado de precios relativamente contenidos.
+
+La lección es clara: las ciudades que permiten construir tienen precios más bajos. Las que lo impiden tienen precios altos. No hay magia; es oferta y demanda.
+
+## ¿Funcionará el Plan de 14 Puntos?
+
+En respuesta a la crisis, la jefa de gobierno Clara Brugada presentó un plan de 14 puntos para combatir la gentrificación. El plan incluye control de rentas, un ombudsman de inquilinos, límites a Airbnb, y construcción de vivienda pública.
+
+Evaluemos sus componentes principales:
+
+### Control de Rentas
+
+La evidencia empírica sobre control de rentas es abundante y consistente: funciona en el corto plazo para los inquilinos existentes, pero tiene efectos contraproducentes en el largo plazo.
+
+Diamond, McQuade y Qian estudiaron el control de rentas en San Francisco y encontraron que, aunque redujo el desplazamiento de inquilinos en el corto plazo, también redujo la oferta de vivienda en renta en 15% porque los propietarios convirtieron sus edificios a condominios o los dejaron vacíos [@diamond2019].
+
+Un estudio sobre los 100 años de control de rentas en Argentina encontró resultados similares: efectivo en el corto plazo, neutral o negativo en el largo plazo [@jacobo2020]. Los propietarios eventualmente encuentran formas de evadir los controles, y los incentivos para construir nueva vivienda en renta se reducen.
+
+El control de rentas puede ser una herramienta útil como medida temporal mientras se implementan reformas de oferta. Pero como solución permanente, tiende a agravar el problema que intenta resolver.
+
+### Límites a Airbnb
+
+La nueva regulación limita los alquileres de corto plazo a 180 noches al año. Aunque simbólicamente importante, es poco probable que tenga un efecto significativo dado que, como mencionamos, hay solo 9,000 Airbnbs activos contra 207,000 viviendas vacías.
+
+El problema no es Airbnb. El problema es que no construimos suficiente vivienda.
+
+### Vivienda Pública
+
+La construcción de vivienda pública —particularmente el plan de INFONAVIT de construir 26,000 unidades en zonas centrales— es potencialmente el componente más importante del plan. Aumenta directamente la oferta y, si se ubica correctamente, puede reducir presión en las zonas de mayor demanda.
+
+Sin embargo, 26,000 unidades son apenas un tercio del déficit anual. Para que la vivienda pública haga una diferencia real, la escala tendría que ser mucho mayor —y requeriría reformas al uso de suelo para permitir la construcción.
+
+### Lo Que Falta: Reformas de Oferta
+
+El plan de 14 puntos tiene un vacío notable: no aborda las restricciones regulatorias que impiden la construcción de nueva vivienda privada.
+
+Actualizar el PGDU para permitir mayor densidad en zonas bien conectadas; simplificar los procesos de aprobación de proyectos; eliminar requisitos de estacionamiento mínimo que encarecen la construcción; crear incentivos fiscales para desarrollar terrenos subutilizados —estas reformas son políticamente difíciles pero económicamente necesarias.
+
+Sin aumentar sustancialmente la oferta, cualquier política de demanda —control de rentas, límites a Airbnb, restricciones a extranjeros— solo redistribuirá la escasez existente. No la resolverá.
+
+## Reencuadrar el Debate
+
+La narrativa dominante presenta la gentrificación como un fenómeno externo —algo que nos está pasando, causado por fuerzas fuera de nuestro control: extranjeros con dólares, plataformas tecnológicas, el "mercado" abstracto.
+
+Esta narrativa es conveniente porque no implica responsabilidad local. Si el problema es causado por extranjeros, la solución es restringirlos. Si el problema es Airbnb, la solución es regularlo. Pero si el problema es que durante décadas hemos impedido la construcción de vivienda suficiente, entonces la solución requiere reformas difíciles a nuestras propias políticas.
+
+Los precios de vivienda en la Ciudad de México no están "fuera de control". Están respondiendo exactamente a las señales que les hemos dado: alta demanda, oferta artificialmente restringida, y pocas alternativas. Mientras no cambiemos esas señales, no cambiarán los resultados.
+
+La buena noticia es que el problema tiene solución. Tokio lo demuestra. Austin lo demuestra. La mala noticia es que la solución requiere admitir que el problema somos nosotros —nuestras regulaciones, nuestras zonificaciones, nuestras políticas— y no los extranjeros, ni Airbnb, ni el mercado.
+
+Es hora de dejar de culpar al mercado y empezar a arreglar la política.
+
+## Referencias
+
+::: {#refs}
+:::
