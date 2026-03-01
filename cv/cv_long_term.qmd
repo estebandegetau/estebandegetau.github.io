@@ -25,12 +25,12 @@
 ### Research
 
 |  |  |
-|:--------------------------------------------------|--------------------:|
+|:-------------------------------------------------|---------------------:|
 | **World Bank** |  |
 | Short-term Consultant - Macroeconomics and Growth, Development Research Group, practice to Agustín Samano | 2025 - Present |
 
 |  |  |
-|---------------------------------------------------|--------------------:|
+|--------------------------------------------------|---------------------:|
 | **ITAM** |  |
 | Graduate Research Assistant - Center for Economic Research (CIE), practice to Joyce Sadka and Enrique Seira | 2022 - 2023 |
 
@@ -63,7 +63,7 @@
 ## Recognitions
 
 |  |  |
-|-------------|:----------------------------------------------------------|
+|----------------|:-------------------------------------------------------|
 | 2025 | *Pedro Aspe* Academic excellence award, ITAM |
 | 2021 | Honorable mention - [COFECE Undergraduate Essay Contest](https://www.cofece.mx/wp-content/uploads/2019/11/RevistaPENSY-141119.pdf), Mexico |
 
@@ -72,7 +72,7 @@
 ## Certifications
 
 |  |  |
-|---------------------|:--------------------------------------------------|
+|----------------------|:-------------------------------------------------|
 | 2022 | [MicroMasters in Data, Economics and Development Policy - MITx](https://mitxonline.mit.edu/certificate/program/cc5f08c4-e64b-4f5b-ac83-2fc1868b1c9a/ "Certificate") |
 
 : {tbl-colwidths="\[10,90\]"}
