@@ -3,6 +3,7 @@
 *.RData
 *.Ruserdata
 *.png
+!_freeze/**/*.png
 .github/
 /.quarto/
 /_freeze/
