@@ -4,9 +4,7 @@
 *.Ruserdata
 *.png
 !_freeze/**/*.png
-.github/
 /.quarto/
-/_freeze/
 _extensions/
 /_site/
 /.luarc.json
