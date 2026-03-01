@@ -1,0 +1,13 @@
+---
+title: "Research"
+---
+
+
+## Working Papers
+
+{{< include working_papers.qmd >}}
+
+
+## Other Research
+
+{{< include other_research.qmd >}}

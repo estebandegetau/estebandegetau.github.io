@@ -1,12 +1,12 @@
 project:
   type: website
   render:
-    - cv.qmd
+    - cv/*.qmd
     - index.qmd
-    - research.qmd
-    - teaching.qmd
-    - blog.qmd
-    - blog
+    - research/*.qmd
+    - teaching/*.qmd
+    - blog/index.qmd
+    - blog/**/*.qmd
   output-dir: _site
 
 execute:
@@ -22,19 +22,33 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: research.qmd
+      - href: research/index.qmd
         text: Research
-      - href: teaching.qmd
+      - href: teaching/index.qmd
         text: Teaching
-      - href: blog.qmd
+      - href: blog/index.qmd
         text: Blog
-      - href: cv.qmd
+      - href: cv/index.qmd
         text: CV
     right:
       - icon: rss
         href: index.xml
 
+  page-footer: 
+    left: "c. Esteban Degetau, 2026" 
+    right: 
+      - icon: github
+        href: https://github.com/estebandegetau
+      - icon: twitter 
+        href: https://x.com/estebandegetau
 
-format: html
+
+
+format: 
+  html:
+    title-block-banner: true
+    css: styles.css
+    tbl-colwidths: [80,20]
+
 
 # brand: _brand.yml

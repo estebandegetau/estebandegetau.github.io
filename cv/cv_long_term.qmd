@@ -1,0 +1,88 @@
+## Contact
+
+::: smallcaps
+|  |  |  |
+|:---------------------------|:------------------------:|-----------------:|
+| [estebandegetau\@gmail.com](mailto:estebandegetau@gmail.com) | [www.estebandegetau.com](https://www.estebandegetau.com) | Mexico City, Mexico |
+
+: {tbl-colwidths="\[34,33,33\]"}
+:::
+
+## Education
+
+| 
+|     M.A. Applied Economics, Instituto Tecnológico Autónomo de México (ITAM), 2025
+|          High Honors
+| 
+|     B.A. Economics, ITAM, 2023
+
+## Working Papers
+
+{{< include ../research/working_papers.qmd >}}
+
+## Work Experience
+
+### Research
+
+|  |  |
+|:--------------------------------------------------|--------------------:|
+| **World Bank** |  |
+| Short-term Consultant - Macroeconomics and Growth, Development Research Group, practice to Agustín Samano | 2025 - Present |
+
+|  |  |
+|---------------------------------------------------|--------------------:|
+| **ITAM** |  |
+| Graduate Research Assistant - Center for Economic Research (CIE), practice to Joyce Sadka and Enrique Seira | 2022 - 2023 |
+
+### Public Service
+
+|                                                 |             |
+|-------------------------------------------------|------------:|
+| **Instituto Mexicano del Seguro Social (IMSS)** |             |
+| Deputy Head, Fiscal Policy Planning             | 2023 - 2025 |
+
+### Teaching
+
+{{< include ../teaching/classes.qmd >}}
+
+```{=html}
+<!-- ### Industry Experience
+
+|                         |      |
+|-------------------------|-----:|
+| **CEROMULTAS**          |      |
+| Senior Business Analyst | 2021 |
+| Business Analyst        | 2020 |
+
+|                             |      |
+|-----------------------------|-----:|
+| **T-Rez Consulting**        |      |
+| International Trade Analyst | 2018 | -->
+```
+
+## Recognitions
+
+|  |  |
+|-------------|:----------------------------------------------------------|
+| 2025 | *Pedro Aspe* Academic excellence award, ITAM |
+| 2021 | Honorable mention - [COFECE Undergraduate Essay Contest](https://www.cofece.mx/wp-content/uploads/2019/11/RevistaPENSY-141119.pdf), Mexico |
+
+: {tbl-colwidths="\[10,90\]"}
+
+## Certifications
+
+|  |  |
+|---------------------|:--------------------------------------------------|
+| 2022 | [MicroMasters in Data, Economics and Development Policy - MITx](https://mitxonline.mit.edu/certificate/program/cc5f08c4-e64b-4f5b-ac83-2fc1868b1c9a/ "Certificate") |
+
+: {tbl-colwidths="\[10,90\]"}
+
+## Technical Skills
+
+|              |                                         |
+|-------------:|:----------------------------------------|
+| Programming: | Claude Code, R, Python, Stata, SQL, SAS |
+|       Tools: | Quarto, Git, Power BI, LaTeX            |
+|   Languages: | Spanish, English                        |
+
+: {tbl-colwidths="\[20,80\]"}

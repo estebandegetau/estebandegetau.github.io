@@ -1,0 +1,5 @@
+format: 
+  html:
+      tbl-colwidths: [80,20]
+
+    

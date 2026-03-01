@@ -3,6 +3,7 @@ title: "Esteban Degetau"
 format:
   html:
     page-layout: full
+    title-block-banner: false
 about:
     template: trestles
     image-width: 20em
@@ -32,7 +33,7 @@ image: "images/eds-2024.jpg"
 comments: false
 listing:
   id: blog
-  contents: blog
+  contents: blog/*/*.qmd
   sort: "date desc"
   type: default
   fields: [image, date, title]

@@ -1,0 +1,9 @@
+|                                                     |           |
+|-----------------------------------------------------|----------:|
+| **ITAM**                                            |           |
+| *Principles of Microeconomics* - Bachelor (Spanish) | Fall 2025 |
+
+|  |  |
+|--------------------------------------------------------|---------------:|
+| **IMSS** |  |
+| [*Statistical tools in R*](https://estebandegetau.com/Statistical-tools-in-R) *-* Office Training (Spanish) | Spring 2025 |
