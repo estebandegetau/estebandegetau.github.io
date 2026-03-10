@@ -20,8 +20,6 @@ website:
   google-analytics: "G-11D42BZNRY"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
       - href: research/index.qmd
         text: Research
       - href: teaching/index.qmd
