@@ -10,11 +10,7 @@
 
 ## Education
 
-| 
-|     M.A. Applied Economics, Instituto Tecnológico Autónomo de México (ITAM), 2025
-|          High Honors
-| 
-|     B.A. Economics, ITAM, 2023
+{{< include education.qmd >}}
 
 ## Working Papers
 
@@ -62,27 +58,12 @@
 
 ## Recognitions
 
-|  |  |
-|----------------|:-------------------------------------------------------|
-| 2025 | *Pedro Aspe* Academic excellence award, ITAM |
-| 2021 | Honorable mention - [COFECE Undergraduate Essay Contest](https://www.cofece.mx/wp-content/uploads/2019/11/RevistaPENSY-141119.pdf), Mexico |
-
-: {tbl-colwidths="\[10,90\]"}
+{{< include recognitions.qmd >}}
 
 ## Certifications
 
-|  |  |
-|----------------------|:-------------------------------------------------|
-| 2022 | [MicroMasters in Data, Economics and Development Policy - MITx](https://mitxonline.mit.edu/certificate/program/cc5f08c4-e64b-4f5b-ac83-2fc1868b1c9a/ "Certificate") |
-
-: {tbl-colwidths="\[10,90\]"}
+{{< include certifications.qmd >}}
 
 ## Technical Skills
 
-|              |                                         |
-|-------------:|:----------------------------------------|
-| Programming: | Claude Code, R, Python, Stata, SQL, SAS |
-|       Tools: | Quarto, Git, Power BI, LaTeX            |
-|   Languages: | Spanish, English                        |
-
-: {tbl-colwidths="\[20,80\]"}
+{{< include skills.qmd >}}

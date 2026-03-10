@@ -1,0 +1,7 @@
+|              |                                         |
+|-------------:|:----------------------------------------|
+| Programming: | Claude Code, R, Python, Stata, SQL, SAS |
+|       Tools: | Quarto, Git, Power BI, LaTeX            |
+|   Languages: | Spanish, English                        |
+
+: {tbl-colwidths="\[20,80\]"}
