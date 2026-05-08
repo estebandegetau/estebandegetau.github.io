@@ -1,67 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.estebandegetau.com/privacy.html</loc>
+    <lastmod>2026-05-08T17:25:32.909Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.estebandegetau.com/blog/rpd/index.html</loc>
-    <lastmod>2026-03-10T14:28:29.766Z</lastmod>
+    <lastmod>2026-05-08T17:25:32.887Z</lastmod>
   </url>
   <url>
     <loc>https://www.estebandegetau.com/teaching/index.html</loc>
-    <lastmod>2026-03-10T14:28:29.792Z</lastmod>
+    <lastmod>2026-05-08T17:25:32.911Z</lastmod>
   </url>
   <url>
     <loc>https://www.estebandegetau.com/research/working_papers.html</loc>
-    <lastmod>2026-03-10T14:28:29.792Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.estebandegetau.com/research/index.html</loc>
-    <lastmod>2026-03-10T14:28:29.791Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.estebandegetau.com/cv/skills.html</loc>
-    <lastmod>2026-03-10T14:28:29.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.estebandegetau.com/cv/index_typst.html</loc>
-    <lastmod>2026-03-10T14:28:29.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.estebandegetau.com/cv/education.html</loc>
-    <lastmod>2026-03-10T14:28:29.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.estebandegetau.com/cv/cv_long_term.html</loc>
-    <lastmod>2026-03-10T14:28:29.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.estebandegetau.com/cv/certifications.html</loc>
-    <lastmod>2026-03-10T14:28:29.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.estebandegetau.com/cv/cv_months.html</loc>
-    <lastmod>2026-03-10T14:28:29.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.estebandegetau.com/cv/index.html</loc>
-    <lastmod>2026-03-10T14:28:29.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.estebandegetau.com/cv/recognitions.html</loc>
-    <lastmod>2026-03-10T14:28:29.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.estebandegetau.com/index.html</loc>
-    <lastmod>2026-03-10T14:28:29.781Z</lastmod>
+    <lastmod>2026-05-08T17:25:32.911Z</lastmod>
   </url>
   <url>
     <loc>https://www.estebandegetau.com/research/other_research.html</loc>
-    <lastmod>2026-03-10T14:28:29.792Z</lastmod>
+    <lastmod>2026-05-08T17:25:32.911Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/index.html</loc>
+    <lastmod>2026-05-08T17:25:32.901Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/cv/recognitions.html</loc>
+    <lastmod>2026-05-08T17:25:32.887Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/cv/index.html</loc>
+    <lastmod>2026-05-08T17:25:32.887Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/cv/cv_months.html</loc>
+    <lastmod>2026-05-08T17:25:32.887Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/cv/certifications.html</loc>
+    <lastmod>2026-05-08T17:25:32.887Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/cv/cv_long_term.html</loc>
+    <lastmod>2026-05-08T17:25:32.887Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/cv/education.html</loc>
+    <lastmod>2026-05-08T17:25:32.887Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/cv/index_typst.html</loc>
+    <lastmod>2026-05-08T17:25:32.887Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/cv/skills.html</loc>
+    <lastmod>2026-05-08T17:25:32.887Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/research/index.html</loc>
+    <lastmod>2026-05-08T17:25:32.911Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/research/work_in_progress.html</loc>
+    <lastmod>2026-05-08T17:25:32.911Z</lastmod>
   </url>
   <url>
     <loc>https://www.estebandegetau.com/teaching/classes.html</loc>
-    <lastmod>2026-03-10T14:28:29.792Z</lastmod>
+    <lastmod>2026-05-08T17:25:32.911Z</lastmod>
   </url>
   <url>
     <loc>https://www.estebandegetau.com/blog/index.html</loc>
-    <lastmod>2026-03-10T14:28:29.765Z</lastmod>
+    <lastmod>2026-05-08T17:25:32.886Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.estebandegetau.com/disclaimer.html</loc>
+    <lastmod>2026-05-08T17:25:32.887Z</lastmod>
   </url>
 </urlset>

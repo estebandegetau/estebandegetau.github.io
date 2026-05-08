@@ -1,5 +1,68 @@
 [
   {
+    "objectID": "privacy.html",
+    "href": "privacy.html",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "Last updated: 04 May 2026\nThis privacy policy explains what data is collected when you visit estebandegetau.com and how it is used."
+  },
+  {
+    "objectID": "privacy.html#hosting",
+    "href": "privacy.html#hosting",
+    "title": "Privacy Policy",
+    "section": "Hosting",
+    "text": "Hosting\nThis site is hosted on GitHub Pages. GitHub may collect technical information such as your IP address, browser type, and referring page as part of its standard server operations. See GitHub’s privacy statement for details."
+  },
+  {
+    "objectID": "privacy.html#analytics",
+    "href": "privacy.html#analytics",
+    "title": "Privacy Policy",
+    "section": "Analytics",
+    "text": "Analytics\nThis site uses Google Analytics to understand how visitors interact with the content. Google Analytics collects:\n\nPages visited and time spent on each page\nReferring website or search engine\nGeneral geographic location (country/region level)\nBrowser type and device category\n\nGoogle Analytics uses cookies to distinguish unique visitors. No personally identifiable information is collected through analytics. You can opt out of Google Analytics by installing the Google Analytics Opt-out Browser Add-on."
+  },
+  {
+    "objectID": "privacy.html#cookies",
+    "href": "privacy.html#cookies",
+    "title": "Privacy Policy",
+    "section": "Cookies",
+    "text": "Cookies\nThis site does not set any first-party cookies. The only cookies used are those set by Google Analytics (prefixed _ga), which are used to distinguish unique visitors and throttle request rates."
+  },
+  {
+    "objectID": "privacy.html#data-i-do-not-collect",
+    "href": "privacy.html#data-i-do-not-collect",
+    "title": "Privacy Policy",
+    "section": "Data I do not collect",
+    "text": "Data I do not collect\nThis site does not:\n\nCollect any personally identifiable information (PII)\nHave user accounts, login forms, or registration\nUse contact forms or collect email addresses through the site\nSell, share, or transfer any visitor data to third parties\nUse advertising or remarketing services"
+  },
+  {
+    "objectID": "privacy.html#third-party-links",
+    "href": "privacy.html#third-party-links",
+    "title": "Privacy Policy",
+    "section": "Third-party links",
+    "text": "Third-party links\nThis site contains links to external websites. I am not responsible for the privacy practices or content of those sites. I encourage you to review the privacy policies of any external site you visit."
+  },
+  {
+    "objectID": "privacy.html#international-visitors",
+    "href": "privacy.html#international-visitors",
+    "title": "Privacy Policy",
+    "section": "International visitors",
+    "text": "International visitors\nThis site is operated from the United States. If you are visiting from the European Economic Area or other regions with data protection laws, please be aware that your information may be transferred to and processed in the United States. By using this site, you acknowledge this transfer. I do not knowingly collect or process personal data that would be subject to GDPR, as no PII is collected."
+  },
+  {
+    "objectID": "privacy.html#contact",
+    "href": "privacy.html#contact",
+    "title": "Privacy Policy",
+    "section": "Contact",
+    "text": "Contact\nIf you have questions about this privacy policy, you can reach me at estebandegetau@gmail.com."
+  },
+  {
+    "objectID": "privacy.html#changes-to-this-policy",
+    "href": "privacy.html#changes-to-this-policy",
+    "title": "Privacy Policy",
+    "section": "Changes to this policy",
+    "text": "Changes to this policy\nI may update this privacy policy from time to time. Changes will be reflected by the “last updated” date at the top of this page.\n\nNote: I took this directly from Chris von Csefalvay’s personal website"
+  },
+  {
     "objectID": "blog/rpd/index.html",
     "href": "blog/rpd/index.html",
     "title": "El Retiro Parcial por Desempleo: un sustituto costoso ante la ausencia de un seguro de desempleo",
@@ -67,7 +130,7 @@
     "href": "blog/rpd/index.html#el-problema-real-no-es-el-rpd-es-la-ausencia-de-un-sistema-de-protección-al-desempleo",
     "title": "El Retiro Parcial por Desempleo: un sustituto costoso ante la ausencia de un seguro de desempleo",
     "section": "El problema real no es el RPD: es la ausencia de un sistema de protección al desempleo",
-    "text": "El problema real no es el RPD: es la ausencia de un sistema de protección al desempleo\nLa conclusión central no surge solo de los resultados cuantitativos, sino del contexto institucional en el que el RPD opera.\nEste mecanismo existe porque las alternativas fallan. El sistema de justicia laboral es lento, incierto y costoso; la indemnización constitucional rara vez llega al trabajador (Sadka, Seira, y Woodruff 2024); y México carece de un seguro de desempleo que distribuya colectivamente el riesgo de perder el trabajo. En ese vacío, el RPD funciona como sustituto improvisado: una forma de financiar la crisis inmediata con el ahorro para el retiro.\nEl problema es que este diseño desplaza los costos hacia quienes menos pueden absorberlos. Para los trabajadores con menos ingresos, menor estabilidad y menos redes, el RPD no solo no protege: agrava su vulnerabilidad. En lugar de suavizar desigualdades —como lo haría un seguro de desempleo bien diseñado— las reproduce y, en muchos casos, las agudiza."
+    "text": "El problema real no es el RPD: es la ausencia de un sistema de protección al desempleo\nLa conclusión central no surge solo de los resultados cuantitativos, sino del contexto institucional en el que el RPD opera.\nEste mecanismo existe porque las alternativas fallan. El sistema de justicia laboral es lento, incierto y costoso; la indemnización constitucional rara vez llega al trabajador (Sadka et al. 2024); y México carece de un seguro de desempleo que distribuya colectivamente el riesgo de perder el trabajo. En ese vacío, el RPD funciona como sustituto improvisado: una forma de financiar la crisis inmediata con el ahorro para el retiro.\nEl problema es que este diseño desplaza los costos hacia quienes menos pueden absorberlos. Para los trabajadores con menos ingresos, menor estabilidad y menos redes, el RPD no solo no protege: agrava su vulnerabilidad. En lugar de suavizar desigualdades —como lo haría un seguro de desempleo bien diseñado— las reproduce y, en muchos casos, las agudiza."
   },
   {
     "objectID": "blog/rpd/index.html#la-pregunta-que-queda-abierta",
@@ -91,158 +154,95 @@
     "text": "The Labor Market Outcomes of (Quasi) Unemployment Insurance: Evidence from Mexico’s Retiro Parcial por Desempleo (working paper version). Master’s thesis, ITAM. October 2025."
   },
   {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "Research",
-    "section": "",
-    "text": "The Labor Market Outcomes of (Quasi) Unemployment Insurance: Evidence from Mexico’s Retiro Parcial por Desempleo (working paper version). Master’s thesis, ITAM. October 2025."
-  },
-  {
-    "objectID": "research/index.html#working-papers",
-    "href": "research/index.html#working-papers",
-    "title": "Research",
-    "section": "",
-    "text": "The Labor Market Outcomes of (Quasi) Unemployment Insurance: Evidence from Mexico’s Retiro Parcial por Desempleo (working paper version). Master’s thesis, ITAM. October 2025."
-  },
-  {
-    "objectID": "research/index.html#other-research",
-    "href": "research/index.html#other-research",
-    "title": "Research",
-    "section": "Other Research",
-    "text": "Other Research\n\nGiving grade points according to GARP: A replication exercise (pdf). For Applied Microeconomics, ITAM. December 2023.\nCorruption or incompentence? Disentanle through learning (pdf). B.A. dissertation, ITAM. February 2023.\nPoder de mercado laboral y brecha de género (pdf). Presented in COFECE Essay contest. May 2021."
-  },
-  {
-    "objectID": "cv/skills.html",
-    "href": "cv/skills.html",
+    "objectID": "research/other_research.html",
+    "href": "research/other_research.html",
     "title": "Esteban Degetau",
     "section": "",
-    "text": "Programming:\nClaude Code, R, Python, Stata, SQL, SAS\n\n\nTools:\nQuarto, Git, Power BI, LaTeX\n\n\nLanguages:\nSpanish, English"
+    "text": "Giving grade points according to GARP: A replication exercise (pdf). For Applied Microeconomics, ITAM. December 2023.\nCorruption or incompentence? Disentanle through learning (pdf). B.A. dissertation, ITAM. February 2023.\nPoder de mercado laboral y brecha de género (pdf). Presented in COFECE Essay contest. May 2021."
   },
   {
-    "objectID": "cv/index_typst.html",
-    "href": "cv/index_typst.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Esteban Degetau",
     "section": "",
-    "text": "estebandegetau@gmail.com\nwww.estebandegetau.com\nMexico City, Mexico"
+    "text": "I am an economist working at the World Bank’s Development Research Group (Macroeconomics and Growth) as Short-Term Consultant. I hold an M.S. in Applied Economics from ITAM and I will begin the PhD in Economics at Universitat Pompeu Fabra on September 2026.\nPreviously, I worked at the Mexican Social Security Institute (IMSS), where I developed a keen interest in labor market transitions and social protection policy. My research draws on labor economics and applied econometrics to shed light into public policy.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNov 17, 2025\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "cv/index_typst.html#contact",
-    "href": "cv/index_typst.html#contact",
+    "objectID": "index.html#blog",
+    "href": "index.html#blog",
     "title": "Esteban Degetau",
     "section": "",
-    "text": "estebandegetau@gmail.com\nwww.estebandegetau.com\nMexico City, Mexico"
+    "text": "Nov 17, 2025\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "cv/index_typst.html#education",
-    "href": "cv/index_typst.html#education",
+    "objectID": "cv/recognitions.html",
+    "href": "cv/recognitions.html",
     "title": "Esteban Degetau",
+    "section": "",
+    "text": "2026\nPedro Aspe Academic excellence award, ITAM\n\n\n2021\nHonorable mention - COFECE Undergraduate Essay Contest, Mexico"
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Vitae",
+    "section": "",
+    "text": "World Bank\nestebandegetau@gmail.com\n\n\nMexico City, Mexico\nwww.estebandegetau.com"
+  },
+  {
+    "objectID": "cv/index.html#contact",
+    "href": "cv/index.html#contact",
+    "title": "Vitae",
+    "section": "",
+    "text": "World Bank\nestebandegetau@gmail.com\n\n\nMexico City, Mexico\nwww.estebandegetau.com"
+  },
+  {
+    "objectID": "cv/index.html#education",
+    "href": "cv/index.html#education",
+    "title": "Vitae",
     "section": "Education",
-    "text": "Education\n\n    M.A. Applied Economics, Instituto Tecnológico Autónomo de México (ITAM), 2025\n         High Honors\n\n    B.A. Economics, ITAM, 2023"
+    "text": "Education\n\n\n\n\n\n\n\n\nPhD in Economics, Universitat Pompeu Fabra\nExpected 2026 - 2032\n\n\nMaster in Applied Economics, ITAM, High Honors\n2023 - 2025\n\n\nBA in Economics, ITAM\n2016 - 2021"
   },
   {
-    "objectID": "cv/index_typst.html#working-papers",
-    "href": "cv/index_typst.html#working-papers",
-    "title": "Esteban Degetau",
+    "objectID": "cv/index.html#working-papers",
+    "href": "cv/index.html#working-papers",
+    "title": "Vitae",
     "section": "Working Papers",
     "text": "Working Papers\n\nThe Labor Market Outcomes of (Quasi) Unemployment Insurance: Evidence from Mexico’s Retiro Parcial por Desempleo (working paper version). Master’s thesis, ITAM. October 2025."
   },
   {
-    "objectID": "cv/index_typst.html#work-experience",
-    "href": "cv/index_typst.html#work-experience",
-    "title": "Esteban Degetau",
-    "section": "Work Experience",
-    "text": "Work Experience\n\nResearch\n\n\n\n\n\n\n\nWorld Bank\n\n\n\nShort-term Consultant - Macroeconomics and Growth, Development Research Group, practice to Agustín Samano\n2025 - Present\n\n\n\n\n\n\n\n\n\n\nITAM\n\n\n\nGraduate Research Assistant - Center for Economic Research (CIE), practice to Joyce Sadka and Enrique Seira\n2022 - 2023\n\n\n\n\n\nPublic Service\n\n\n\n\n\n\n\nInstituto Mexicano del Seguro Social (IMSS)\n\n\n\nDeputy Head, Fiscal Policy Planning\n2023 - 2025\n\n\n\n\n\nTeaching\n\n\n\n\n\n\n\nITAM\n\n\n\nPrinciples of Microeconomics - Bachelor (Spanish)\nFall 2025\n\n\n\n\n\n\n\n\n\n\nIMSS\n\n\n\nStatistical tools in R - Office Training (Spanish)\nSpring 2025"
+    "objectID": "cv/index.html#select-work-in-progress",
+    "href": "cv/index.html#select-work-in-progress",
+    "title": "Vitae",
+    "section": "Select Work in Progress",
+    "text": "Select Work in Progress\n\nScaling the narrative identification of fiscal shocks using LLMs (with Agustín Samano)"
   },
   {
-    "objectID": "cv/index_typst.html#recognitions",
-    "href": "cv/index_typst.html#recognitions",
-    "title": "Esteban Degetau",
+    "objectID": "cv/index.html#work-experience",
+    "href": "cv/index.html#work-experience",
+    "title": "Vitae",
+    "section": "Work Experience",
+    "text": "Work Experience\n\nResearch\n\n\n\n\n\n\n\nWorld Bank\n\n\n\nConsultant - Macroeconomics and Growth, Development Research Group, practice to Agustín Samano\n2025 - 2026\n\n\n\n\n\n\n\n\n\n\nITAM\n\n\n\nGraduate Research Assistant - Center for Economic Research (CIE), practice to Joyce Sadka and Enrique Seira\n2022 - 2023\n\n\n\n\n\nPublic Service\n\n\n\n\n\n\n\nInstituto Mexicano del Seguro Social (IMSS)\n\n\n\nDeputy Head, Fiscal Policy Planning - Affiliation and Collection Directorate\n2023 - 2025\n\n\n\n\n\nTeaching\n\n\n\n\n\n\n\nITAM\n\n\n\nPrinciples of Microeconomics - Bachelor (Spanish)\nFall 2025\n\n\n\n\n\n\n\n\n\n\nIMSS\n\n\n\nStatistical tools in R - Office Training (Spanish)\nSpring 2025"
+  },
+  {
+    "objectID": "cv/index.html#recognitions",
+    "href": "cv/index.html#recognitions",
+    "title": "Vitae",
     "section": "Recognitions",
     "text": "Recognitions\n\n\n\n\n\n\n\n2026\nPedro Aspe Academic excellence award, ITAM\n\n\n2021\nHonorable mention - COFECE Undergraduate Essay Contest, Mexico"
   },
   {
-    "objectID": "cv/index_typst.html#certifications",
-    "href": "cv/index_typst.html#certifications",
-    "title": "Esteban Degetau",
+    "objectID": "cv/index.html#certifications",
+    "href": "cv/index.html#certifications",
+    "title": "Vitae",
     "section": "Certifications",
     "text": "Certifications\n\n\n\n\n\n\n\n2022\nMicroMasters in Data, Economics and Development Policy - MITx"
   },
   {
-    "objectID": "cv/index_typst.html#technical-skills",
-    "href": "cv/index_typst.html#technical-skills",
-    "title": "Esteban Degetau",
+    "objectID": "cv/index.html#technical-skills",
+    "href": "cv/index.html#technical-skills",
+    "title": "Vitae",
     "section": "Technical Skills",
-    "text": "Technical Skills\n\n\n\n\n\n\n\nProgramming:\nClaude Code, R, Python, Stata, SQL, SAS\n\n\nTools:\nQuarto, Git, Power BI, LaTeX\n\n\nLanguages:\nSpanish, English"
-  },
-  {
-    "objectID": "cv/education.html",
-    "href": "cv/education.html",
-    "title": "Esteban Degetau",
-    "section": "",
-    "text": "M.A. Applied Economics, Instituto Tecnológico Autónomo de México (ITAM), 2025\n         High Honors\n\n    B.A. Economics, ITAM, 2023"
-  },
-  {
-    "objectID": "cv/cv_long_term.html",
-    "href": "cv/cv_long_term.html",
-    "title": "Esteban Degetau",
-    "section": "",
-    "text": "estebandegetau@gmail.com\nwww.estebandegetau.com\nMexico City, Mexico"
-  },
-  {
-    "objectID": "cv/cv_long_term.html#contact",
-    "href": "cv/cv_long_term.html#contact",
-    "title": "Esteban Degetau",
-    "section": "",
-    "text": "estebandegetau@gmail.com\nwww.estebandegetau.com\nMexico City, Mexico"
-  },
-  {
-    "objectID": "cv/cv_long_term.html#education",
-    "href": "cv/cv_long_term.html#education",
-    "title": "Esteban Degetau",
-    "section": "Education",
-    "text": "Education\n\n    M.A. Applied Economics, Instituto Tecnológico Autónomo de México (ITAM), 2025\n         High Honors\n\n    B.A. Economics, ITAM, 2023"
-  },
-  {
-    "objectID": "cv/cv_long_term.html#working-papers",
-    "href": "cv/cv_long_term.html#working-papers",
-    "title": "Esteban Degetau",
-    "section": "Working Papers",
-    "text": "Working Papers\n\nThe Labor Market Outcomes of (Quasi) Unemployment Insurance: Evidence from Mexico’s Retiro Parcial por Desempleo (working paper version). Master’s thesis, ITAM. October 2025."
-  },
-  {
-    "objectID": "cv/cv_long_term.html#work-experience",
-    "href": "cv/cv_long_term.html#work-experience",
-    "title": "Esteban Degetau",
-    "section": "Work Experience",
-    "text": "Work Experience\n\nResearch\n\n\n\n\n\n\n\nWorld Bank\n\n\n\nShort-term Consultant - Macroeconomics and Growth, Development Research Group, practice to Agustín Samano\n2025 - Present\n\n\n\n\n\n\n\n\n\n\nITAM\n\n\n\nGraduate Research Assistant - Center for Economic Research (CIE), practice to Joyce Sadka and Enrique Seira\n2022 - 2023\n\n\n\n\n\nPublic Service\n\n\n\n\n\n\n\nInstituto Mexicano del Seguro Social (IMSS)\n\n\n\nDeputy Head, Fiscal Policy Planning\n2023 - 2025\n\n\n\n\n\nTeaching\n\n\n\n\n\n\n\nITAM\n\n\n\nPrinciples of Microeconomics - Bachelor (Spanish)\nFall 2025\n\n\n\n\n\n\n\n\n\n\nIMSS\n\n\n\nStatistical tools in R - Office Training (Spanish)\nSpring 2025"
-  },
-  {
-    "objectID": "cv/cv_long_term.html#recognitions",
-    "href": "cv/cv_long_term.html#recognitions",
-    "title": "Esteban Degetau",
-    "section": "Recognitions",
-    "text": "Recognitions\n\n\n\n\n\n\n\n2026\nPedro Aspe Academic excellence award, ITAM\n\n\n2021\nHonorable mention - COFECE Undergraduate Essay Contest, Mexico"
-  },
-  {
-    "objectID": "cv/cv_long_term.html#certifications",
-    "href": "cv/cv_long_term.html#certifications",
-    "title": "Esteban Degetau",
-    "section": "Certifications",
-    "text": "Certifications\n\n\n\n\n\n\n\n2022\nMicroMasters in Data, Economics and Development Policy - MITx"
-  },
-  {
-    "objectID": "cv/cv_long_term.html#technical-skills",
-    "href": "cv/cv_long_term.html#technical-skills",
-    "title": "Esteban Degetau",
-    "section": "Technical Skills",
-    "text": "Technical Skills\n\n\n\n\n\n\n\nProgramming:\nClaude Code, R, Python, Stata, SQL, SAS\n\n\nTools:\nQuarto, Git, Power BI, LaTeX\n\n\nLanguages:\nSpanish, English"
-  },
-  {
-    "objectID": "cv/certifications.html",
-    "href": "cv/certifications.html",
-    "title": "Esteban Degetau",
-    "section": "",
-    "text": "2022\nMicroMasters in Data, Economics and Development Policy - MITx"
+    "text": "Technical Skills\n\n\n\n\n\n\n\nProgramming:\nClaude Code, R, Python, Stata, SQL, SAS\n\n\nTools:\nQuarto, Git, Power BI, LaTeX\n\n\nLanguages:\nSpanish, English\n\n\n\nLast updated: May, 2026"
   },
   {
     "objectID": "cv/cv_months.html",
@@ -263,7 +263,7 @@
     "href": "cv/cv_months.html#education",
     "title": "Esteban Degetau",
     "section": "Education",
-    "text": "Education\n\n    M.A. Applied Economics, Instituto Tecnológico Autónomo de México (ITAM), 2025\n         High Honors\n\n    B.A. Economics, ITAM, 2023"
+    "text": "Education\n\n\n\n\n\n\n\n\nPhD in Economics, Universitat Pompeu Fabra\nExpected 2026 - 2032\n\n\nMaster in Applied Economics, ITAM, High Honors\n2023 - 2025\n\n\nBA in Economics, ITAM\n2016 - 2021"
   },
   {
     "objectID": "cv/cv_months.html#working-papers",
@@ -301,88 +301,172 @@
     "text": "Technical Skills\n\n\n\n\n\n\n\nProgramming:\nClaude Code, R, Python, Stata, SQL, SAS\n\n\nTools:\nQuarto, Git, Power BI, LaTeX\n\n\nLanguages:\nSpanish, English"
   },
   {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "Curriculum Vitae",
+    "objectID": "cv/certifications.html",
+    "href": "cv/certifications.html",
+    "title": "Esteban Degetau",
     "section": "",
-    "text": "estebandegetau@gmail.com\nwww.estebandegetau.com\nMexico City, Mexico"
+    "text": "2022\nMicroMasters in Data, Economics and Development Policy - MITx"
   },
   {
-    "objectID": "cv/index.html#contact",
-    "href": "cv/index.html#contact",
-    "title": "Curriculum Vitae",
+    "objectID": "cv/cv_long_term.html",
+    "href": "cv/cv_long_term.html",
+    "title": "Esteban Degetau",
     "section": "",
-    "text": "estebandegetau@gmail.com\nwww.estebandegetau.com\nMexico City, Mexico"
+    "text": "World Bank\nestebandegetau@gmail.com\n\n\nMexico City, Mexico\nwww.estebandegetau.com"
   },
   {
-    "objectID": "cv/index.html#education",
-    "href": "cv/index.html#education",
-    "title": "Curriculum Vitae",
+    "objectID": "cv/cv_long_term.html#education",
+    "href": "cv/cv_long_term.html#education",
+    "title": "Esteban Degetau",
     "section": "Education",
-    "text": "Education\n\n    M.A. Applied Economics, Instituto Tecnológico Autónomo de México (ITAM), 2025\n         High Honors\n\n    B.A. Economics, ITAM, 2023"
+    "text": "Education\n\n\n\n\n\n\n\n\nPhD in Economics, Universitat Pompeu Fabra\nExpected 2026 - 2032\n\n\nMaster in Applied Economics, ITAM, High Honors\n2023 - 2025\n\n\nBA in Economics, ITAM\n2016 - 2021"
   },
   {
-    "objectID": "cv/index.html#working-papers",
-    "href": "cv/index.html#working-papers",
-    "title": "Curriculum Vitae",
+    "objectID": "cv/cv_long_term.html#working-papers",
+    "href": "cv/cv_long_term.html#working-papers",
+    "title": "Esteban Degetau",
     "section": "Working Papers",
     "text": "Working Papers\n\nThe Labor Market Outcomes of (Quasi) Unemployment Insurance: Evidence from Mexico’s Retiro Parcial por Desempleo (working paper version). Master’s thesis, ITAM. October 2025."
   },
   {
-    "objectID": "cv/index.html#work-experience",
-    "href": "cv/index.html#work-experience",
-    "title": "Curriculum Vitae",
-    "section": "Work Experience",
-    "text": "Work Experience\n\nResearch\n\n\n\n\n\n\n\nWorld Bank\n\n\n\nShort-term Consultant - Macroeconomics and Growth, Development Research Group, practice to Agustín Samano\n2025 - Present\n\n\n\n\n\n\n\n\n\n\nITAM\n\n\n\nGraduate Research Assistant - Center for Economic Research (CIE), practice to Joyce Sadka and Enrique Seira\n2022 - 2023\n\n\n\n\n\nPublic Service\n\n\n\n\n\n\n\nInstituto Mexicano del Seguro Social (IMSS)\n\n\n\nDeputy Head, Fiscal Policy Planning\n2023 - 2025\n\n\n\n\n\nTeaching\n\n\n\n\n\n\n\nITAM\n\n\n\nPrinciples of Microeconomics - Bachelor (Spanish)\nFall 2025\n\n\n\n\n\n\n\n\n\n\nIMSS\n\n\n\nStatistical tools in R - Office Training (Spanish)\nSpring 2025"
+    "objectID": "cv/cv_long_term.html#select-work-in-progress",
+    "href": "cv/cv_long_term.html#select-work-in-progress",
+    "title": "Esteban Degetau",
+    "section": "Select Work in Progress",
+    "text": "Select Work in Progress\n\nScaling the narrative identification of fiscal shocks using LLMs (with Agustín Samano)"
   },
   {
-    "objectID": "cv/index.html#recognitions",
-    "href": "cv/index.html#recognitions",
-    "title": "Curriculum Vitae",
+    "objectID": "cv/cv_long_term.html#work-experience",
+    "href": "cv/cv_long_term.html#work-experience",
+    "title": "Esteban Degetau",
+    "section": "Work Experience",
+    "text": "Work Experience\n\nResearch\n\n\n\n\n\n\n\nWorld Bank\n\n\n\nConsultant - Macroeconomics and Growth, Development Research Group, practice to Agustín Samano\n2025 - 2026\n\n\n\n\n\n\n\n\n\n\nITAM\n\n\n\nGraduate Research Assistant - Center for Economic Research (CIE), practice to Joyce Sadka and Enrique Seira\n2022 - 2023\n\n\n\n\n\nPublic Service\n\n\n\n\n\n\n\nInstituto Mexicano del Seguro Social (IMSS)\n\n\n\nDeputy Head, Fiscal Policy Planning - Affiliation and Collection Directorate\n2023 - 2025\n\n\n\n\n\nTeaching\n\n\n\n\n\n\n\nITAM\n\n\n\nPrinciples of Microeconomics - Bachelor (Spanish)\nFall 2025\n\n\n\n\n\n\n\n\n\n\nIMSS\n\n\n\nStatistical tools in R - Office Training (Spanish)\nSpring 2025"
+  },
+  {
+    "objectID": "cv/cv_long_term.html#recognitions",
+    "href": "cv/cv_long_term.html#recognitions",
+    "title": "Esteban Degetau",
     "section": "Recognitions",
     "text": "Recognitions\n\n\n\n\n\n\n\n2026\nPedro Aspe Academic excellence award, ITAM\n\n\n2021\nHonorable mention - COFECE Undergraduate Essay Contest, Mexico"
   },
   {
-    "objectID": "cv/index.html#certifications",
-    "href": "cv/index.html#certifications",
-    "title": "Curriculum Vitae",
+    "objectID": "cv/cv_long_term.html#certifications",
+    "href": "cv/cv_long_term.html#certifications",
+    "title": "Esteban Degetau",
     "section": "Certifications",
     "text": "Certifications\n\n\n\n\n\n\n\n2022\nMicroMasters in Data, Economics and Development Policy - MITx"
   },
   {
-    "objectID": "cv/index.html#technical-skills",
-    "href": "cv/index.html#technical-skills",
-    "title": "Curriculum Vitae",
+    "objectID": "cv/cv_long_term.html#technical-skills",
+    "href": "cv/cv_long_term.html#technical-skills",
+    "title": "Esteban Degetau",
     "section": "Technical Skills",
-    "text": "Technical Skills\n\n\n\n\n\n\n\nProgramming:\nClaude Code, R, Python, Stata, SQL, SAS\n\n\nTools:\nQuarto, Git, Power BI, LaTeX\n\n\nLanguages:\nSpanish, English"
+    "text": "Technical Skills\n\n\n\n\n\n\n\nProgramming:\nClaude Code, R, Python, Stata, SQL, SAS\n\n\nTools:\nQuarto, Git, Power BI, LaTeX\n\n\nLanguages:\nSpanish, English\n\n\n\nLast updated: May, 2026"
   },
   {
-    "objectID": "cv/recognitions.html",
-    "href": "cv/recognitions.html",
+    "objectID": "cv/education.html",
+    "href": "cv/education.html",
+    "title": "Esteban Degetau",
+    "section": "",
+    "text": "PhD in Economics, Universitat Pompeu Fabra\nExpected 2026 - 2032\n\n\nMaster in Applied Economics, ITAM, High Honors\n2023 - 2025\n\n\nBA in Economics, ITAM\n2016 - 2021"
+  },
+  {
+    "objectID": "cv/index_typst.html",
+    "href": "cv/index_typst.html",
+    "title": "Esteban Degetau",
+    "section": "",
+    "text": "World Bank\nestebandegetau@gmail.com\n\n\nMexico City, Mexico\nwww.estebandegetau.com\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD in Economics, Universitat Pompeu Fabra\nExpected 2026 - 2032\n\n\nMaster in Applied Economics, ITAM, High Honors\n2023 - 2025\n\n\nBA in Economics, ITAM\n2016 - 2021\n\n\n\n\n\n\n\n\nThe Labor Market Outcomes of (Quasi) Unemployment Insurance: Evidence from Mexico’s Retiro Parcial por Desempleo (working paper version). Master’s thesis, ITAM. October 2025.\n\n\n\n\n\nScaling the narrative identification of fiscal shocks using LLMs (with Agustín Samano)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Bank\n\n\n\nConsultant - Macroeconomics and Growth, Development Research Group, practice to Agustín Samano\n2025 - 2026\n\n\n\n\n\n\n\n\n\n\nITAM\n\n\n\nGraduate Research Assistant - Center for Economic Research (CIE), practice to Joyce Sadka and Enrique Seira\n2022 - 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nInstituto Mexicano del Seguro Social (IMSS)\n\n\n\nDeputy Head, Fiscal Policy Planning - Affiliation and Collection Directorate\n2023 - 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nITAM\n\n\n\nPrinciples of Microeconomics - Bachelor (Spanish)\nFall 2025\n\n\n\n\n\n\n\n\n\n\nIMSS\n\n\n\nStatistical tools in R - Office Training (Spanish)\nSpring 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026\nPedro Aspe Academic excellence award, ITAM\n\n\n2021\nHonorable mention - COFECE Undergraduate Essay Contest, Mexico\n\n\n\n\n\n\n\n\n\n\n\n\n\n2022\nMicroMasters in Data, Economics and Development Policy - MITx\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming:\nClaude Code, R, Python, Stata, SQL, SAS\n\n\nTools:\nQuarto, Git, Power BI, LaTeX\n\n\nLanguages:\nSpanish, English\n\n\n\nLast updated: May, 2026"
+  },
+  {
+    "objectID": "cv/index_typst.html#education",
+    "href": "cv/index_typst.html#education",
+    "title": "Esteban Degetau",
+    "section": "",
+    "text": "PhD in Economics, Universitat Pompeu Fabra\nExpected 2026 - 2032\n\n\nMaster in Applied Economics, ITAM, High Honors\n2023 - 2025\n\n\nBA in Economics, ITAM\n2016 - 2021"
+  },
+  {
+    "objectID": "cv/index_typst.html#working-papers",
+    "href": "cv/index_typst.html#working-papers",
+    "title": "Esteban Degetau",
+    "section": "",
+    "text": "The Labor Market Outcomes of (Quasi) Unemployment Insurance: Evidence from Mexico’s Retiro Parcial por Desempleo (working paper version). Master’s thesis, ITAM. October 2025."
+  },
+  {
+    "objectID": "cv/index_typst.html#select-work-in-progress",
+    "href": "cv/index_typst.html#select-work-in-progress",
+    "title": "Esteban Degetau",
+    "section": "",
+    "text": "Scaling the narrative identification of fiscal shocks using LLMs (with Agustín Samano)"
+  },
+  {
+    "objectID": "cv/index_typst.html#work-experience",
+    "href": "cv/index_typst.html#work-experience",
+    "title": "Esteban Degetau",
+    "section": "",
+    "text": "World Bank\n\n\n\nConsultant - Macroeconomics and Growth, Development Research Group, practice to Agustín Samano\n2025 - 2026\n\n\n\n\n\n\n\n\n\n\nITAM\n\n\n\nGraduate Research Assistant - Center for Economic Research (CIE), practice to Joyce Sadka and Enrique Seira\n2022 - 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nInstituto Mexicano del Seguro Social (IMSS)\n\n\n\nDeputy Head, Fiscal Policy Planning - Affiliation and Collection Directorate\n2023 - 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nITAM\n\n\n\nPrinciples of Microeconomics - Bachelor (Spanish)\nFall 2025\n\n\n\n\n\n\n\n\n\n\nIMSS\n\n\n\nStatistical tools in R - Office Training (Spanish)\nSpring 2025"
+  },
+  {
+    "objectID": "cv/index_typst.html#recognitions",
+    "href": "cv/index_typst.html#recognitions",
     "title": "Esteban Degetau",
     "section": "",
     "text": "2026\nPedro Aspe Academic excellence award, ITAM\n\n\n2021\nHonorable mention - COFECE Undergraduate Essay Contest, Mexico"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "cv/index_typst.html#certifications",
+    "href": "cv/index_typst.html#certifications",
     "title": "Esteban Degetau",
     "section": "",
-    "text": "I am an economist working at the World Bank’s Development Research Group (Macroeconomics and Growth) as Short-Term Consultant. I hold an M.S. in Applied Economics from ITAM.\nPreviously, I worked at the Mexican Social Security Institute (IMSS), where I developed a keen interest in labor market transitions and social protection policy. My research draws on labor economics and applied econometrics to shed light into public policy. I plan to begin doctoral studies in economics in 2026.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNov 17, 2025\n\n\n\n\n\nNo matching items"
+    "text": "2022\nMicroMasters in Data, Economics and Development Policy - MITx"
   },
   {
-    "objectID": "index.html#blog",
-    "href": "index.html#blog",
+    "objectID": "cv/index_typst.html#technical-skills",
+    "href": "cv/index_typst.html#technical-skills",
     "title": "Esteban Degetau",
     "section": "",
-    "text": "Nov 17, 2025\n\n\n\n\n\nNo matching items"
+    "text": "Programming:\nClaude Code, R, Python, Stata, SQL, SAS\n\n\nTools:\nQuarto, Git, Power BI, LaTeX\n\n\nLanguages:\nSpanish, English\n\n\n\nLast updated: May, 2026"
   },
   {
-    "objectID": "research/other_research.html",
-    "href": "research/other_research.html",
+    "objectID": "cv/skills.html",
+    "href": "cv/skills.html",
     "title": "Esteban Degetau",
     "section": "",
-    "text": "Giving grade points according to GARP: A replication exercise (pdf). For Applied Microeconomics, ITAM. December 2023.\nCorruption or incompentence? Disentanle through learning (pdf). B.A. dissertation, ITAM. February 2023.\nPoder de mercado laboral y brecha de género (pdf). Presented in COFECE Essay contest. May 2021."
+    "text": "Programming:\nClaude Code, R, Python, Stata, SQL, SAS\n\n\nTools:\nQuarto, Git, Power BI, LaTeX\n\n\nLanguages:\nSpanish, English"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "The Labor Market Outcomes of (Quasi) Unemployment Insurance: Evidence from Mexico’s Retiro Parcial por Desempleo (working paper version). Master’s thesis, ITAM. October 2025."
+  },
+  {
+    "objectID": "research/index.html#working-papers",
+    "href": "research/index.html#working-papers",
+    "title": "Research",
+    "section": "",
+    "text": "The Labor Market Outcomes of (Quasi) Unemployment Insurance: Evidence from Mexico’s Retiro Parcial por Desempleo (working paper version). Master’s thesis, ITAM. October 2025."
+  },
+  {
+    "objectID": "research/index.html#select-work-in-progress",
+    "href": "research/index.html#select-work-in-progress",
+    "title": "Research",
+    "section": "Select Work in Progress",
+    "text": "Select Work in Progress\n\nScaling the narrative identification of fiscal shocks using LLMs (with Agustín Samano)"
+  },
+  {
+    "objectID": "research/index.html#other-research",
+    "href": "research/index.html#other-research",
+    "title": "Research",
+    "section": "Other Research",
+    "text": "Other Research\n\nGiving grade points according to GARP: A replication exercise (pdf). For Applied Microeconomics, ITAM. December 2023.\nCorruption or incompentence? Disentanle through learning (pdf). B.A. dissertation, ITAM. February 2023.\nPoder de mercado laboral y brecha de género (pdf). Presented in COFECE Essay contest. May 2021."
+  },
+  {
+    "objectID": "research/work_in_progress.html",
+    "href": "research/work_in_progress.html",
+    "title": "Esteban Degetau",
+    "section": "",
+    "text": "Scaling the narrative identification of fiscal shocks using LLMs (with Agustín Samano)"
   },
   {
     "objectID": "teaching/classes.html",
@@ -397,5 +481,12 @@
     "title": "Blog",
     "section": "",
     "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nEl Retiro Parcial por Desempleo: un sustituto costoso ante la ausencia de un seguro de desempleo\n\n\nEvidencia causal sobre cómo un mecanismo de emergencia prolonga el desempleo y amplifica desigualdades laborales\n\n\n\n\n\nNovember 17, 2025\n\n\nEsteban Degetau\n\n\n\n\n\nNo matching items\nReuseCC BY-NC 4.0"
+  },
+  {
+    "objectID": "disclaimer.html",
+    "href": "disclaimer.html",
+    "title": "Disclaimer",
+    "section": "",
+    "text": "Legal disclaimer for estebandegetau.com — opinions expressed are the author’s own and do not reflect the views of any affiliated organization.\nOpinions expressed on this site are the author’s own in his personal capacity. They do not reflect the views of any organization, company, or board he is associated with, including any current or former employer.\nThe content on this site is provided for informational purposes only and does not constitute professional advice. While I make reasonable efforts to ensure accuracy, I make no warranties or representations regarding the completeness, accuracy, or reliability of any information presented here.\nUse of any information on this site is at your own risk. I accept no liability for any loss or damage arising from reliance on the content of this site.\n\nNote: I took this directly from Chris von Csefalvay’s personal website"
   }
 ]

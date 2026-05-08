@@ -9,7 +9,7 @@
 <link>https://www.estebandegetau.com/blog/</link>
 <atom:link href="https://www.estebandegetau.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Esteban Degetau&#39;s Personal Website</description>
-<generator>quarto-1.8.27</generator>
+<generator>quarto-1.9.37</generator>
 <lastBuildDate>Mon, 17 Nov 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>El Retiro Parcial por Desempleo: un sustituto costoso ante la ausencia de un seguro de desempleo</title>
@@ -386,7 +386,7 @@ Figura&nbsp;6: Efectos del RPD durante la pandemia. Intervalos de confianza al 9
 <section id="el-problema-real-no-es-el-rpd-es-la-ausencia-de-un-sistema-de-protección-al-desempleo" class="level2">
 <h2 class="anchored" data-anchor-id="el-problema-real-no-es-el-rpd-es-la-ausencia-de-un-sistema-de-protección-al-desempleo">El problema real no es el RPD: es la ausencia de un sistema de protección al desempleo</h2>
 <p>La conclusión central no surge solo de los resultados cuantitativos, sino del contexto institucional en el que el RPD opera.</p>
-<p>Este mecanismo existe porque las alternativas fallan. El sistema de justicia laboral es lento, incierto y costoso; la indemnización constitucional rara vez llega al trabajador <span class="citation" data-cites="sadka2024">(Sadka, Seira, y Woodruff 2024)</span>; y México carece de un seguro de desempleo que distribuya colectivamente el riesgo de perder el trabajo. En ese vacío, el RPD funciona como sustituto improvisado: una forma de financiar la crisis inmediata con el ahorro para el retiro.</p>
+<p>Este mecanismo existe porque las alternativas fallan. El sistema de justicia laboral es lento, incierto y costoso; la indemnización constitucional rara vez llega al trabajador <span class="citation" data-cites="sadka2024">(Sadka et&nbsp;al. 2024)</span>; y México carece de un seguro de desempleo que distribuya colectivamente el riesgo de perder el trabajo. En ese vacío, el RPD funciona como sustituto improvisado: una forma de financiar la crisis inmediata con el ahorro para el retiro.</p>
 <p>El problema es que este diseño desplaza los costos hacia quienes menos pueden absorberlos. Para los trabajadores con menos ingresos, menor estabilidad y menos redes, el RPD no solo no protege: <strong>agrava su vulnerabilidad</strong>. En lugar de suavizar desigualdades —como lo haría un seguro de desempleo bien diseñado— las reproduce y, en muchos casos, las agudiza.</p>
 </section>
 <section id="la-pregunta-que-queda-abierta" class="level2">
@@ -399,21 +399,21 @@ Figura&nbsp;6: Efectos del RPD durante la pandemia. Intervalos de confianza al 9
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-aguilar2025" class="csl-entry">
-Aguilar, Carolina. 2025. <span>«Menos semanas cotizadas y fraudes: lo que no te dicen del retiro por desempleo»</span>. <em>Expansión</em>, julio. <a href="https://expansion.mx/finanzas-personales/2025/07/04/conviene-tramitar-retiro-por-desempleo-afore">https://expansion.mx/finanzas-personales/2025/07/04/conviene-tramitar-retiro-por-desempleo-afore</a>.
+Aguilar, Carolina. 2025. <span>«Menos semanas cotizadas y fraudes: lo que no te dicen del retiro por desempleo»</span>. <em>Expansión</em>, julio 5. <a href="https://expansion.mx/finanzas-personales/2025/07/04/conviene-tramitar-retiro-por-desempleo-afore">https://expansion.mx/finanzas-personales/2025/07/04/conviene-tramitar-retiro-por-desempleo-afore</a>.
 </div>
 <div id="ref-aristegui" class="csl-entry">
-Aristegui Noticias. 2025. <span>«Diputados aprueban reforma para limitar retiros de Afore en caso de desempleo»</span>. <em>Aristegui Noticias</em>, junio. <a href="https://aristeguinoticias.com/2306/mexico/diputados-aprueban-reforma-para-limitar-retiros-de-afore-en-caso-de-desempleo/">https://aristeguinoticias.com/2306/mexico/diputados-aprueban-reforma-para-limitar-retiros-de-afore-en-caso-de-desempleo/</a>.
+Aristegui Noticias. 2025. <span>«Diputados aprueban reforma para limitar retiros de Afore en caso de desempleo»</span>. <em>Aristegui Noticias</em>, junio 23. <a href="https://aristeguinoticias.com/2306/mexico/diputados-aprueban-reforma-para-limitar-retiros-de-afore-en-caso-de-desempleo/">https://aristeguinoticias.com/2306/mexico/diputados-aprueban-reforma-para-limitar-retiros-de-afore-en-caso-de-desempleo/</a>.
 </div>
 <div id="ref-carbajal2025" class="csl-entry">
-Carbajal, Braulio. 2025. <span>«Entre enero y abril, retiros de las Afore por desempleo alcanzaron récord de 11 mil 360 mdp»</span>. <em>La Jornada</em>, mayo. <a href="https://www.jornada.com.mx/noticia/2025/05/16/economia/entre-enero-y-abril-retiros-de-las-afore-por-desempleo-alcanzaron-record-de-11-mil-360-mdp">https://www.jornada.com.mx/noticia/2025/05/16/economia/entre-enero-y-abril-retiros-de-las-afore-por-desempleo-alcanzaron-record-de-11-mil-360-mdp</a>.
+Carbajal, Braulio. 2025. <span>«Entre enero y abril, retiros de las Afore por desempleo alcanzaron récord de 11 mil 360 mdp»</span>. <em>La Jornada</em>, mayo 16. <a href="https://www.jornada.com.mx/noticia/2025/05/16/economia/entre-enero-y-abril-retiros-de-las-afore-por-desempleo-alcanzaron-record-de-11-mil-360-mdp">https://www.jornada.com.mx/noticia/2025/05/16/economia/entre-enero-y-abril-retiros-de-las-afore-por-desempleo-alcanzaron-record-de-11-mil-360-mdp</a>.
 </div>
 <div id="ref-degetau" class="csl-entry">
-Degetau, Esteban. 2025. <span>«The Labor Market Outcomes of (Quasi) Unemployment Insurance»</span>, noviembre. <a href="https://www.estebandegetau.com/RPD_LM/">https://www.estebandegetau.com/RPD_LM/</a>.
+Degetau, Esteban. 2025. <em>The Labor Market Outcomes of (Quasi) Unemployment Insurance</em>. noviembre 11. <a href="https://www.estebandegetau.com/RPD_LM/">https://www.estebandegetau.com/RPD_LM/</a>.
 </div>
 <div id="ref-sadka2024" class="csl-entry">
-Sadka, Joyce, Enrique Seira, y Christopher Woodruff. 2024. <span>«Information and Bargaining through Agents: Experimental Evidence from Mexico<span>’</span>s Labour Courts»</span>. <em>The Review of Economic Studies</em>, febrero, rdae003. <a href="https://doi.org/10.1093/restud/rdae003">https://doi.org/10.1093/restud/rdae003</a>.
+Sadka, Joyce, Enrique Seira, y Christopher Woodruff. 2024. <span>«Information and Bargaining through Agents: Experimental Evidence from Mexico<span>’</span>s Labour Courts»</span>. <em>The Review of Economic Studies</em>, febrero 1, rdae003. <a href="https://doi.org/10.1093/restud/rdae003">https://doi.org/10.1093/restud/rdae003</a>.
 </div>
 </div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reutilización</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.es">CC BY-NC 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cómo citar</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{degetau2025,
   author = {Degetau, Esteban},
@@ -424,9 +424,9 @@ Sadka, Joyce, Enrique Seira, y Christopher Woodruff. 2024. <span>«Information a
   langid = {es}
 }
 </code></pre><div class="quarto-appendix-secondary-label">Por favor, cita este trabajo como:</div><div id="ref-degetau2025" class="csl-entry quarto-appendix-citeas">
-Degetau, Esteban. 2025. <span>“El Retiro Parcial por Desempleo: un
-sustituto costoso ante la ausencia de un seguro de desempleo.”</span>
-November 17, 2025. <a href="https://www.estebandegetau.com/blog/rpd/">https://www.estebandegetau.com/blog/rpd/</a>.
+Degetau, Esteban. 2025. <em>El Retiro Parcial por Desempleo: un
+sustituto costoso ante la ausencia de un seguro de desempleo</em>.
+accepted, November 17. <a href="https://www.estebandegetau.com/blog/rpd/">https://www.estebandegetau.com/blog/rpd/</a>.
 </div></div></section></div> ]]></description>
   <category>política pública</category>
   <category>mercado laboral</category>
