@@ -1,12 +1,25 @@
-## Contact
 
-::: smallcaps
-|  |  |  |
-|:---------------------------|:------------------------:|-----------------:|
-| [estebandegetau\@gmail.com](mailto:estebandegetau@gmail.com) | [www.estebandegetau.com](https://www.estebandegetau.com) | Mexico City, Mexico |
 
-: {tbl-colwidths="\[34,33,33\]"}
-:::
+```{r}
+d <- Sys.Date()
+```
+
+<!-- Uncomment when PhD starts -->
+
+<!-- |  |  |
+|:-----------------|-----------:|
+| Barcelona School of Economics                      | [estebandegetau\@gmail.com](mailto:estebandegetau@gmail.com) |
+| Ramon Trias Fargas, 25-27, Barcelona, 08005, Spain | [www.estebandegetau.com](https://www.estebandegetau.com)     |
+
+: {tbl-colwidths=[60,40]} -->
+
+|  |  |
+|:-----------------|-----------:|
+| World Bank   | [estebandegetau\@gmail.com](mailto:estebandegetau@gmail.com) |
+| Mexico City, Mexico | [www.estebandegetau.com](https://www.estebandegetau.com)     |
+
+: {tbl-colwidths=[60,40]}
+
 
 ## Education
 
@@ -16,6 +29,10 @@
 
 {{< include ../research/working_papers.qmd >}}
 
+## Select Work in Progress
+
+{{< include ../research/work_in_progress.qmd >}}
+
 ## Work Experience
 
 ### Research
@@ -23,7 +40,7 @@
 |  |  |
 |:-------------------------------------------------|---------------------:|
 | **World Bank** |  |
-| Short-term Consultant - Macroeconomics and Growth, Development Research Group, practice to Agustín Samano | 2025 - Present |
+| Consultant - Macroeconomics and Growth, Development Research Group, practice to Agustín Samano | 2025 - 2026 |
 
 |  |  |
 |--------------------------------------------------|---------------------:|
@@ -35,7 +52,7 @@
 |                                                 |             |
 |-------------------------------------------------|------------:|
 | **Instituto Mexicano del Seguro Social (IMSS)** |             |
-| Deputy Head, Fiscal Policy Planning             | 2023 - 2025 |
+| Deputy Head, Fiscal Policy Planning - Affiliation and Collection Directorate             | 2023 - 2025 |
 
 ### Teaching
 
@@ -67,3 +84,5 @@
 ## Technical Skills
 
 {{< include skills.qmd >}}
+
+Last updated: `r format(d, "%B, %Y")`

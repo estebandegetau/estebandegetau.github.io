@@ -17,3 +17,4 @@ _*.qmd
 *_files/
 .vscode/
 prompts/
+cv/cv_phd.qmd

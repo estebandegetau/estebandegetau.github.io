@@ -7,6 +7,9 @@ title: "Research"
 
 {{< include working_papers.qmd >}}
 
+## Select Work in Progress
+
+{{< include work_in_progress.qmd >}}
 
 ## Other Research
 

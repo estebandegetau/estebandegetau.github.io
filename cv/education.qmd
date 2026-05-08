@@ -1,6 +1,17 @@
-
-| 
-|     M.A. Applied Economics, Instituto Tecnológico Autónomo de México (ITAM), 2025
+<!-- |
+|     PhD in Economics, Universitat Pompeu Fabra, Expected 2032
+|     Master in Applied Economics, ITAM, 2025
 |          High Honors
-| 
-|     B.A. Economics, ITAM, 2023
+|     B.A. Economics, ITAM, 2023 -->
+
+|  |  |
+|:-------------------------------------------------|---------------------:|
+| PhD in Economics, Universitat Pompeu Fabra | Expected 2026 - 2032 |
+| Master in Applied Economics, ITAM, High Honors | 2023 - 2025 |
+| BA in Economics, ITAM | 2016 - 2021 | 
+
+: {tbl-colwidths=[60,40]}
+
+<!-- 
+| Master of Research in Economics, Universitat Pompeu Fabra | Expected 2027 - 2028 |
+| Master of Science in Economics, Barcelona School of Economics | Expected 2026 - 2027 |  -->

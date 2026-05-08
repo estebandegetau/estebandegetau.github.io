@@ -1,13 +1,11 @@
 ---
 format:
   typst: 
-    title: Esteban Degetau
-    subtitle: Curriculum Vitae
     papersize: us-letter
-    date: today
-    date-format: long
     tbl-colwidths: [75,25]
 brand: false
 ---
+
+# Esteban Degetau 
 
 {{< include cv_long_term.qmd >}}

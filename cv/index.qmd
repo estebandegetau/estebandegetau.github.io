@@ -1,14 +1,18 @@
 ---
 format: 
   html: 
-      title: "Curriculum Vitae"
+      title: "Vitae"
       subtitle: "Esteban Degetau"
-      date-modified: today
-      date-format: long
+      # date-modified: today
+      # date-format: long
       other-links:
-        - text: PDF Format
+        - text: PDF
           href: index_typst.pdf
           icon: file-pdf
 ---
+
+
+
+## Contact
 
 {{< include cv_long_term.qmd >}}

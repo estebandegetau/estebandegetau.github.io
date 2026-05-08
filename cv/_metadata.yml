@@ -3,3 +3,7 @@ format:
       tbl-colwidths: [80,20]
 
     
+execute:
+  echo: false
+  warning: false
+  error: false

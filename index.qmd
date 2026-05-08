@@ -29,6 +29,10 @@ about:
         - icon: orcid  
           text: "ORCID"
           url: https://orcid.org/0009-0004-4095-8819
+        - icon: google
+          text: "Google Scholar"
+          url: https://scholar.google.com/citations?hl=en&user=hOFZcfMAAAAJ&view_op=list_works&sortby=pubdate
+
 image: "images/eds-2024.jpg"
 comments: false
 listing:
@@ -46,7 +50,7 @@ listing:
 
 I am an economist working at the World Bank’s Development Research Group (Macroeconomics and Growth) as Short-Term Consultant. I hold an M.S. in Applied Economics from [ITAM](https://www.itam.mx/). 
 
-Previously, I worked at the Mexican Social Security Institute (IMSS), where I developed a keen interest in labor market transitions and social protection policy. My research draws on labor economics and applied econometrics to shed light into public policy. I plan to begin doctoral studies in economics in 2026.
+Previously, I worked at the Mexican Social Security Institute (IMSS), where I developed a keen interest in labor market transitions and social protection policy. My research draws on labor economics and applied econometrics to shed light into public policy. I will begin the PhD in Economics at [Universitat Pompeu Fabra](https://www.upf.edu/web/econ) on September 2026!
 
 ## Blog
 

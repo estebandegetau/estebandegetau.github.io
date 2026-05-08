@@ -1,0 +1,2 @@
+
+- **Scaling the narrative identification of fiscal shocks using LLMs** (with Agustín Samano)
