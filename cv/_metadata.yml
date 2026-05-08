@@ -1,5 +1,6 @@
-format: 
+format:
   html:
+      css: cv-styles.css
       tbl-colwidths: [80,20]
 
     
