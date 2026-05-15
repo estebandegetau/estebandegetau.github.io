@@ -45,7 +45,7 @@ d <- Sys.Date()
 |  |  |
 |--------------------------------------------------|---------------------:|
 | **ITAM** |  |
-| Graduate Research Assistant - Center for Economic Research (CIE), practice to Joyce Sadka and Enrique Seira | 2022 - 2023 |
+| Research Assistant - Center for Economic Research (CIE), practice to Joyce Sadka and Enrique Seira | 2022 - 2023 |
 
 ### Public Service
 
