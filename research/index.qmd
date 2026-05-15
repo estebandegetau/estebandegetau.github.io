@@ -11,6 +11,6 @@ title: "Research"
 
 {{< include work_in_progress.qmd >}}
 
-## Other Research
+## Earlier Work
 
 {{< include other_research.qmd >}}
