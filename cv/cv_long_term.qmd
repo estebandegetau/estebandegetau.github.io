@@ -17,6 +17,7 @@ d <- Sys.Date()
 |:-----------------|-----------:|
 | World Bank   | [estebandegetau\@gmail.com](mailto:estebandegetau@gmail.com) |
 | Mexico City, Mexico | [www.estebandegetau.com](https://www.estebandegetau.com)     |
+|  | `r format(d, "%B, %Y")`  |
 
 : {tbl-colwidths=[60,40]}
 
@@ -33,6 +34,17 @@ d <- Sys.Date()
 
 {{< include ../research/work_in_progress.qmd >}}
 
+## Conferences and Presentations
+
+|  |  |
+|:--------------|:-----------------|
+| August 2026 | ITAM Alumni Conference, Mexico City, Mexico |
+
+: {tbl-colwidths=[20,80]}
+
+
+[^upcoming]: Upcoming
+
 ## Work Experience
 
 ### Research
@@ -40,7 +52,7 @@ d <- Sys.Date()
 |  |  |
 |:-------------------------------------------------|---------------------:|
 | **World Bank** |  |
-| Consultant - Macroeconomics and Growth, Development Research Group, practice to Agustín Samano | 2025 - 2026 |
+| Short Term Consultant - Macroeconomics and Growth, Development Research Group, practice to Agustín Samano | 2025 - 2026 |
 
 |  |  |
 |--------------------------------------------------|---------------------:|
@@ -85,4 +97,3 @@ d <- Sys.Date()
 
 {{< include skills.qmd >}}
 
-Last updated: `r format(d, "%B, %Y")`

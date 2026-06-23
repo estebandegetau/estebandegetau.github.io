@@ -3,10 +3,8 @@ format:
   html: 
       title: "Vitae"
       subtitle: "Esteban Degetau"
-      # date-modified: today
-      # date-format: long
       other-links:
-        - text: PDF
+        - text: Download as PDF
           href: index_typst.pdf
           icon: file-pdf
 ---
