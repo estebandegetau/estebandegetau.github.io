@@ -34,7 +34,7 @@ d <- Sys.Date()
 
 {{< include ../research/work_in_progress.qmd >}}
 
-## Conferences and Presentations
+## Conferences
 
 |  |  |
 |:--------------|:-----------------|
