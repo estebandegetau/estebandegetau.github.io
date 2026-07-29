@@ -1,5 +1,7 @@
 ---
-title: "Research"
+# title: "Research"
+# page-layout: full
+license: "CC BY-NC"
 ---
 
 

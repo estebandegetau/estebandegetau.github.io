@@ -1,6 +1,0 @@
-|  |  |
-|----------------|:-------------------------------------------------------|
-| 2026 | *Pedro Aspe* Academic excellence award, ITAM |
-| 2021 | Honorable mention - COFECE Undergraduate Essay Contest, Mexico |
-
-: {tbl-colwidths="\[10,90\]"}

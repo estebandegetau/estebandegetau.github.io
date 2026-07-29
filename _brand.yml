@@ -17,9 +17,9 @@ logo:
 
 color:
   palette:
-    blue: "#00829a"           # BSE teal
+    blue: "#00829a"           # BSE teal, change when UPF student
     orange: "#f18a21"         # BSE orange
-    purple: "#3d2058"
+    purple: "#3d2058"         # BSE purple
     light-blue: "#e5f3f4"     # subtle background accent
     dark-grey: "#121212"      # deep text color in light mode
     light-grey: "#e6e6e6"     # light background
@@ -27,38 +27,45 @@ color:
     black: "#202022"
   background:
     light: white
-    dark: dark-grey
+    dark: black
   foreground:
-    light: dark-grey
+    light: black
     dark: light-grey
   primary:
     light: light-grey
-    dark: black
+    dark: dark-grey
   link:
     light: blue
     dark: light-blue
   danger: orange
+  secondary: 
+    light: dark-grey
+    dark: light-grey
+  tertiary: purple
 
 typography:
   fonts:
-    - family: Kedebideri       # modern sans serif, good for web readability
+    - family: Urbanist       # modern sans serif, good for web readability
       source: google
       weight: [400, 600, 700]
-    - family: Merriweather  # optional serif if you ever use PDFs / print
+      style: [normal, italic]   # pull italic faces too, so *emphasis* renders slanted
+    - family: Libertinus Sans  # optional serif if you ever use PDFs / print
       source: google
+      weight: [400, 700]
+      style: [normal, italic]
   base: 
-    family: Kedebideri
+    family: Urbanist
   headings:
-    family: Kedebideri
+    family: Urbanist
     weight: 600
   link:
     color:
       light: blue
-      dark: light-blue
+      dark: blue
 
 defaults:
   bootstrap:
     code-font-family: "Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
-    body-font-family: "Kedebideri, sans-serif"
-    heading-font-family: "Kedebideri, sans-serif"
+    body-font-family: "Urbanist, sans-serif"
+    heading-font-family: "Urbanist, sans-serif"
 

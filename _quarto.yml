@@ -30,17 +30,17 @@ website:
       - href: cv/index.qmd
         text: Vitae
     right:
+      - icon: github
+        href: https://github.com/estebandegetau
+      - icon:  linkedin 
+        href: https://www.linkedin.com/in/esteban-degetau-187141344/
       - icon: rss
         href: index.xml
 
-  page-footer: 
-    left: "c. Esteban Degetau, 2026-. [Disclaimer](/disclaimer.qmd) · [Privacy](/privacy.qmd)" 
-    right: 
-      - icon: github
-        href: https://github.com/estebandegetau
-      - icon: twitter 
-        href: https://x.com/estebandegetau
 
+  # page-footer: 
+  #   right: "c. Esteban Degetau, 2026-. [Disclaimer](/disclaimer.qmd) · [Privacy](/privacy.qmd)" 
+      
 
 
 format: 
@@ -50,4 +50,3 @@ format:
     tbl-colwidths: [80,20]
 
 
-# brand: _brand.yml

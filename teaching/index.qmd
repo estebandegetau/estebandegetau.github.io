@@ -1,5 +1,9 @@
 ---
-title: "Teaching"
+# title: "Teaching"
+page-layout: full
+license: "CC BY-NC"
 ---
 
 {{< include classes.qmd >}}
+
+: {tbl-colwidths=[65,35]}

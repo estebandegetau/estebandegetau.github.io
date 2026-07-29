@@ -1,9 +1,10 @@
 |                                                     |           |
 |-----------------------------------------------------|----------:|
-| **ITAM**                                            |           |
-| *Principles of Microeconomics* - Undergrad (Spanish) | Fall 2025 |
+| **ITAM**                                            | **Mexico City, Mexico**          |
+| *Principles of Microeconomics* (Instructor) - Undergrad (Spanish) | Fall 2025 |
+| *Economic Analysis of Law* (TA) - Undergrad (Spanish) | Fall 2022 -- Spring 2023 |
 
 |  |  |
 |------------------------------------------------------|-----------------:|
-| **IMSS** |  |
-| [*Statistical tools in R*](https://estebandegetau.com/Statistical-tools-in-R) *-* Office Training (Spanish) | Spring 2025 |
+| **IMSS** | **Mexico City, Mexico** |
+| [*Statistical tools in R*](https://estebandegetau.com/Statistical-tools-in-R) (Instructor) - Office Training (Spanish) | Spring 2025 |

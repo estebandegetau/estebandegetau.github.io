@@ -6,32 +6,33 @@ format:
     title-block-banner: false
 about:
     template: trestles
-    image-width: 20em
+    # image-width: 20em
     links:
-        - icon: twitter
-          text: Twitter
-          url: https://x.com/estebandegetau
-        - icon: spotify 
-          text: Spotify
-          url: https://open.spotify.com/user/estebandegetau?si=b3ecc16446d449eb
+        - icon: envelope
+          text: "Email"
+          url: mailto:estebandegetau@gmail.com
         - icon: github
           text: GitHub
           url: https://github.com/estebandegetau
         - icon: linkedin
           text: LinkedIn
           url: https://www.linkedin.com/in/esteban-degetau-187141344/
-        - icon: letterboxd
-          text: Letterboxd
-          url: https://letterboxd.com/estebandegetau/
-        - icon: email
-          text: "Email"
-          url: mailto:estebandegetau@gmail.com
-        - icon: orcid  
-          text: "ORCID"
-          url: https://orcid.org/0009-0004-4095-8819
         - icon: google
           text: "Google Scholar"
           url: https://scholar.google.com/citations?hl=en&user=hOFZcfMAAAAJ&view_op=list_works&sortby=pubdate
+        - icon: twitter-x
+          text: Twitter
+          url: https://x.com/estebandegetau
+        - icon: spotify 
+          text: Spotify
+          url: https://open.spotify.com/user/estebandegetau?si=b3ecc16446d449eb
+        - icon: film
+          text: Letterboxd
+          url: https://letterboxd.com/estebandegetau/
+        - icon: flask  
+          text: "ORCID"
+          url: https://orcid.org/0009-0004-4095-8819
+
 
 image: "images/eds-2024.jpg"
 comments: false
@@ -44,16 +45,22 @@ listing:
   categories: false
   feed:
     items: 2
+# license: false
 ---
 
-# About Me
+:::{#hero-heading}
 
-I am an economist working at the World Bank’s Development Research Group (Macroeconomics and Growth) as Short-Term Consultant. I hold an M.S. in Applied Economics from [ITAM](https://www.itam.mx/) and I will begin the PhD in Economics at [Universitat Pompeu Fabra](https://www.upf.edu/web/econ) on September 2026.
+# About me
 
-Previously, I worked at the Mexican Social Security Institute (IMSS), where I developed a keen interest in labor market transitions and social protection policy. My research draws on labor economics and applied econometrics to shed light into public policy. 
+I am a first-year Economics PhD student at the joint program of [Barcelona School of Economics](https://bse.eu/) and [Universitat Pompeu Fabra](https://www.upf.edu/).
 
-## Blog
+Previously, I worked at the Mexican Social Security Institute (IMSS), where I developed a keen interest in labor market transitions and social protection policy. My research has drawn on labor economics and applied econometrics to shed light into public policy. 
+
+:::
+
+## My blog
 
 ::: {#blog}
 
 :::
+

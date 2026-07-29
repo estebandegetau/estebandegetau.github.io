@@ -18,3 +18,6 @@ _*.qmd
 .vscode/
 prompts/
 cv/cv_phd.qmd
+cv/bse.qmd
+*.json
+blog/phd_process/

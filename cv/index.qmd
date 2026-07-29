@@ -1,8 +1,12 @@
 ---
 format: 
   html: 
-      title: "Vitae"
-      subtitle: "Esteban Degetau"
+      # title: "Vitae"
+      # subtitle: "Esteban Degetau"
+      page-layout: full
+      toc: true
+      # reference-location: block
+      tbl-colwidths: [75,25]
       other-links:
         - text: Download as PDF
           href: index_typst.pdf

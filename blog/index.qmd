@@ -1,16 +1,15 @@
 ---
-title: "Blog"
+# title: "Blog"
 listing:
   sort: "date desc"
   type: default
   categories: true
-  sort-ui: true
-  filter-ui: true
+  sort-ui: false
+  filter-ui: false
   feed: true
-  fields: [image, date, title, subtitle, author]
+  fields: [image, date, title, subtitle, categories]
 page-layout: full
 citation: false
-# license: false
 comments: false
 ---
 

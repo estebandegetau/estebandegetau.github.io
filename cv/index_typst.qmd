@@ -1,9 +1,14 @@
 ---
 format:
   typst: 
+    include-in-header: bse-style.typ
     papersize: us-letter
     tbl-colwidths: [75,25]
-brand: false
+    reference-location: block
+    margin:
+        x: 2cm
+        y: 2cm
+# brand: false
 ---
 
 # Esteban Degetau 
