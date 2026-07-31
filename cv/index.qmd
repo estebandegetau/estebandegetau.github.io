@@ -11,7 +11,7 @@ format:
         - text: Download as PDF
           href: index_typst.pdf
           icon: file-pdf
-        - text: Spanish
+        - text: Español
           href: index_esp.html    
           icon: translate
 ---
