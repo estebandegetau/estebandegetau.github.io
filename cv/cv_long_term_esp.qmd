@@ -1,0 +1,145 @@
+
+
+```{r}
+d <- Sys.Date()
+meses <- c("enero","febrero","marzo","abril","mayo","junio","julio",
+           "agosto","septiembre","octubre","noviembre","diciembre")
+fecha <- paste0(format(d, "%d"), " de ", meses[as.integer(format(d, "%m"))],
+                " de ", format(d, "%Y"))
+```
+
+<!-- Uncomment when PhD starts -->
+
+|  |  |
+|:-----------------|:----------|
+| **Barcelona School of Economics**                      | [estebandegetau\@gmail.com](mailto:estebandegetau@gmail.com) |
+| Ramón Trias Fargas, 25-27, 08005| [www.estebandegetau.com](https://www.estebandegetau.com)     |
+|  Barcelona, Cataluña, España | `r fecha`  |
+
+: {tbl-colwidths=[70,30]}
+
+
+
+
+## Formación académica
+
+|  |  |
+|:-------------------------------------------------|---------------------:|
+| Doctorado en Economía, Universitat Pompeu Fabra | 2028 -- 2032* |
+| Máster en Investigación en Economía (MRes), Universitat Pompeu Fabra | 2027 -- 2028* |
+| Máster en Economía (PhD Track), Barcelona School of Economics | 2026 -- 2027* |
+| Maestría en Economía Aplicada, ITAM, Mención Honorífica | 2023 -- 2025 |
+| Licenciatura en Economía, ITAM | 2016 -- 2021 |
+
+
+
+::: {.content-visible when-format="html"}
+
+[\* Previsto]{.aside}
+
+:::
+
+
+::: {.content-visible when-format="typst"}
+
+|  |   |
+|---|----:|
+|  | \* Previsto |
+
+:::
+
+
+## Documentos de trabajo
+
+- **Los efectos en el mercado laboral del (cuasi) seguro de desempleo:** Evidencia del *Retiro Parcial por Desempleo* de México ([versión working paper](https://www.estebandegetau.com/RPD_LM/)). Tesis de maestría, ITAM. Octubre 2025.
+
+## Trabajo en progreso (selección)
+
+- **Los efectos macroeconómicos de los cambios fiscales en economías en desarrollo**: Evidencia de Malasia (con [Agustín Samano](http://www.agustinsamano.com/)).
+
+- **Escalando la identificación narrativa de cambios fiscales mediante LLMs**.
+
+## Presentaciones
+
+|  |  |
+|:--------------|----------------:|
+| Conferencia de Egresados ITAM, Ciudad de México, México | Agosto 2026 |
+
+
+
+## Experiencia profesional
+
+### Investigación
+
+|  |  |
+|:-------------------------------------------------|---------------------:|
+| **World Bank** | **Ciudad de México, México** |
+| **Consultor de Corto Plazo** -- Macroeconomía y Crecimiento, Grupo de Investigación para el Desarrollo. Con Agustín Samano | 2025 -- 2026 |
+
+|  |  |
+|--------------------------------------------------|---------------------:|
+| **ITAM** | **Ciudad de México, México**  |
+| **Asistente de Investigación** -- Centro de Investigación Económica (CIE). Con Joyce Sadka y Enrique Seira | 2022 -- 2023 |
+
+### Servicio público
+
+|                                                 |             |
+|-------------------------------------------------|------------:|
+| **Instituto Mexicano del Seguro Social (IMSS)** |  **Ciudad de México, México** |
+| **Subjefe de División de Planeación de Política Fiscal** -- Dirección de Incorporación y Recaudación             | 2023 -- 2025 |
+
+### Docencia
+
+|                                                     |           |
+|-----------------------------------------------------|----------:|
+| **ITAM**                                            | **Ciudad de México, México**          |
+| *Principios de Microeconomía* (Profesor) - Licenciatura (Español) | Otoño 2025 |
+| *Análisis Económico del Derecho* (Ayudante) - Licenciatura (Español) | Otoño 2022 -- Primavera 2023 |
+
+|  |  |
+|------------------------------------------------------|-----------------:|
+| **IMSS** | **Ciudad de México, México** |
+| [*Herramientas estadísticas en R*](https://estebandegetau.com/Statistical-tools-in-R) (Instructor) - Capacitación interna (Español) | Primavera 2025 |
+
+
+### Sector privado
+
+|                         |      |
+|-------------------------|-----:|
+| **CEROMULTAS**          | **Ciudad de México, México**     |
+| Analista de Negocios Senior | 2021 |
+| Analista de Negocios        | 2019 -- 2020 |
+
+|                             |      |
+|-----------------------------|-----:|
+| **T-Rez Consulting**        | **Ciudad de México, México**     |
+| Analista de Comercio Internacional | 2018 |
+
+
+## Reconocimientos
+
+|  |  |
+|:---------------|------------------------------------------------------:|
+| Premio a la Excelencia Académica *Pedro Aspe*, ITAM | 2026 |
+| Mención honorífica - Concurso de Ensayo para Licenciatura, COFECE, México | 2021 |
+
+: {tbl-colwidths="\[80,20\]"}
+
+## Idiomas y habilidades técnicas
+
+|              |                                         |
+|:-------------|:----------------------------------------|
+| **Técnico**: | Claude Code, R, Python, Stata, SQL, SAS, Quarto, Git, GitHub, Power BI, LaTeX. |
+|   **Idioma**: | Español (Nativo), Inglés (Fluido). |
+
+: {tbl-colwidths="\[15,85\]"}
+
+
+
+## Certificados
+
+|  |  |
+|:---------------|------------------------------------------------------:|
+| MicroMasters in Data, Economics and Development Policy - MITx ([Certificado](https://mitxonline.mit.edu/certificate/program/cc5f08c4-e64b-4f5b-ac83-2fc1868b1c9a/ "Certificado")) | 2023 |
+
+: {tbl-colwidths="\[80,20\]"}

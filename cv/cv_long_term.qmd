@@ -7,10 +7,10 @@ d <- Sys.Date()
 <!-- Uncomment when PhD starts -->
 
 |  |  |
-|:-----------------|-----------:|
-| Barcelona School of Economics                      | [estebandegetau\@gmail.com](mailto:estebandegetau@gmail.com) |
-| Ramon Trias Fargas, 25-27, Barcelona, 08005, Spain | [www.estebandegetau.com](https://www.estebandegetau.com)     |
-|  | Last updated: `r format(d, "%B %d, %Y")`  |
+|:-----------------|:----------|
+| **Barcelona School of Economics**                      | [estebandegetau\@gmail.com](mailto:estebandegetau@gmail.com) |
+| Ramón Trias Fargas, 25-27, 08005 | [www.estebandegetau.com](https://www.estebandegetau.com)     |
+| Barcelona, Catalonia, Spain  | Last updated: `r format(d, "%B %d, %Y")`  |
 
 : {tbl-colwidths=[70,30]}
 
@@ -62,7 +62,7 @@ d <- Sys.Date()
 
 
 
-[^upcoming]: Upcoming
+
 
 ## Professional experience
 
@@ -84,6 +84,10 @@ d <- Sys.Date()
 |-------------------------------------------------|------------:|
 | **Instituto Mexicano del Seguro Social (IMSS)** |  **Mexico City, Mexico** |
 | **Deputy Head, Fiscal Policy Planning** -- Affiliation and Collection Directorate             | 2023 -- 2025 |
+
+<!-- For translations to Spanish, use:
+Deputy Head, Fiscal Policy Planning = Subjefe de División de Planeación de Política Fiscal
+Affiliation and Collection Directorate = Dirección de Incorporación y Recaudación -->
 
 ### Teaching
 
@@ -111,7 +115,7 @@ d <- Sys.Date()
 | *Pedro Aspe* Academic excellence award, ITAM | 2026 |
 | Honorable mention - COFECE Undergraduate Essay Contest, Mexico | 2021 |
 
-
+: {tbl-colwidths="\[80,20\]"}
 
 ## Languages & technical skills
 
@@ -129,3 +133,5 @@ d <- Sys.Date()
 |  |  |
 |:---------------|------------------------------------------------------:|
 | MicroMasters in Data, Economics and Development Policy - MITx ([Certificate](https://mitxonline.mit.edu/certificate/program/cc5f08c4-e64b-4f5b-ac83-2fc1868b1c9a/ "Certificate")) | 2023 |
+
+: {tbl-colwidths="\[80,20\]"}

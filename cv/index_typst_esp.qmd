@@ -1,0 +1,16 @@
+---
+format:
+  typst:
+    include-in-header: bse-style.typ
+    papersize: us-letter
+    tbl-colwidths: [70,30]
+    reference-location: block
+    margin:
+        x: 2cm
+        y: 2cm
+# brand: false
+---
+
+# Esteban Degetau
+
+{{< include cv_long_term_esp.qmd >}}

@@ -6,18 +6,18 @@ format:
       page-layout: full
       toc: true
       # reference-location: block
-      tbl-colwidths: [70,30]
+      tbl-colwidths: [80,20]
       other-links:
-        - text: Download as PDF
-          href: index_typst.pdf
+        - text: Descargar como PDF
+          href: index_typst_esp.pdf
           icon: file-pdf
-        - text: Spanish
-          href: index_esp.html    
+        - text: English
+          href: index.html
           icon: translate
 ---
 
 
 
-## Contact
+## Contacto
 
-{{< include cv_long_term.qmd >}}
+{{< include cv_long_term_esp.qmd >}}
