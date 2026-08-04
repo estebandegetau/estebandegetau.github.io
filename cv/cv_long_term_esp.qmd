@@ -51,21 +51,32 @@ fecha <- paste0(format(d, "%d"), " de ", meses[as.integer(format(d, "%m"))],
 
 ## Documentos de trabajo
 
-- **Los efectos en el mercado laboral del (cuasi) seguro de desempleo:** Evidencia del *Retiro Parcial por Desempleo* de México ([versión working paper](https://www.estebandegetau.com/RPD_LM/)). Tesis de maestría, ITAM. Octubre 2025.
+{{< include ../research/working_papers.qmd >}} 
 
 ## Trabajo en progreso (selección)
 
-- **Los efectos macroeconómicos de los cambios fiscales en economías en desarrollo**: Evidencia de Malasia (con [Agustín Samano](http://www.agustinsamano.com/)).
-
-- **Escalando la identificación narrativa de cambios fiscales mediante LLMs**.
+{{< include ../research/work_in_progress.qmd >}}
 
 ## Presentaciones
 
 |  |  |
 |:--------------|----------------:|
-| Conferencia de Egresados ITAM, Ciudad de México, México | Agosto 2026 |
+| Conferencia de Egresados ITAM, Ciudad de México, México | Agosto 2026** |
+
+::: {.content-visible when-format="html"}
+
+[\** Previsto]{.aside}
+
+:::
 
 
+::: {.content-visible when-format="typst"}
+
+|  |   |
+|---|----:|
+|  | \** Previsto |
+
+:::
 
 ## Experiencia profesional
 

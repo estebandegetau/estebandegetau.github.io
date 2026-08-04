@@ -6,7 +6,7 @@ format:
       page-layout: full
       toc: true
       # reference-location: block
-      tbl-colwidths: [80,20]
+      tbl-colwidths: [70,30]
       other-links:
         - text: Descargar como PDF
           href: index_typst_esp.pdf

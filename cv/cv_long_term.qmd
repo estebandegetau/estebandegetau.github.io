@@ -53,14 +53,27 @@ d <- Sys.Date()
 
 {{< include ../research/work_in_progress.qmd >}}
 
-## Presentations
+## Talks & conferences
 
 |  |  |
 |:--------------|----------------:|
-| ITAM Alumni Conference, Mexico City, Mexico | August 2026 |
+| ITAM Alumni Conference, Mexico City, Mexico | August 2026** |
 
 
+::: {.content-visible when-format="html"}
 
+[\** Upcoming]{.aside}
+
+:::
+
+
+::: {.content-visible when-format="typst"}
+
+|  |   |
+|---|----:|
+|  | \** Upcoming |
+
+:::
 
 
 
