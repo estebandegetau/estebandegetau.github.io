@@ -2,9 +2,9 @@
 
 ```{r}
 d <- Sys.Date()
-meses <- c("enero","febrero","marzo","abril","mayo","junio","julio",
-           "agosto","septiembre","octubre","noviembre","diciembre")
-fecha <- paste0(format(d, "%d"), " de ", meses[as.integer(format(d, "%m"))],
+meses <- c("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio",
+           "Agosto","Septiembre","Octubre","Noviembre","Diciembre")
+fecha <- paste0(meses[as.integer(format(d, "%m"))],
                 " de ", format(d, "%Y"))
 ```
 
@@ -110,7 +110,7 @@ fecha <- paste0(format(d, "%d"), " de ", meses[as.integer(format(d, "%m"))],
 |  |  |
 |------------------------------------------------------|-----------------:|
 | **IMSS** | **Ciudad de México, México** |
-| [*Herramientas estadísticas en R*](https://estebandegetau.com/Statistical-tools-in-R) (Instructor) - Capacitación interna (Español) | Primavera 2025 |
+| [*Herramientas estadísticas en R*](https://estebandegetau.com/Statistical-tools-in-R "Materiales") (Instructor) - Capacitación interna (Español) | Primavera 2025 |
 
 
 ### Sector privado
@@ -132,18 +132,18 @@ fecha <- paste0(format(d, "%d"), " de ", meses[as.integer(format(d, "%m"))],
 |  |  |
 |:---------------|------------------------------------------------------:|
 | Premio a la Excelencia Académica *Pedro Aspe*, ITAM | 2026 |
-| Mención honorífica - Concurso de Ensayo para Licenciatura, COFECE, México | 2021 |
+| Concurso de Ensayo para Licenciatura, COFECE (Mención honorífica), México | 2021 |
 
 : {tbl-colwidths="\[80,20\]"}
 
 ## Idiomas y habilidades técnicas
 
-|              |                                         |
-|:-------------|:----------------------------------------|
-| **Técnico**: | Claude Code, R, Python, Stata, SQL, SAS, Quarto, Git, GitHub, Power BI, LaTeX. |
-|   **Idioma**: | Español (Nativo), Inglés (Fluido). |
+|                                                     |
+|:-----------------------------------------------------|
+| **Técnico**: Claude Code, R, Python, Stata, SQL, SAS, Quarto, Git, GitHub, Power BI, LaTeX. |
+|   **Idioma**: Español (Nativo), Inglés (Fluido). |
 
-: {tbl-colwidths="\[15,85\]"}
+: {tbl-colwidths="\[100\]"}
 
 
 
@@ -151,6 +151,6 @@ fecha <- paste0(format(d, "%d"), " de ", meses[as.integer(format(d, "%m"))],
 
 |  |  |
 |:---------------|------------------------------------------------------:|
-| MicroMasters in Data, Economics and Development Policy - MITx ([Certificado](https://mitxonline.mit.edu/certificate/program/cc5f08c4-e64b-4f5b-ac83-2fc1868b1c9a/ "Certificado")) | 2023 |
+| [MicroMasters in Data, Economics and Development Policy](https://mitxonline.mit.edu/certificate/program/cc5f08c4-e64b-4f5b-ac83-2fc1868b1c9a/ "Certificado") - MITx | 2023 |
 
 : {tbl-colwidths="\[80,20\]"}
