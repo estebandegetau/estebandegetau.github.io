@@ -4,13 +4,12 @@
 d <- Sys.Date()
 ```
 
-<!-- Uncomment when PhD starts -->
 
 |  |  |
 |:-----------------|:----------|
 | **Barcelona School of Economics**                      | [estebandegetau\@gmail.com](mailto:estebandegetau@gmail.com) |
 | Ramón Trias Fargas, 25-27, 08005 | [www.estebandegetau.com](https://www.estebandegetau.com)     |
-| Barcelona, Catalonia, Spain  | Last updated: `r format(d, "%B %d, %Y")`  |
+| Barcelona, Catalonia, Spain  | Last updated: `r format(d, "%B, %Y")`  |
 
 : {tbl-colwidths=[70,30]}
 
@@ -49,7 +48,7 @@ d <- Sys.Date()
 
 {{< include ../research/working_papers.qmd >}} 
 
-## Select work in progress
+## Selected work in progress
 
 {{< include ../research/work_in_progress.qmd >}}
 
@@ -62,7 +61,7 @@ d <- Sys.Date()
 
 ::: {.content-visible when-format="html"}
 
-[\** Upcoming]{.aside}
+[\** Scheduled]{.aside}
 
 :::
 
@@ -71,7 +70,7 @@ d <- Sys.Date()
 
 |  |   |
 |---|----:|
-|  | \** Upcoming |
+|  | \** Scheduled |
 
 :::
 
@@ -126,18 +125,18 @@ Affiliation and Collection Directorate = Dirección de Incorporación y Recaudac
 |  |  |
 |:---------------|------------------------------------------------------:|
 | *Pedro Aspe* Academic excellence award, ITAM | 2026 |
-| Honorable mention - COFECE Undergraduate Essay Contest, Mexico | 2021 |
+| COFECE Undergraduate Essay Contest (Honorable mention), Mexico | 2021 |
 
 : {tbl-colwidths="\[80,20\]"}
 
 ## Languages & technical skills
 
-|              |                                         |
-|:-------------|:----------------------------------------|
-| **Technical**: | Claude Code, R, Python, Stata, SQL, SAS, Quarto, Git, GitHub, Power BI, LaTeX. |
-|   **Language**: | Spanish (Native), English (Fluent). |
+|                                                    |
+|:-----------------------------------------------------|
+| **Technical**: Claude Code, R, Python, Stata, SQL, SAS, Quarto, Git, GitHub, Power BI, LaTeX. |
+|   **Language**: Spanish (Native), English (Fluent). |
 
-: {tbl-colwidths="\[15,85\]"}
+: {tbl-colwidths="\[100\]"}
 
 
 
@@ -145,6 +144,6 @@ Affiliation and Collection Directorate = Dirección de Incorporación y Recaudac
 
 |  |  |
 |:---------------|------------------------------------------------------:|
-| MicroMasters in Data, Economics and Development Policy - MITx ([Certificate](https://mitxonline.mit.edu/certificate/program/cc5f08c4-e64b-4f5b-ac83-2fc1868b1c9a/ "Certificate")) | 2023 |
+| [MicroMasters in Data, Economics and Development Policy](https://mitxonline.mit.edu/certificate/program/cc5f08c4-e64b-4f5b-ac83-2fc1868b1c9a/ "Certificate") - MITx | 2023 |
 
 : {tbl-colwidths="\[80,20\]"}

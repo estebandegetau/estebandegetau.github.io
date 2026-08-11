@@ -65,7 +65,7 @@ fecha <- paste0(format(d, "%d"), " de ", meses[as.integer(format(d, "%m"))],
 
 ::: {.content-visible when-format="html"}
 
-[\** Previsto]{.aside}
+[\** Programado]{.aside}
 
 :::
 
@@ -74,7 +74,7 @@ fecha <- paste0(format(d, "%d"), " de ", meses[as.integer(format(d, "%m"))],
 
 |  |   |
 |---|----:|
-|  | \** Previsto |
+|  | \** Programado |
 
 :::
 

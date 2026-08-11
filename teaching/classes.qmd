@@ -7,4 +7,4 @@
 |  |  |
 |------------------------------------------------------|-----------------:|
 | **IMSS** | **Mexico City, Mexico** |
-| [*Statistical tools in R*](https://estebandegetau.com/Statistical-tools-in-R) (Instructor) - Office Training (Spanish) | Spring 2025 |
+| [*Statistical tools in R*](https://estebandegetau.com/Statistical-tools-in-R "Course materials") (Instructor) - Office Training (Spanish) | Spring 2025 |

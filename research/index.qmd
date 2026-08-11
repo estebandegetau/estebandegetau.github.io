@@ -1,6 +1,6 @@
 ---
 # title: "Research"
-# page-layout: full
+page-layout: full
 license: "CC BY-NC"
 ---
 

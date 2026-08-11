@@ -9,6 +9,7 @@ format:
         x: 2cm
         y: 2cm
 # brand: false
+lang: es
 ---
 
 # Esteban Degetau

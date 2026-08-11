@@ -6,4 +6,4 @@ license: "CC BY-NC"
 
 {{< include classes.qmd >}}
 
-: {tbl-colwidths=[65,35]}
+: {tbl-colwidths=[60,40]}
