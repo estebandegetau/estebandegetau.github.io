@@ -56,10 +56,10 @@ d <- Sys.Date()
 
 |  |  |
 |:--------------|----------------:|
-| ITAM Alumni Conference, Mexico City, Mexico | August 2026** |
+| ITAM Alumni Conference, Mexico City, Mexico | August 2026 |
 
 
-::: {.content-visible when-format="html"}
+<!-- ::: {.content-visible when-format="html"}
 
 [\** Scheduled]{.aside}
 
@@ -72,7 +72,7 @@ d <- Sys.Date()
 |---|----:|
 |  | \** Scheduled |
 
-:::
+::: -->
 
 
 

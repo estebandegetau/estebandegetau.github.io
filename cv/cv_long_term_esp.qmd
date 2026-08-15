@@ -61,9 +61,9 @@ fecha <- paste0(meses[as.integer(format(d, "%m"))],
 
 |  |  |
 |:--------------|----------------:|
-| Conferencia de Egresados ITAM, Ciudad de México, México | Agosto 2026** |
+| Conferencia de Egresados ITAM, Ciudad de México, México | Agosto 2026 |
 
-::: {.content-visible when-format="html"}
+<!-- ::: {.content-visible when-format="html"}
 
 [\** Programado]{.aside}
 
@@ -76,7 +76,7 @@ fecha <- paste0(meses[as.integer(format(d, "%m"))],
 |---|----:|
 |  | \** Programado |
 
-:::
+::: -->
 
 ## Experiencia profesional
 
